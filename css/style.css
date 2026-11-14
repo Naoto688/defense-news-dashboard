@@ -30,13 +30,14 @@ body {
   line-height: 1.6;
 }
 
-body > header,
-main {
+#dashboard-header,
+#dashboard-shell > main,
+.dashboard-status {
   width: min(100% - 2.5rem, var(--content-width));
   margin-inline: auto;
 }
 
-body > header {
+#dashboard-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -45,14 +46,27 @@ body > header {
   border-bottom: 1px solid var(--color-border);
 }
 
-body > header h1 {
+#dashboard-header h1 {
   margin: 0;
   font-size: clamp(1.5rem, 3vw, 2.15rem);
   letter-spacing: 0.02em;
 }
 
-body > header p {
+#dashboard-header p {
   margin: 0.45rem 0 0;
+  color: var(--color-text-muted);
+}
+
+.header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.dashboard-status {
+  min-height: 1.5em;
+  margin-top: 0.5rem;
   color: var(--color-text-muted);
 }
 
@@ -102,7 +116,7 @@ input:focus-visible {
   outline-offset: 3px;
 }
 
-body > header button {
+#refresh-button {
   flex: 0 0 auto;
   color: #07151b;
   font-weight: 700;
@@ -110,9 +124,90 @@ body > header button {
   border-color: var(--color-cyan);
 }
 
-body > header button:hover {
+#refresh-button:hover {
   background: #8be5f0;
   border-color: #8be5f0;
+}
+
+#logout-button {
+  color: var(--color-text-muted);
+  background: var(--color-surface);
+}
+
+.login-screen {
+  display: grid;
+  width: min(100% - 2rem, 460px);
+  min-height: 100vh;
+  margin-inline: auto;
+  padding-block: 2rem;
+  place-items: center;
+}
+
+.login-card {
+  width: 100%;
+  padding: clamp(1.5rem, 5vw, 2.5rem);
+  background: linear-gradient(155deg, var(--color-surface-raised), var(--color-surface));
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  box-shadow: 0 20px 55px rgb(0 0 0 / 28%);
+}
+
+.login-eyebrow {
+  margin: 0 0 0.6rem;
+  color: var(--color-cyan);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.login-card h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.login-description {
+  margin: 0.6rem 0 0;
+  color: var(--color-text-muted);
+}
+
+#login-form {
+  display: grid;
+  gap: 0.55rem;
+  margin-top: 1.5rem;
+}
+
+#login-form label {
+  margin-top: 0.55rem;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}
+
+#login-form input {
+  width: 100%;
+  min-height: 48px;
+  padding: 0.7rem 0.85rem;
+  color: var(--color-text);
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: 9px;
+}
+
+#login-submit {
+  min-height: 48px;
+  margin-top: 0.85rem;
+  color: #07151b;
+  background: var(--color-cyan);
+  border-color: var(--color-cyan);
+  font-weight: 700;
+}
+
+#login-error {
+  margin: 0.5rem 0 0;
+  padding: 0.75rem 0.85rem;
+  color: #ffd1d1;
+  background: #3a2028;
+  border: 1px solid #75404a;
+  border-radius: 9px;
 }
 
 /* CSS Gridがカード幅に合わせて列数を調整し、狭い画面では折り返します。 */
@@ -302,9 +397,55 @@ main > section[aria-labelledby="news-heading"] > article > a:hover {
   text-decoration-color: currentColor;
 }
 
+.analysis-memo {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #101a28;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+}
+
+.analysis-memo label {
+  display: block;
+  margin-bottom: 0.45rem;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.analysis-memo textarea {
+  display: block;
+  width: 100%;
+  min-height: 100px;
+  padding: 0.7rem 0.8rem;
+  color: var(--color-text);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  font: inherit;
+  resize: vertical;
+}
+
+.analysis-memo button {
+  margin-top: 0.65rem;
+  color: #07151b;
+  background: var(--color-cyan);
+  border-color: var(--color-cyan);
+  font-weight: 700;
+}
+
+.analysis-memo .memo-status {
+  min-height: 1.5em;
+  margin: 0.4rem 0 0;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+}
+
 @media (max-width: 760px) {
-  body > header,
-  main {
+  #dashboard-header,
+  #dashboard-shell > main,
+  .dashboard-status {
     width: min(100% - 2rem, var(--content-width));
   }
 
@@ -318,13 +459,18 @@ main > section[aria-labelledby="news-heading"] > article > a:hover {
 }
 
 @media (max-width: 520px) {
-  body > header {
+  #dashboard-header {
     align-items: flex-start;
     flex-direction: column;
     padding-block: 1.5rem;
   }
 
-  body > header button {
+  .header-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .header-actions button {
     width: 100%;
   }
 
