@@ -158,6 +158,13 @@ function showLoginError(message) {
   elements.loginError.hidden = !message;
 }
 
+function setAuthView(isAuthenticated) {
+  elements.loginScreen.hidden = isAuthenticated;
+  elements.loginScreen.style.display = isAuthenticated ? "none" : "grid";
+  elements.dashboardShell.hidden = !isAuthenticated;
+  elements.dashboardShell.style.display = isAuthenticated ? "block" : "none";
+}
+
 function getSignInErrorMessage(error) {
   const message = String(error.message || "").toLowerCase();
   if (message.includes("email not confirmed")) {
@@ -175,8 +182,7 @@ function applyAuthSession(session) {
     const wasAuthenticated = activeUserId !== null;
     activeUserId = null;
     loadedUserId = null;
-    elements.loginScreen.hidden = false;
-    elements.dashboardShell.hidden = true;
+    setAuthView(false);
 
     if (wasAuthenticated) {
       savedClips = new Map();
@@ -189,8 +195,7 @@ function applyAuthSession(session) {
 
   const userChanged = activeUserId !== userId;
   activeUserId = userId;
-  elements.loginScreen.hidden = true;
-  elements.dashboardShell.hidden = false;
+  setAuthView(true);
   showLoginError("");
 
   if (userChanged || loadedUserId !== userId) {
