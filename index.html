@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>防衛関連ニュース統合ダッシュボード</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- headerはページ上部のタイトルや共通操作をまとめる領域です。 -->
+  <header>
+    <div>
+      <h1>防衛関連ニュース統合ダッシュボード</h1>
+      <p>防衛・安全保障に関するニュースをまとめて確認できます。</p>
+    </div>
+    <button type="button">データを更新</button>
+  </header>
+
+  <!-- mainは、このページで最も大切なメインコンテンツを囲みます。 -->
+  <main>
+    <!-- sectionは関連する内容をひとまとまりにする領域です。 -->
+    <section aria-labelledby="summary-heading">
+      <h2 id="summary-heading">ニュース概要</h2>
+      <div>
+        <article>
+          <h3>総記事数</h3>
+          <p id="total-count">0</p>
+        </article>
+        <article>
+          <h3>本日新着</h3>
+          <p id="today-count">0</p>
+        </article>
+        <article>
+          <h3>重要クリップ数</h3>
+          <p id="clip-count">0</p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="filter-heading">
+      <h2 id="filter-heading">ニュースを探す</h2>
+
+      <!-- navはカテゴリーなど、ページ内の選択肢をまとめます。 -->
+      <nav aria-label="ニュースカテゴリー">
+        <button type="button" aria-pressed="true">すべて</button>
+        <button type="button" aria-pressed="false">陸上防衛</button>
+        <button type="button" aria-pressed="false">海上防衛</button>
+        <button type="button" aria-pressed="false">航空防衛</button>
+        <button type="button" aria-pressed="false">宇宙・サイバー</button>
+        <button type="button" aria-pressed="false">国際情勢・技術</button>
+      </nav>
+
+      <div>
+        <label for="keyword-search">キーワード検索</label>
+        <input
+          type="search"
+          id="keyword-search"
+          name="keyword"
+          placeholder="キーワードを入力"
+        >
+      </div>
+
+      <div>
+        <input type="checkbox" id="important-only" name="important-only">
+        <label for="important-only">重要・クリップ済みのみ表示</label>
+      </div>
+    </section>
+
+    <section id="news-list" aria-labelledby="news-heading">
+      <h2 id="news-heading">ニュース記事一覧</h2>
+    </section>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
