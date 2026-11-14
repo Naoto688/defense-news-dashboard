@@ -494,3 +494,10 @@ main > section[aria-labelledby="news-heading"] > article > a:hover {
     flex: 1 1 calc(50% - 0.55rem);
   }
 }
+
+#login-screen[hidden],
+#login-screen.hidden,
+.login-screen[hidden],
+.login-screen.hidden {
+  display: none !important;
+}

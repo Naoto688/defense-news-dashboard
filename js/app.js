@@ -159,8 +159,13 @@ function showLoginError(message) {
 }
 
 function setAuthView(isAuthenticated) {
-  elements.loginScreen.hidden = isAuthenticated;
-  elements.loginScreen.style.display = isAuthenticated ? "none" : "grid";
+  if (isAuthenticated) {
+    elements.loginScreen.hidden = true;
+    elements.loginScreen.style.setProperty("display", "none", "important");
+  } else {
+    elements.loginScreen.hidden = false;
+    elements.loginScreen.style.setProperty("display", "grid");
+  }
   elements.dashboardShell.hidden = !isAuthenticated;
   elements.dashboardShell.style.display = isAuthenticated ? "block" : "none";
 }
