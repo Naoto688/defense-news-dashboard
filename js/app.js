@@ -80,22 +80,6 @@ let rssNewsItems = [...fallbackNews];
 let savedClips = new Map();
 let newsItems = [...fallbackNews];
 
-const rssFeeds = [
-  { label: "防衛省・自衛隊", query: "防衛省 OR 自衛隊 when:7d" },
-  { label: "防衛装備・防衛産業", query: "防衛装備 OR 防衛産業 when:7d" },
-  { label: "安全保障・宇宙・サイバー", query: "宇宙 サイバー 防衛 when:7d" }
-].map((feed) => {
-  const rssUrl = new URL("https://news.google.com/rss/search");
-  rssUrl.searchParams.set("q", feed.query);
-  rssUrl.searchParams.set("hl", "ja");
-  rssUrl.searchParams.set("gl", "JP");
-  rssUrl.searchParams.set("ceid", "JP:ja");
-  return { ...feed, rssUrl: rssUrl.toString() };
-});
-
-const allOriginsEndpoint = "https://api.allorigins.win/raw";
-const corsProxyEndpoint = "https://corsproxy.io/";
-const rssRequestTimeoutMs = 15000;
 const supabaseProjectUrl = new URL(
   "https://hzemnjhbsiffwkoiffdc.supabase.co/rest/v1/"
 ).origin;
@@ -371,24 +355,6 @@ function stripHtml(value) {
   return (parsedHtml.body.textContent || "").replace(/\s+/g, " ").trim().slice(0, 600);
 }
 
-function classifyNews(title, summary) {
-  const text = `${title} ${summary}`;
-
-  if (/(空自|航空自衛隊|航空防衛|戦闘機|\bF[- ]?35\b)/i.test(text)) {
-    return "航空防衛";
-  }
-  if (/(海自|海上自衛隊|海上防衛|護衛艦|潜水艦)/i.test(text)) {
-    return "海上防衛";
-  }
-  if (/(陸自|陸上自衛隊|陸上防衛|戦車|ミサイル)/i.test(text)) {
-    return "陸上防衛";
-  }
-  if (/(宇宙|サイバー|\bAI\b|人工知能|無人機|ドローン)/i.test(text)) {
-    return "宇宙・サイバー";
-  }
-  return "国際情勢・技術";
-}
-
 function getSafeArticleUrl(value) {
   if (typeof value !== "string" || value.trim() === "") {
     return "#";
@@ -553,154 +519,49 @@ function comparePublishedAtDescending(left, right) {
   return rightTime - leftTime;
 }
 
-function normalizeRssItem(rawItem, feed) {
-  if (!rawItem || typeof rawItem !== "object") {
-    return null;
+function normalizeNewsData(rawItems) {
+  if (!Array.isArray(rawItems)) {
+    throw new Error("ニュースデータの形式が正しくありません。");
   }
 
-  const title = stripHtml(rawItem.title);
-  if (!title) {
-    return null;
-  }
-
-  const summary = stripHtml(rawItem.description || rawItem.content || "");
-  const url = getSafeArticleUrl(rawItem.link);
-  const publishedTimestamp = new Date(rawItem.pubDate || rawItem.date || "").getTime();
-  const publishedAt = Number.isNaN(publishedTimestamp)
-    ? null
-    : new Date(publishedTimestamp);
-  const idSource = url !== "#" ? url : String(rawItem.guid || title);
-  const articleUrl =
-    url !== "#" ? url : `rss://item/${encodeURIComponent(idSource)}`;
-
-  return {
-    id: articleUrl,
-    articleUrl,
-    title,
-    source: stripHtml(rawItem.author || "") || feed.label,
-    publishedAt,
-    category: classifyNews(title, summary),
-    summary: summary || "この記事には要約がありません。",
-    memo: "",
-    url,
-    isSample: false
-  };
-}
-
-function getDuplicateKeys(item) {
-  const normalizedTitle = item.title
-    .replace(/\s+/g, " ")
-    .trim()
-    .toLocaleLowerCase("ja");
-  const keys = [`title:${normalizedTitle}`];
-
-  keys.push(`url:${item.articleUrl}`);
-  return keys;
-}
-
-function collectUniqueNews(feedResults) {
-  const seenKeys = new Set();
-  const articles = [];
-
-  feedResults.forEach((result) => {
-    result.items.forEach((rawItem) => {
-      const article = normalizeRssItem(rawItem, result.feed);
-      if (!article) {
-        return;
+  return rawItems
+    .map((rawItem) => {
+      if (!rawItem || typeof rawItem !== "object") {
+        return null;
       }
 
-      const duplicateKeys = getDuplicateKeys(article);
-      if (duplicateKeys.some((key) => seenKeys.has(key))) {
-        return;
-      }
-      duplicateKeys.forEach((key) => seenKeys.add(key));
-      articles.push(article);
-    });
-  });
-
-  return articles.sort(comparePublishedAtDescending);
-}
-
-async function fetchWithTimeout(url) {
-  const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), rssRequestTimeoutMs);
-  try {
-    return await fetch(url, {
-      signal: controller.signal,
-      cache: "no-store"
-    });
-  } finally {
-    clearTimeout(timeoutId);
-  }
-}
-
-function parseRssXml(xmlText) {
-  const document = new DOMParser().parseFromString(xmlText, "application/xml");
-  if (document.querySelector("parsererror")) {
-    throw new Error("プロキシから有効なRSS XMLを取得できませんでした。");
-  }
-
-  return Array.from(document.getElementsByTagName("item")).map((item) => {
-    const getText = (tagName) => {
-      const element = item.getElementsByTagName(tagName)[0];
-      return element ? element.textContent.trim() : "";
-    };
-    return {
-      title: getText("title"),
-      link: getText("link"),
-      pubDate: getText("pubDate"),
-      description: getText("description")
-    };
-  });
-}
-
-async function fetchRssFeed(feed) {
-  const rssUrl = new URL(feed.rssUrl);
-  rssUrl.searchParams.set("_cb", String(Date.now()));
-
-  try {
-    const requestUrl = new URL(allOriginsEndpoint);
-    requestUrl.searchParams.set("url", rssUrl.toString());
-    requestUrl.searchParams.set("_cb", String(Date.now()));
-    const response = await fetchWithTimeout(requestUrl);
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
-    }
-
-    const xmlText = await response.text();
-    if (!xmlText.trim()) {
-      throw new Error("AllOriginsからRSS XMLを取得できませんでした。");
-    }
-
-    return {
-      items: parseRssXml(xmlText),
-      source: "AllOrigins"
-    };
-  } catch (primaryError) {
-    try {
-      const requestUrl = new URL(corsProxyEndpoint);
-      requestUrl.searchParams.set("url", rssUrl.toString());
-      requestUrl.searchParams.set("_cb", String(Date.now()));
-      const response = await fetchWithTimeout(requestUrl);
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}`);
+      const title = stripHtml(rawItem.title);
+      const url = getSafeArticleUrl(rawItem.url || rawItem.articleUrl);
+      if (!title || url === "#") {
+        return null;
       }
 
-      const xmlText = await response.text();
-      if (!xmlText.trim()) {
-        throw new Error("corsproxy.ioからRSS XMLを取得できませんでした。");
-      }
-
+      const parsedDate = new Date(rawItem.publishedAt || "");
       return {
-        items: parseRssXml(xmlText),
-        source: "corsproxy.io"
+        id: url,
+        articleUrl: url,
+        title,
+        source: stripHtml(rawItem.source) || "情報ソース不明",
+        publishedAt: Number.isNaN(parsedDate.getTime()) ? null : parsedDate,
+        category: String(rawItem.category || "国際情勢・技術"),
+        summary: stripHtml(rawItem.summary) || "この記事には要約がありません。",
+        memo: "",
+        url,
+        isSample: false
       };
-    } catch (fallbackError) {
-      throw new Error(
-        `AllOrigins: ${primaryError.message}; corsproxy.io: ${fallbackError.message}`
-      );
-    }
+    })
+    .filter(Boolean)
+    .sort(comparePublishedAtDescending);
+}
+
+async function fetchNewsData() {
+  const response = await fetch(`./data/news.json?t=${Date.now()}`, {
+    cache: "no-store"
+  });
+  if (!response.ok) {
+    throw new Error(`ニュースデータの読み込みに失敗しました（HTTP ${response.status}）。`);
   }
+  return normalizeNewsData(await response.json());
 }
 
 async function refreshNews() {
@@ -712,22 +573,13 @@ async function refreshNews() {
   elements.refreshButton.disabled = true;
   elements.refreshButton.textContent = "取得中...";
   elements.newsList.setAttribute("aria-busy", "true");
-  statusMessage.textContent = "公開RSSフィードからニュースを取得しています。";
+  statusMessage.textContent = "最新ニュースデータを読み込んでいます。";
 
   try {
-    // Promise.allで複数フィードを同時に取得し、1件の失敗で他の結果を失わないようにします。
-    const [feedResults, savedClipsResult] = await Promise.all([
-      Promise.all(
-        rssFeeds.map(async (feed) => {
-          try {
-            const result = await fetchRssFeed(feed);
-            console.log(`${feed.label}のRSS取得に成功しました（${result.source}）。`);
-            return { feed, items: result.items, error: null };
-          } catch (error) {
-            console.error(`${feed.label}のRSS取得に失敗しました。`, error);
-            return { feed, items: [], error };
-          }
-        })
+    const [newsDataResult, savedClipsResult] = await Promise.all([
+      fetchNewsData().then(
+        (items) => ({ items, error: null }),
+        (error) => ({ items: null, error })
       ),
       loadSavedClips().then(
         (clips) => ({ clips, error: null }),
@@ -742,30 +594,25 @@ async function refreshNews() {
       state.clippedIds = new Set(savedClips.keys());
     }
 
-    const failedFeeds = feedResults.filter((result) => result.error);
-    const successfulFeedCount = feedResults.length - failedFeeds.length;
-    const latestNews = collectUniqueNews(feedResults);
+    if (newsDataResult.error) {
+      console.error("保存済みニュースの読み込みに失敗しました。", newsDataResult.error);
+    }
+
+    const latestNews = newsDataResult.items || [];
     const latestArticle = latestNews.find((article) => article.publishedAt);
     const latestArticleDate = latestArticle
       ? dateFormatter.format(latestArticle.publishedAt)
       : "なし";
-    const feedStatus = `RSS取得: ${successfulFeedCount}/${rssFeeds.length}ソース成功 / 最新記事: ${latestArticleDate}`;
     const updateTime = dateFormatter.format(new Date());
 
     if (latestNews.length > 0) {
       rssNewsItems = latestNews;
-      statusMessage.textContent = `${updateTime} 更新 / ${feedStatus}${
-        failedFeeds.length
-          ? ` / 失敗: ${failedFeeds.map((result) => result.feed.label).join("、")}`
-          : ""
-      }`;
+      statusMessage.textContent = `${updateTime} 更新 / ${latestNews.length}件 / 最新記事: ${latestArticleDate}`;
     } else {
       rssNewsItems = [...fallbackNews];
-      statusMessage.textContent = `${updateTime} 更新 / ${feedStatus} / ${
-        failedFeeds.length
-          ? `ニュースを取得できず、サンプルニュースを表示しています（失敗: ${failedFeeds.map((result) => result.feed.label).join("、")}）。`
-          : "RSSフィードに記事がなかったため、サンプルニュースを表示しています。"
-      }`;
+      statusMessage.textContent = newsDataResult.error
+        ? `${updateTime} 更新 / ニュースデータを読み込めず、サンプルニュースを表示しています。`
+        : `${updateTime} 更新 / ニュースデータに記事がないため、サンプルニュースを表示しています。`;
     }
 
     newsItems = mergeNewsWithSavedClips();
