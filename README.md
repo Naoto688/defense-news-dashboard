@@ -20,7 +20,7 @@
 - HTML：Webページの構造
 - CSS：ダークモードとレスポンシブデザイン
 - JavaScript：画面の動作、RSSデータの取得・分類
-- RSSフィード：rss2json API経由で外部RSSを取得
+- RSSフィード：rss2json APIを優先し、取得失敗時はAllOrigins経由で外部RSSを取得
 - Supabase：PostgreSQLデータベース、Auth、RLS
 - GitHub Pages：Webホスティングと自動デプロイ
 - PWA：`manifest.json`とPNGアイコン

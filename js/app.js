@@ -94,6 +94,7 @@ const rssFeeds = [
 });
 
 const rss2jsonEndpoint = "https://api.rss2json.com/v1/api.json";
+const allOriginsEndpoint = "https://api.allorigins.win/get";
 const rssRequestTimeoutMs = 15000;
 const supabaseProjectUrl = new URL(
   "https://hzemnjhbsiffwkoiffdc.supabase.co/rest/v1/"
@@ -537,11 +538,19 @@ function mergeNewsWithSavedClips() {
     );
   });
 
-  return Array.from(merged.values()).sort((left, right) => {
-    const leftTime = left.publishedAt ? left.publishedAt.getTime() : 0;
-    const rightTime = right.publishedAt ? right.publishedAt.getTime() : 0;
-    return rightTime - leftTime;
-  });
+  return Array.from(merged.values()).sort(comparePublishedAtDescending);
+}
+
+function comparePublishedAtDescending(left, right) {
+  const leftTime = left.publishedAt ? new Date(left.publishedAt).getTime() : Number.NaN;
+  const rightTime = right.publishedAt ? new Date(right.publishedAt).getTime() : Number.NaN;
+  if (Number.isNaN(leftTime)) {
+    return Number.isNaN(rightTime) ? 0 : 1;
+  }
+  if (Number.isNaN(rightTime)) {
+    return -1;
+  }
+  return rightTime - leftTime;
 }
 
 function normalizeRssItem(rawItem, feed) {
@@ -556,8 +565,10 @@ function normalizeRssItem(rawItem, feed) {
 
   const summary = stripHtml(rawItem.description || rawItem.content || "");
   const url = getSafeArticleUrl(rawItem.link);
-  const parsedDate = new Date(rawItem.pubDate || rawItem.date || "");
-  const publishedAt = Number.isNaN(parsedDate.getTime()) ? null : parsedDate;
+  const publishedTimestamp = new Date(rawItem.pubDate || rawItem.date || "").getTime();
+  const publishedAt = Number.isNaN(publishedTimestamp)
+    ? null
+    : new Date(publishedTimestamp);
   const idSource = url !== "#" ? url : String(rawItem.guid || title);
   const articleUrl =
     url !== "#" ? url : `rss://item/${encodeURIComponent(idSource)}`;
@@ -607,21 +618,52 @@ function collectUniqueNews(feedResults) {
     });
   });
 
-  return articles.sort((left, right) => {
-    const leftTime = left.publishedAt ? left.publishedAt.getTime() : 0;
-    const rightTime = right.publishedAt ? right.publishedAt.getTime() : 0;
-    return rightTime - leftTime;
+  return articles.sort(comparePublishedAtDescending);
+}
+
+async function fetchWithTimeout(url) {
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), rssRequestTimeoutMs);
+  try {
+    return await fetch(url, {
+      signal: controller.signal,
+      cache: "no-store"
+    });
+  } finally {
+    clearTimeout(timeoutId);
+  }
+}
+
+function parseRssXml(xmlText) {
+  const document = new DOMParser().parseFromString(xmlText, "application/xml");
+  if (document.querySelector("parsererror")) {
+    throw new Error("プロキシから有効なRSS XMLを取得できませんでした。");
+  }
+
+  return Array.from(document.getElementsByTagName("item")).map((item) => {
+    const getText = (tagName) => {
+      const element = item.getElementsByTagName(tagName)[0];
+      return element ? element.textContent.trim() : "";
+    };
+    return {
+      title: getText("title"),
+      link: getText("link"),
+      pubDate: getText("pubDate"),
+      description: getText("description")
+    };
   });
 }
 
 async function fetchRssFeed(feed) {
-  const requestUrl = new URL(rss2jsonEndpoint);
-  requestUrl.searchParams.set("rss_url", feed.rssUrl);
+  const cacheBuster = Date.now();
+  const rssUrl = new URL(feed.rssUrl);
+  rssUrl.searchParams.set("_", String(cacheBuster));
+  const primaryUrl = new URL(rss2jsonEndpoint);
+  primaryUrl.searchParams.set("rss_url", rssUrl.toString());
+  primaryUrl.searchParams.set("_", String(cacheBuster));
 
-  const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), rssRequestTimeoutMs);
   try {
-    const response = await fetch(requestUrl, { signal: controller.signal });
+    const response = await fetchWithTimeout(primaryUrl);
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
@@ -631,9 +673,35 @@ async function fetchRssFeed(feed) {
       throw new Error(result.message || "RSS変換サービスがエラーを返しました。");
     }
 
-    return Array.isArray(result.items) ? result.items : [];
-  } finally {
-    clearTimeout(timeoutId);
+    return {
+      items: Array.isArray(result.items) ? result.items : [],
+      source: "rss2json"
+    };
+  } catch (primaryError) {
+    const fallbackUrl = new URL(allOriginsEndpoint);
+    fallbackUrl.searchParams.set("url", rssUrl.toString());
+    fallbackUrl.searchParams.set("_", String(Date.now()));
+
+    try {
+      const response = await fetchWithTimeout(fallbackUrl);
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+
+      const result = await response.json();
+      if (typeof result.contents !== "string" || !result.contents) {
+        throw new Error("AllOriginsからRSS XMLを取得できませんでした。");
+      }
+
+      return {
+        items: parseRssXml(result.contents),
+        source: "AllOrigins"
+      };
+    } catch (fallbackError) {
+      throw new Error(
+        `rss2json: ${primaryError.message}; AllOrigins: ${fallbackError.message}`
+      );
+    }
   }
 }
 
@@ -654,7 +722,9 @@ async function refreshNews() {
       Promise.all(
         rssFeeds.map(async (feed) => {
           try {
-            return { feed, items: await fetchRssFeed(feed), error: null };
+            const result = await fetchRssFeed(feed);
+            console.log(`${feed.label}のRSS取得に成功しました（${result.source}）。`);
+            return { feed, items: result.items, error: null };
           } catch (error) {
             console.error(`${feed.label}のRSS取得に失敗しました。`, error);
             return { feed, items: [], error };
@@ -675,18 +745,29 @@ async function refreshNews() {
     }
 
     const failedFeeds = feedResults.filter((result) => result.error);
+    const successfulFeedCount = feedResults.length - failedFeeds.length;
     const latestNews = collectUniqueNews(feedResults);
+    const latestArticle = latestNews.find((article) => article.publishedAt);
+    const latestArticleDate = latestArticle
+      ? dateFormatter.format(latestArticle.publishedAt)
+      : "なし";
+    const feedStatus = `RSS取得: ${successfulFeedCount}/${rssFeeds.length}ソース成功 / 最新記事: ${latestArticleDate}`;
+    const updateTime = dateFormatter.format(new Date());
 
     if (latestNews.length > 0) {
       rssNewsItems = latestNews;
-      statusMessage.textContent = failedFeeds.length
-        ? `一部のフィード（${failedFeeds.map((result) => result.feed.label).join("、")}）を取得できませんでした。取得できた記事を表示しています。`
-        : "";
+      statusMessage.textContent = `${updateTime} 更新 / ${feedStatus}${
+        failedFeeds.length
+          ? ` / 失敗: ${failedFeeds.map((result) => result.feed.label).join("、")}`
+          : ""
+      }`;
     } else {
       rssNewsItems = [...fallbackNews];
-      statusMessage.textContent = failedFeeds.length
-        ? `ニュースを取得できませんでした。${failedFeeds.map((result) => result.feed.label).join("、")}の取得に失敗したため、サンプルニュースを表示しています。`
-        : "RSSフィードに記事がなかったため、サンプルニュースを表示しています。";
+      statusMessage.textContent = `${updateTime} 更新 / ${feedStatus} / ${
+        failedFeeds.length
+          ? `ニュースを取得できず、サンプルニュースを表示しています（失敗: ${failedFeeds.map((result) => result.feed.label).join("、")}）。`
+          : "RSSフィードに記事がなかったため、サンプルニュースを表示しています。"
+      }`;
     }
 
     newsItems = mergeNewsWithSavedClips();
