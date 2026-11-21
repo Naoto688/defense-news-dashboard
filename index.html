@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="防衛ニュース">
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="stylesheet" href="css/style.css?v=2">
+  <link rel="stylesheet" href="css/style.css?v=3">
 </head>
 <body>
   <main id="login-screen" class="login-screen" aria-labelledby="login-heading">
@@ -106,12 +106,26 @@
         </div>
       </section>
 
-      <section id="news-list" aria-labelledby="news-heading">
+      <section aria-labelledby="news-heading">
         <h2 id="news-heading">ニュース記事一覧</h2>
+        <div id="reader-layout" class="reader-layout">
+          <div
+            id="news-list"
+            class="news-master-list"
+            role="list"
+            aria-label="ニュース記事一覧"
+          ></div>
+          <article
+            id="news-detail"
+            class="news-detail"
+            aria-label="選択中の記事の詳細"
+            aria-live="polite"
+          ></article>
+        </div>
       </section>
     </main>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="js/app.js?v=5"></script>
+  <script src="js/app.js?v=6"></script>
 </body>
 </html>

@@ -95,7 +95,8 @@ const state = {
   activeCategory: "すべて",
   keyword: "",
   clipsOnly: false,
-  clippedIds: new Set()
+  clippedIds: new Set(),
+  selectedArticleUrl: null
 };
 
 const elements = {
@@ -107,6 +108,7 @@ const elements = {
   loginSubmit: document.getElementById("login-submit"),
   loginError: document.getElementById("login-error"),
   newsList: document.getElementById("news-list"),
+  newsDetail: document.getElementById("news-detail"),
   totalCount: document.getElementById("total-count"),
   todayCount: document.getElementById("today-count"),
   clipCount: document.getElementById("clip-count"),
@@ -271,6 +273,13 @@ function createMemoEditor(item) {
   const label = document.createElement("label");
   label.htmlFor = memoId;
   label.textContent = "分析・考察メモ";
+  editor.append(label);
+
+  if (!state.clippedIds.has(item.articleUrl)) {
+    const guidance = createParagraph("メモを保存すると、この記事は重要クリップにも登録されます。");
+    guidance.className = "memo-guidance";
+    editor.append(guidance);
+  }
 
   const textarea = document.createElement("textarea");
   textarea.id = memoId;
@@ -287,54 +296,107 @@ function createMemoEditor(item) {
   status.className = "memo-status";
   status.setAttribute("aria-live", "polite");
 
-  editor.append(label, textarea, saveButton, status);
+  editor.append(textarea, saveButton, status);
   return editor;
 }
 
-function createNewsCard(item) {
-  const card = document.createElement("article");
-  const title = document.createElement("h3");
-  title.textContent = item.title;
-  card.append(title);
-
-  card.append(createParagraph(`情報ソース：${item.source}`));
-
-  const publishedParagraph = document.createElement("p");
-  if (item.publishedAt instanceof Date && !Number.isNaN(item.publishedAt.getTime())) {
-    const published = document.createElement("time");
-    published.dateTime = item.publishedAt.toISOString();
-    published.textContent = dateFormatter.format(item.publishedAt);
-    publishedParagraph.append(published);
-  } else {
-    publishedParagraph.textContent = "公開日時不明";
-  }
-  card.append(publishedParagraph);
-
+function createCategoryBadge(item) {
   const category = document.createElement("span");
+  category.className = "news-category-badge";
   category.textContent = item.category;
-  const categoryParagraph = document.createElement("p");
-  categoryParagraph.append(category);
-  card.append(categoryParagraph);
+  return category;
+}
 
-  card.append(createParagraph(item.summary));
-
+function createClipButton(item, compact = false) {
   const isClipped = state.clippedIds.has(item.articleUrl);
   const clipButton = document.createElement("button");
   clipButton.type = "button";
+  clipButton.className = "news-clip-button";
   clipButton.dataset.articleUrl = item.articleUrl;
   clipButton.setAttribute("aria-pressed", String(isClipped));
   clipButton.setAttribute(
     "aria-label",
     isClipped ? "重要クリップを解除" : "この記事を重要クリップに登録"
   );
-  clipButton.textContent = isClipped ? "★ クリップ済み" : "☆ 重要クリップ";
-  card.append(clipButton);
-  if (isClipped) {
-    card.append(createMemoEditor(item));
+  clipButton.textContent = compact
+    ? isClipped
+      ? "★"
+      : "☆"
+    : isClipped
+      ? "★ クリップ済み"
+      : "☆ 重要クリップ";
+  return clipButton;
+}
+
+function createPublishedTime(item) {
+  if (!(item.publishedAt instanceof Date) || Number.isNaN(item.publishedAt.getTime())) {
+    return null;
   }
 
+  const published = document.createElement("time");
+  published.dateTime = item.publishedAt.toISOString();
+  published.textContent = dateFormatter.format(item.publishedAt);
+  return published;
+}
+
+function createNewsListItem(item, isSelected) {
+  const row = document.createElement("div");
+  row.className = `news-master-item${isSelected ? " is-selected" : ""}`;
+  row.setAttribute("role", "listitem");
+
+  const selectButton = document.createElement("button");
+  selectButton.type = "button";
+  selectButton.className = "news-master-select";
+  selectButton.dataset.selectArticleUrl = item.articleUrl;
+  selectButton.setAttribute("aria-current", String(isSelected));
+  selectButton.append(createCategoryBadge(item));
+
+  const title = document.createElement("span");
+  title.className = "news-master-title";
+  title.textContent = item.title;
+  selectButton.append(title);
+
+  const metadata = document.createElement("span");
+  metadata.className = "news-master-meta";
+  const source = document.createElement("span");
+  source.className = "news-master-source";
+  source.textContent = item.source;
+  metadata.append(source);
+  metadata.append(createPublishedTime(item) || document.createTextNode("公開日時不明"));
+  selectButton.append(metadata);
+
+  row.append(selectButton, createClipButton(item, true));
+  return row;
+}
+
+function createNewsDetail(item) {
+  elements.newsDetail.replaceChildren();
+  if (!item) {
+    const emptyMessage = createParagraph("条件に一致するニュースはありません。");
+    emptyMessage.className = "reader-empty";
+    elements.newsDetail.append(emptyMessage);
+    return;
+  }
+
+  const title = document.createElement("h3");
+  title.textContent = item.title;
+  elements.newsDetail.append(title);
+
+  const metadata = document.createElement("div");
+  metadata.className = "detail-meta";
+  metadata.append(
+    createCategoryBadge(item),
+    document.createTextNode(item.source),
+    createPublishedTime(item) || document.createTextNode("公開日時不明")
+  );
+  elements.newsDetail.append(metadata);
+
+  const actions = document.createElement("div");
+  actions.className = "detail-actions";
+  actions.append(createClipButton(item));
   const sourceLink = document.createElement("a");
   sourceLink.href = item.url || "#";
+  sourceLink.className = "news-source-link";
   sourceLink.setAttribute(
     "aria-label",
     item.isSample ? "元記事リンク（模擬データ）" : "元記事を開く"
@@ -344,15 +406,21 @@ function createNewsCard(item) {
     sourceLink.target = "_blank";
     sourceLink.rel = "noopener noreferrer";
   }
-  card.append(sourceLink);
+  actions.append(sourceLink);
+  elements.newsDetail.append(actions);
 
-  return card;
+  const summaryHeading = document.createElement("h4");
+  summaryHeading.textContent = "概要・要約";
+  const summary = createParagraph(item.summary);
+  summary.className = "news-detail-summary";
+  elements.newsDetail.append(summaryHeading, summary, createMemoEditor(item));
 }
 
-function stripHtml(value) {
+function stripHtml(value, maxLength = 600) {
   const parsedHtml = new DOMParser().parseFromString(String(value || ""), "text/html");
   parsedHtml.querySelectorAll("script, style").forEach((element) => element.remove());
-  return (parsedHtml.body.textContent || "").replace(/\s+/g, " ").trim().slice(0, 600);
+  const text = (parsedHtml.body.textContent || "").replace(/\s+/g, " ").trim();
+  return maxLength === null ? text : text.slice(0, maxLength);
 }
 
 function getSafeArticleUrl(value) {
@@ -544,7 +612,7 @@ function normalizeNewsData(rawItems) {
         source: stripHtml(rawItem.source) || "情報ソース不明",
         publishedAt: Number.isNaN(parsedDate.getTime()) ? null : parsedDate,
         category: String(rawItem.category || "国際情勢・技術"),
-        summary: stripHtml(rawItem.summary) || "この記事には要約がありません。",
+        summary: stripHtml(rawItem.summary, null) || "この記事には要約がありません。",
         memo: "",
         url,
         isSample: false
@@ -645,20 +713,32 @@ function getVisibleNews() {
 }
 
 function renderNews() {
-  elements.newsList
-    .querySelectorAll(":scope > article, :scope > #empty-state")
-    .forEach((child) => child.remove());
-
+  const listScrollTop = elements.newsList.scrollTop;
   const visibleNews = getVisibleNews();
+  let selectedItem = visibleNews.find(
+    (item) => item.articleUrl === state.selectedArticleUrl
+  );
+  if (!selectedItem) {
+    selectedItem = visibleNews[0] || null;
+    state.selectedArticleUrl = selectedItem ? selectedItem.articleUrl : null;
+  }
+
+  elements.newsList.replaceChildren();
   visibleNews.forEach((item) => {
-    elements.newsList.append(createNewsCard(item));
+    elements.newsList.append(
+      createNewsListItem(item, item.articleUrl === state.selectedArticleUrl)
+    );
   });
 
   if (visibleNews.length === 0) {
     const emptyMessage = createParagraph("条件に一致するニュースはありません。");
-    emptyMessage.id = "empty-state";
+    emptyMessage.className = "reader-empty";
+    emptyMessage.setAttribute("role", "listitem");
     elements.newsList.append(emptyMessage);
   }
+
+  elements.newsList.scrollTop = listScrollTop;
+  createNewsDetail(selectedItem);
 }
 
 function updateSummary() {
@@ -715,12 +795,11 @@ async function saveAnalysisMemo(button) {
   const textarea = editor.querySelector("textarea");
   const status = editor.querySelector(".memo-status");
   const memo = textarea.value;
-  const savedClip = savedClips.get(articleUrl);
 
-  if (!savedClip || !article) {
+  if (!article) {
     reportDatabaseError(
       "分析・考察メモの保存",
-      new Error("保存対象のクリップが見つかりません。")
+      new Error("保存対象の記事が見つかりません。")
     );
     return;
   }
@@ -730,15 +809,33 @@ async function saveAnalysisMemo(button) {
   status.textContent = "";
 
   try {
-    await updateSavedMemo(articleUrl, memo);
-    savedClip.memo = memo;
-    article.memo = memo;
-    status.textContent = "メモを保存しました。";
-    button.textContent = "保存しました";
+    const savedClip = savedClips.get(articleUrl);
+    if (savedClip) {
+      await updateSavedMemo(articleUrl, memo);
+      savedClip.memo = memo;
+      article.memo = memo;
+      status.textContent = "メモを保存しました。";
+      button.textContent = "保存しました";
+    } else {
+      const newClip = await upsertSavedClip({ ...article, memo });
+      savedClips.set(articleUrl, newClip);
+      state.clippedIds.add(articleUrl);
+      article.memo = memo;
+      newsItems = mergeNewsWithSavedClips();
+      renderDashboard();
+
+      const updatedEditor = elements.newsDetail.querySelector(".analysis-memo");
+      if (updatedEditor) {
+        updatedEditor.querySelector(".memo-status").textContent = "メモを保存しました。";
+        updatedEditor.querySelector("button").textContent = "保存しました";
+      }
+    }
   } catch (error) {
     reportDatabaseError("分析・考察メモの保存", error);
-    status.textContent = "保存できませんでした。入力内容を確認して再度お試しください。";
-    button.textContent = "メモ保存";
+    if (button.isConnected) {
+      status.textContent = "保存できませんでした。入力内容を確認して再度お試しください。";
+      button.textContent = "メモ保存";
+    }
   } finally {
     button.disabled = false;
   }
@@ -769,14 +866,38 @@ elements.clipsOnlyInput.addEventListener("change", (event) => {
 });
 
 elements.newsList.addEventListener("click", async (event) => {
-  const memoButton = event.target.closest("button[data-save-memo-url]");
-  if (memoButton && elements.newsList.contains(memoButton)) {
-    await saveAnalysisMemo(memoButton);
+  const selectButton = event.target.closest("button[data-select-article-url]");
+  if (selectButton && elements.newsList.contains(selectButton)) {
+    state.selectedArticleUrl = selectButton.dataset.selectArticleUrl;
+    renderNews();
+    if (window.matchMedia("(max-width: 768px)").matches) {
+      elements.newsDetail.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
     return;
   }
 
   const clipButton = event.target.closest("button[data-article-url]");
   if (!clipButton || !elements.newsList.contains(clipButton)) {
+    return;
+  }
+
+  const item = newsItems.find(
+    (article) => article.articleUrl === clipButton.dataset.articleUrl
+  );
+  if (item) {
+    await toggleSavedClip(item, clipButton);
+  }
+});
+
+elements.newsDetail.addEventListener("click", async (event) => {
+  const memoButton = event.target.closest("button[data-save-memo-url]");
+  if (memoButton && elements.newsDetail.contains(memoButton)) {
+    await saveAnalysisMemo(memoButton);
+    return;
+  }
+
+  const clipButton = event.target.closest("button[data-article-url]");
+  if (!clipButton || !elements.newsDetail.contains(clipButton)) {
     return;
   }
 
