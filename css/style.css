@@ -251,6 +251,7 @@ main > section:first-child article p {
 main > section[aria-labelledby="filter-heading"] nav {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 0.55rem;
   margin-bottom: 1.25rem;
 }
@@ -390,6 +391,24 @@ main > section[aria-labelledby="news-heading"] {
   border-radius: 999px;
   font-size: 0.73rem;
   font-weight: 600;
+}
+
+.news-category-badge[data-category="機雷"] {
+  color: #ffd166;
+  background: #493416;
+  border-color: #b9852d;
+}
+
+.news-category-badge[data-category="USV/ASV"] {
+  color: #80edb2;
+  background: #123d31;
+  border-color: #2b9b69;
+}
+
+.news-category-badge[data-category="UUV/AUV"] {
+  color: #c9a7ff;
+  background: #30234a;
+  border-color: #8259c4;
 }
 
 .news-master-title {

@@ -46,7 +46,7 @@ const fallbackNews = [
     title: "【模擬】宇宙・サイバー分野の人材育成で官民連携を検討",
     source: "デジタル安全保障通信（架空）",
     publishedAt: createPublishedAt(1, 16, 45),
-    category: "宇宙・サイバー",
+    category: "宇宙",
     summary: "模擬記事です。専門人材の育成や基礎的な情報共有のあり方をテーマにした検討会を想定しています。",
     url: "#",
     articleUrl: "sample://fallback/space-cyber",
@@ -57,7 +57,7 @@ const fallbackNews = [
     title: "【模擬】多国間会合で新興技術の責任ある利用を意見交換",
     source: "国際情勢レビュー（架空）",
     publishedAt: createPublishedAt(1, 14, 10),
-    category: "国際情勢・技術",
+    category: "国際情勢",
     summary: "模擬記事です。新興技術の透明性や国際協力に関する一般的な議論を取り上げます。",
     url: "#",
     articleUrl: "sample://fallback/international-technology",
@@ -303,6 +303,7 @@ function createMemoEditor(item) {
 function createCategoryBadge(item) {
   const category = document.createElement("span");
   category.className = "news-category-badge";
+  category.dataset.category = item.category;
   category.textContent = item.category;
   return category;
 }
@@ -441,6 +442,16 @@ function getSafeArticleUrl(value) {
   }
 }
 
+function normalizeNewsCategory(category) {
+  if (category === "宇宙・サイバー") {
+    return "宇宙";
+  }
+  if (category === "国際情勢・技術") {
+    return "国際情勢";
+  }
+  return String(category || "国際情勢");
+}
+
 function normalizeSavedClip(row) {
   const articleUrl = String(row.article_url || "").trim();
   const parsedDate = new Date(row.published_at || "");
@@ -450,7 +461,7 @@ function normalizeSavedClip(row) {
     articleUrl,
     title: String(row.title || "タイトル不明"),
     source: String(row.source || "情報ソース不明"),
-    category: String(row.category || "国際情勢・技術"),
+    category: normalizeNewsCategory(row.category),
     publishedAt: Number.isNaN(parsedDate.getTime()) ? null : parsedDate,
     summary: String(row.summary || "要約はありません。"),
     memo: String(row.memo || ""),
@@ -611,7 +622,7 @@ function normalizeNewsData(rawItems) {
         title,
         source: stripHtml(rawItem.source) || "情報ソース不明",
         publishedAt: Number.isNaN(parsedDate.getTime()) ? null : parsedDate,
-        category: String(rawItem.category || "国際情勢・技術"),
+        category: normalizeNewsCategory(rawItem.category),
         summary: stripHtml(rawItem.summary, null) || "この記事には要約がありません。",
         memo: "",
         url,

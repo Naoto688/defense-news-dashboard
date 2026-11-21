@@ -1,6 +1,7 @@
 import datetime
 import json
 import os
+import re
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -104,24 +105,120 @@ def parse_date(value):
 
 def classify_news(title, summary):
     text = (title + " " + summary).casefold()
-    if any(word in text for word in ("航空", "空自", "fighter", "air force", "f-35")):
-        return "航空防衛"
-    if any(
-        word in text
-        for word in ("海自", "海上", "naval", "navy", "艦", "submarine", "maritime")
-    ):
-        return "海上防衛"
-    if any(
-        word in text
-        for word in ("陸自", "陸上", "army", "ground force", "tank", "戦車", "ミサイル")
-    ):
-        return "陸上防衛"
-    if any(
-        word in text
-        for word in ("宇宙", "サイバー", "space", "cyber", "satellite", "人工知能", "drone", "無人機")
-    ):
-        return "宇宙・サイバー"
-    return "国際情勢・技術"
+
+    def contains_keyword(keywords):
+        for keyword in keywords:
+            normalized = keyword.casefold()
+            if normalized.isascii():
+                pattern = r"(?<![a-z0-9]){}(?![a-z0-9])".format(
+                    re.escape(normalized)
+                )
+                if re.search(pattern, text):
+                    return True
+            elif normalized in text:
+                return True
+        return False
+
+    priority_categories = (
+        (
+            "機雷",
+            (
+                "mine",
+                "mcm",
+                "mine countermeasures",
+                "mine warfare",
+                "機雷",
+                "掃海",
+                "機雷戦",
+                "対機雷",
+                "mine disposal",
+            ),
+        ),
+        (
+            "USV/ASV",
+            (
+                "usv",
+                "asv",
+                "unmanned surface",
+                "autonomous surface",
+                "水上無人",
+                "無人水上",
+                "水上ドローン",
+            ),
+        ),
+        (
+            "UUV/AUV",
+            (
+                "uuv",
+                "auv",
+                "unmanned underwater",
+                "autonomous underwater",
+                "水中無人",
+                "無人潜水",
+                "水中ドローン",
+                "remus",
+                "seafox",
+            ),
+        ),
+        ("宇宙", ("宇宙", "衛星", "軌道", "space", "satellite", "orbit")),
+        (
+            "サイバー",
+            ("サイバー", "電磁波", "電子戦", "cyber", "electronic warfare"),
+        ),
+        (
+            "陸上防衛",
+            ("陸自", "陸上自衛隊", "戦車", "装甲車", "army", "tank", "ground force"),
+        ),
+        (
+            "海上防衛",
+            (
+                "海自",
+                "海上自衛隊",
+                "護衛艦",
+                "潜水艦",
+                "艦艇",
+                "navy",
+                "naval",
+                "submarine",
+                "frigate",
+                "destroyer",
+                "warship",
+            ),
+        ),
+        (
+            "航空防衛",
+            (
+                "空自",
+                "航空自衛隊",
+                "戦闘機",
+                "航空機",
+                "air force",
+                "fighter",
+                "aircraft",
+                "f-35",
+            ),
+        ),
+        (
+            "技術",
+            (
+                "技術",
+                "研究開発",
+                "装備庁",
+                "ai",
+                "量子",
+                "極超音速",
+                "technology",
+                "r&d",
+                "hypersonic",
+                "quantum",
+                "darpa",
+            ),
+        ),
+    )
+    for category, keywords in priority_categories:
+        if contains_keyword(keywords):
+            return category
+    return "国際情勢"
 
 
 def parse_feed(xml_data, feed):

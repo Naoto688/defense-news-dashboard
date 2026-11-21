@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="防衛ニュース">
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="stylesheet" href="css/style.css?v=4">
 </head>
 <body>
   <main id="login-screen" class="login-screen" aria-labelledby="login-heading">
@@ -83,11 +83,16 @@
         <!-- navはカテゴリーなど、ページ内の選択肢をまとめます。 -->
         <nav aria-label="ニュースカテゴリー">
           <button type="button" aria-pressed="true">すべて</button>
+          <button type="button" aria-pressed="false">機雷</button>
+          <button type="button" aria-pressed="false">USV/ASV</button>
+          <button type="button" aria-pressed="false">UUV/AUV</button>
           <button type="button" aria-pressed="false">陸上防衛</button>
           <button type="button" aria-pressed="false">海上防衛</button>
           <button type="button" aria-pressed="false">航空防衛</button>
-          <button type="button" aria-pressed="false">宇宙・サイバー</button>
-          <button type="button" aria-pressed="false">国際情勢・技術</button>
+          <button type="button" aria-pressed="false">宇宙</button>
+          <button type="button" aria-pressed="false">サイバー</button>
+          <button type="button" aria-pressed="false">技術</button>
+          <button type="button" aria-pressed="false">国際情勢</button>
         </nav>
 
         <div>
@@ -126,6 +131,6 @@
     </main>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="js/app.js?v=6"></script>
+  <script src="js/app.js?v=7"></script>
 </body>
 </html>
