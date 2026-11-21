@@ -1,46 +1,165 @@
 import datetime
+import html.parser
 import json
 import os
 import re
+import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
 
+def google_feed(label, query, category, language="en"):
+    locale = {
+        "ja": {"hl": "ja", "gl": "JP", "ceid": "JP:ja"},
+        "en": {"hl": "en-US", "gl": "US", "ceid": "US:en"},
+    }[language]
+    query_parameters = urllib.parse.urlencode({"q": query, **locale})
+    return {
+        "label": label,
+        "url": "https://news.google.com/rss/search?" + query_parameters,
+        "category": category,
+        "language": language,
+    }
+
+
 FEEDS = [
+    google_feed("防衛省・自衛隊", "防衛省 OR 自衛隊 when:7d", "国際情勢", "ja"),
+    google_feed("防衛装備・防衛産業", "防衛装備 OR 防衛産業 when:7d", "技術", "ja"),
+    google_feed("宇宙・サイバー防衛", "宇宙 サイバー 防衛 when:7d", "宇宙", "ja"),
+    google_feed(
+        "Deepwater Robotics",
+        '"Deepwater Robotics" when:30d',
+        "UUV/AUV",
+    ),
+    google_feed(
+        "Mission Technologies / HII",
+        'site:hii.com OR "HII Mission Technologies" when:14d',
+        "技術",
+    ),
+    google_feed(
+        "Mine Warfare Association",
+        '"Mine Warfare Association" OR site:minewarfare.org when:30d',
+        "機雷",
+    ),
+    google_feed(
+        "ClassNK 日本海事協会",
+        'site:classnk.or.jp OR "日本海事協会" when:14d',
+        "海上防衛",
+        "ja",
+    ),
     {
-        "label": "防衛省・自衛隊",
-        "url": "https://news.google.com/rss/search?q="
-        + urllib.parse.quote("防衛省 OR 自衛隊 when:7d")
-        + "&hl=ja&gl=JP&ceid=JP:ja",
+        "label": "U.S. Naval Institute",
+        "url": "https://news.usni.org/feed",
+        "category": "海上防衛",
+        "language": "en",
     },
+    google_feed(
+        "海事プレス KAIJI PRESS",
+        "site:kaijipress.com when:7d",
+        "海上防衛",
+        "ja",
+    ),
+    google_feed(
+        "Sakana AI",
+        'site:sakana.ai OR "Sakana AI" when:14d',
+        "技術",
+        "ja",
+    ),
+    google_feed(
+        "Ocean Infinity",
+        'site:oceaninfinity.com OR "Ocean Infinity" when:30d',
+        "USV/ASV",
+    ),
+    google_feed(
+        "KONGSBERG",
+        'site:kongsberg.com OR "Kongsberg" defence when:14d',
+        "UUV/AUV",
+    ),
+    google_feed(
+        "Shield AI",
+        'site:shield.ai OR "Shield AI" when:14d',
+        "技術",
+    ),
+    google_feed(
+        "Teledyne Marine",
+        'site:teledynemarine.com OR "Teledyne Marine" when:30d',
+        "UUV/AUV",
+    ),
+    google_feed(
+        "Exail Defense & Security",
+        'site:exail.com OR "Exail" defense when:30d',
+        "機雷",
+    ),
+    google_feed(
+        "Airbus Defence and Space",
+        "site:airbus.com defence when:14d",
+        "航空防衛",
+    ),
+    google_feed(
+        "Anduril Industries",
+        'site:anduril.com OR "Anduril" when:14d',
+        "技術",
+    ),
     {
-        "label": "防衛装備・防衛産業",
-        "url": "https://news.google.com/rss/search?q="
-        + urllib.parse.quote("防衛装備 OR 防衛産業 when:7d")
-        + "&hl=ja&gl=JP&ceid=JP:ja",
+        "label": "UK Ministry of Defence",
+        "url": "https://www.gov.uk/government/organisations/ministry-of-defence.atom",
+        "category": "国際情勢",
+        "language": "en",
     },
-    {
-        "label": "宇宙・サイバー防衛",
-        "url": "https://news.google.com/rss/search?q="
-        + urllib.parse.quote("宇宙 サイバー 防衛 when:7d")
-        + "&hl=ja&gl=JP&ceid=JP:ja",
-    },
-    {"label": "Naval News", "url": "https://www.navalnews.com/feed/"},
-    {
-        "label": "Defense News",
-        "url": "https://www.defensenews.com/arc/outboundfeeds/rss/category/naval/?outputType=xml",
-    },
-    {
-        "label": "RAND Corporation",
-        "url": "https://www.rand.org/topics/national-security.xml",
-    },
+    google_feed(
+        "Oceanic Constellations",
+        '"Oceanic Constellations" when:60d',
+        "宇宙",
+    ),
+    google_feed(
+        "Thales Defence",
+        "site:thalesgroup.com defence when:14d",
+        "機雷",
+    ),
+    google_feed(
+        "CSIS Japan Chair",
+        'site:csis.org "Japan Chair" when:30d',
+        "国際情勢",
+    ),
+    google_feed(
+        "U.S. Strategic Command",
+        'site:stratcom.mil OR "U.S. Strategic Command" when:14d',
+        "宇宙",
+    ),
+    google_feed(
+        "BAE Systems",
+        "site:baesystems.com when:14d",
+        "海上防衛",
+    ),
+    google_feed(
+        "Navy Leaders",
+        'site:navyleaders.com OR "Navy Leaders" when:30d',
+        "海上防衛",
+    ),
+    {"label": "Naval News", "url": "https://www.navalnews.com/feed/", "category": "海上防衛", "language": "en"},
+    google_feed(
+        "Maritime Robotics AS",
+        'site:maritimerobotics.com OR "Maritime Robotics" when:30d',
+        "USV/ASV",
+    ),
+    google_feed(
+        "H. HENRIKSEN",
+        'site:hhenriksen.com OR "H. Henriksen" marine when:60d',
+        "USV/ASV",
+    ),
 ]
 
-MAX_ITEMS_PER_FEED = 30
-MAX_TOTAL_ITEMS = 100
+MAX_ITEMS_PER_FEED = 10
+MAX_TOTAL_ITEMS = 180
 MAX_FEED_BYTES = 5 * 1024 * 1024
 OUTPUT_PATH = os.path.join("data", "news.json")
+TRANSLATION_ENDPOINT = "https://translate.googleapis.com/translate_a/single"
+TRANSLATION_INTERVAL_SECONDS = 0.2
+MAX_TRANSLATION_SUMMARY_LENGTH = 1200
+MAX_TRANSLATED_SUMMARY_LENGTH = 200
+_last_translation_request = 0.0
+_translation_cache = {}
 
 
 def local_name(tag):
@@ -57,15 +176,40 @@ def child_text(element, names):
     return ""
 
 
+class PlainTextExtractor(html.parser.HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.parts = []
+
+    def handle_data(self, data):
+        self.parts.append(data)
+
+
+def clean_text(value):
+    extractor = PlainTextExtractor()
+    extractor.feed(value or "")
+    extractor.close()
+    return " ".join(" ".join(extractor.parts).split())
+
+
 def item_link(element):
+    links = []
     for child in element.iter():
         if local_name(child.tag) == "link":
-            href = child.attrib.get("href", "").strip()
+            links.append(child)
+
+    for link in links:
+        if link.attrib.get("rel", "alternate") == "alternate":
+            href = link.attrib.get("href", "").strip()
             if href:
                 return href
-            text = "".join(child.itertext()).strip()
-            if text:
-                return text
+
+    for child in links:
+        if child.attrib.get("href", "").strip():
+            return child.attrib["href"].strip()
+        text = "".join(child.itertext()).strip()
+        if text:
+            return text
     return ""
 
 
@@ -103,7 +247,7 @@ def parse_date(value):
     return parsed.isoformat()
 
 
-def classify_news(title, summary):
+def classify_news(title, summary, default_category="国際情勢"):
     text = (title + " " + summary).casefold()
 
     def contains_keyword(keywords):
@@ -218,7 +362,64 @@ def classify_news(title, summary):
     for category, keywords in priority_categories:
         if contains_keyword(keywords):
             return category
-    return "国際情勢"
+    return default_category
+
+
+def detect_language(title, fallback_language):
+    if re.search(r"[\u3040-\u30ff\u3400-\u9fff]", title):
+        return "ja"
+    if re.search(r"[A-Za-z]{2,}", title):
+        return "en"
+    return fallback_language
+
+
+def translate_text(text):
+    global _last_translation_request
+    if text in _translation_cache:
+        return _translation_cache[text]
+
+    elapsed = time.monotonic() - _last_translation_request
+    if _last_translation_request and elapsed < TRANSLATION_INTERVAL_SECONDS:
+        time.sleep(TRANSLATION_INTERVAL_SECONDS - elapsed)
+
+    parameters = urllib.parse.urlencode(
+        {
+            "client": "gtx",
+            "sl": "en",
+            "tl": "ja",
+            "dt": "t",
+            "q": text,
+        }
+    )
+    request = urllib.request.Request(
+        TRANSLATION_ENDPOINT + "?" + parameters,
+        headers={"User-Agent": "DefenseNewsDashboard/1.0"},
+    )
+    _last_translation_request = time.monotonic()
+    with urllib.request.urlopen(request, timeout=20) as response:
+        result = json.loads(response.read().decode("utf-8"))
+
+    translated = "".join(
+        segment[0]
+        for segment in result[0]
+        if isinstance(segment, list) and segment and isinstance(segment[0], str)
+    ).strip()
+    if not translated:
+        raise ValueError("翻訳APIから空の翻訳結果が返されました。")
+    _translation_cache[text] = translated
+    return translated
+
+
+def translate_or_original(text, source, field_name):
+    try:
+        return translate_text(text)
+    except (OSError, ValueError, IndexError, KeyError, TypeError) as error:
+        print(
+            "{}の{}翻訳に失敗しました。原文を使用します: {}".format(
+                source, field_name, error
+            )
+        )
+        return text
 
 
 def parse_feed(xml_data, feed):
@@ -230,27 +431,32 @@ def parse_feed(xml_data, feed):
     ]
     articles = []
     for entry in entries[:MAX_ITEMS_PER_FEED]:
-        title = child_text(entry, {"title"})
+        title = clean_text(child_text(entry, {"title"}))
         link = item_link(entry)
         if not title or not link:
             continue
 
-        summary = child_text(entry, {"description", "summary", "encoded", "content"})
+        summary = clean_text(
+            child_text(entry, {"description", "summary", "encoded", "content"})
+        )
         published = child_text(
             entry, {"pubdate", "published", "updated", "date", "issued"}
         )
-        source = child_text(entry, {"source", "author"}) or feed["label"]
         published_at = parse_date(published)
         article_url = link.split("#", 1)[0]
+        language = detect_language(title, feed["language"])
         articles.append(
             {
                 "id": article_url,
                 "articleUrl": article_url,
                 "title": title,
-                "source": source,
+                "title_ja": title,
+                "source": feed["label"],
+                "language": language,
                 "publishedAt": published_at,
-                "category": classify_news(title, summary),
+                "category": classify_news(title, summary, feed["category"]),
                 "summary": summary or "この記事には要約がありません。",
+                "summary_ja": summary or "この記事には要約がありません。",
                 "url": article_url,
                 "isSample": False,
             }
@@ -305,7 +511,23 @@ def collect_news():
         raise RuntimeError("すべてのRSSフィード取得に失敗しました。既存データは維持します。")
 
     collected_articles.sort(key=article_sort_key, reverse=True)
-    return collected_articles[:MAX_TOTAL_ITEMS]
+    articles = collected_articles[:MAX_TOTAL_ITEMS]
+    for article in articles:
+        if article["language"] != "en":
+            continue
+
+        article["title_ja"] = translate_or_original(
+            article["title"], article["source"], "タイトル"
+        )
+        if article["summary"] == "この記事には要約がありません。":
+            article["summary_ja"] = article["summary"]
+        else:
+            summary_to_translate = article["summary"][:MAX_TRANSLATION_SUMMARY_LENGTH]
+            translated_summary = translate_or_original(
+                summary_to_translate, article["source"], "要約"
+            )
+            article["summary_ja"] = translated_summary[:MAX_TRANSLATED_SUMMARY_LENGTH]
+    return articles
 
 
 def main():

@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="防衛ニュース">
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="stylesheet" href="css/style.css?v=4">
+  <link rel="stylesheet" href="css/style.css?v=5">
 </head>
 <body>
   <main id="login-screen" class="login-screen" aria-labelledby="login-heading">
@@ -95,14 +95,22 @@
           <button type="button" aria-pressed="false">国際情勢</button>
         </nav>
 
-        <div>
-          <label for="keyword-search">キーワード検索</label>
-          <input
-            type="search"
-            id="keyword-search"
-            name="keyword"
-            placeholder="キーワードを入力"
-          >
+        <div class="filter-controls">
+          <div class="keyword-filter">
+            <label for="keyword-search">キーワード検索</label>
+            <input
+              type="search"
+              id="keyword-search"
+              name="keyword"
+              placeholder="キーワードを入力"
+            >
+          </div>
+          <div class="source-filter">
+            <label for="source-filter">情報ソース</label>
+            <select id="source-filter" name="source">
+              <option value="">すべてのソース</option>
+            </select>
+          </div>
         </div>
 
         <div>
@@ -131,6 +139,6 @@
     </main>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="js/app.js?v=7"></script>
+  <script src="js/app.js?v=8"></script>
 </body>
 </html>

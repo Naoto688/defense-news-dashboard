@@ -94,6 +94,7 @@ const supabaseClient =
 const state = {
   activeCategory: "すべて",
   keyword: "",
+  source: "",
   clipsOnly: false,
   clippedIds: new Set(),
   selectedArticleUrl: null
@@ -115,6 +116,7 @@ const elements = {
   dashboardStatus: document.getElementById("dashboard-status"),
   categoryNav: document.querySelector('nav[aria-label="ニュースカテゴリー"]'),
   searchInput: document.getElementById("keyword-search"),
+  sourceFilter: document.getElementById("source-filter"),
   clipsOnlyInput: document.getElementById("important-only"),
   refreshButton: document.getElementById("refresh-button"),
   logoutButton: document.getElementById("logout-button")
@@ -300,6 +302,14 @@ function createMemoEditor(item) {
   return editor;
 }
 
+function getDisplayTitle(item) {
+  return item.language === "en" ? item.title_ja || item.title : item.title;
+}
+
+function getDisplaySummary(item) {
+  return item.summary_ja || item.summary || "要約はありません。";
+}
+
 function createCategoryBadge(item) {
   const category = document.createElement("span");
   category.className = "news-category-badge";
@@ -354,8 +364,20 @@ function createNewsListItem(item, isSelected) {
 
   const title = document.createElement("span");
   title.className = "news-master-title";
-  title.textContent = item.title;
+  title.textContent = getDisplayTitle(item);
   selectButton.append(title);
+
+  const summary = document.createElement("span");
+  summary.className = "news-master-summary";
+  summary.textContent = getDisplaySummary(item);
+  selectButton.append(summary);
+
+  if (item.language === "en" && item.title !== getDisplayTitle(item)) {
+    const originalTitle = document.createElement("span");
+    originalTitle.className = "news-master-original-title";
+    originalTitle.textContent = item.title;
+    selectButton.append(originalTitle);
+  }
 
   const metadata = document.createElement("span");
   metadata.className = "news-master-meta";
@@ -380,14 +402,21 @@ function createNewsDetail(item) {
   }
 
   const title = document.createElement("h3");
-  title.textContent = item.title;
+  title.textContent = getDisplayTitle(item);
   elements.newsDetail.append(title);
+  if (item.language === "en" && item.title !== getDisplayTitle(item)) {
+    const originalTitle = createParagraph(item.title);
+    originalTitle.className = "detail-original-title";
+    elements.newsDetail.append(originalTitle);
+  }
 
   const metadata = document.createElement("div");
   metadata.className = "detail-meta";
+  const source = document.createElement("span");
+  source.textContent = item.source;
   metadata.append(
     createCategoryBadge(item),
-    document.createTextNode(item.source),
+    source,
     createPublishedTime(item) || document.createTextNode("公開日時不明")
   );
   elements.newsDetail.append(metadata);
@@ -412,7 +441,7 @@ function createNewsDetail(item) {
 
   const summaryHeading = document.createElement("h4");
   summaryHeading.textContent = "概要・要約";
-  const summary = createParagraph(item.summary);
+  const summary = createParagraph(getDisplaySummary(item));
   summary.className = "news-detail-summary";
   elements.newsDetail.append(summaryHeading, summary, createMemoEditor(item));
 }
@@ -455,15 +484,20 @@ function normalizeNewsCategory(category) {
 function normalizeSavedClip(row) {
   const articleUrl = String(row.article_url || "").trim();
   const parsedDate = new Date(row.published_at || "");
+  const title = String(row.title || "タイトル不明");
+  const summary = String(row.summary || "要約はありません。");
 
   return {
     id: articleUrl,
     articleUrl,
-    title: String(row.title || "タイトル不明"),
+    title,
+    title_ja: String(row.title_ja || title),
+    language: /[\u3040-\u30ff\u3400-\u9fff]/.test(title) ? "ja" : "en",
     source: String(row.source || "情報ソース不明"),
     category: normalizeNewsCategory(row.category),
     publishedAt: Number.isNaN(parsedDate.getTime()) ? null : parsedDate,
-    summary: String(row.summary || "要約はありません。"),
+    summary,
+    summary_ja: String(row.summary_ja || summary),
     memo: String(row.memo || ""),
     url: getSafeArticleUrl(articleUrl),
     isSample: articleUrl.startsWith("sample://"),
@@ -616,14 +650,19 @@ function normalizeNewsData(rawItems) {
       }
 
       const parsedDate = new Date(rawItem.publishedAt || "");
+      const summary =
+        stripHtml(rawItem.summary, null) || "この記事には要約がありません。";
       return {
         id: url,
         articleUrl: url,
         title,
+        title_ja: stripHtml(rawItem.title_ja) || title,
+        language: rawItem.language === "en" ? "en" : "ja",
         source: stripHtml(rawItem.source) || "情報ソース不明",
         publishedAt: Number.isNaN(parsedDate.getTime()) ? null : parsedDate,
         category: normalizeNewsCategory(rawItem.category),
-        summary: stripHtml(rawItem.summary, null) || "この記事には要約がありません。",
+        summary,
+        summary_ja: stripHtml(rawItem.summary_ja, null) || summary,
         memo: "",
         url,
         isSample: false
@@ -703,6 +742,20 @@ async function refreshNews() {
   }
 }
 
+function renderSourceOptions() {
+  const sources = Array.from(
+    new Set(newsItems.map((item) => item.source).filter(Boolean))
+  ).sort((left, right) => left.localeCompare(right, "ja"));
+  const options = [new Option("すべてのソース", "")];
+  sources.forEach((source) => options.push(new Option(source, source)));
+  elements.sourceFilter.replaceChildren(...options);
+
+  if (!sources.includes(state.source)) {
+    state.source = "";
+  }
+  elements.sourceFilter.value = state.source;
+}
+
 function getVisibleNews() {
   const keyword = state.keyword.trim().toLocaleLowerCase("ja");
 
@@ -712,14 +765,17 @@ function getVisibleNews() {
       state.activeCategory === "すべて" || item.category === state.activeCategory;
     const searchableText = [
       item.title,
+      item.title_ja,
       item.source,
       item.category,
-      item.summary
+      item.summary,
+      item.summary_ja
     ].join(" ").toLocaleLowerCase("ja");
     const matchesKeyword = searchableText.includes(keyword);
+    const matchesSource = !state.source || item.source === state.source;
     const matchesClip = !state.clipsOnly || state.clippedIds.has(item.articleUrl);
 
-    return matchesCategory && matchesKeyword && matchesClip;
+    return matchesCategory && matchesKeyword && matchesSource && matchesClip;
   });
 }
 
@@ -768,6 +824,7 @@ function updateSummary() {
 }
 
 function renderDashboard() {
+  renderSourceOptions();
   updateSummary();
   renderNews();
 }
@@ -868,6 +925,11 @@ elements.categoryNav.addEventListener("click", (event) => {
 
 elements.searchInput.addEventListener("input", (event) => {
   state.keyword = event.target.value;
+  renderNews();
+});
+
+elements.sourceFilter.addEventListener("change", (event) => {
+  state.source = event.target.value;
   renderNews();
 });
 
