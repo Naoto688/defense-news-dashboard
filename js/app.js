@@ -81,9 +81,9 @@ let savedClips = new Map();
 let newsItems = [...fallbackNews];
 
 const rssFeeds = [
-  { label: "防衛省・自衛隊", query: "防衛省 OR 自衛隊" },
-  { label: "防衛装備・防衛産業", query: "防衛装備 OR 防衛産業" },
-  { label: "安全保障・宇宙・サイバー", query: "安全保障 OR 宇宙 サイバー 防衛" }
+  { label: "防衛省・自衛隊", query: "防衛省 OR 自衛隊 when:7d" },
+  { label: "防衛装備・防衛産業", query: "防衛装備 OR 防衛産業 when:7d" },
+  { label: "安全保障・宇宙・サイバー", query: "宇宙 サイバー 防衛 when:7d" }
 ].map((feed) => {
   const rssUrl = new URL("https://news.google.com/rss/search");
   rssUrl.searchParams.set("q", feed.query);
@@ -93,8 +93,8 @@ const rssFeeds = [
   return { ...feed, rssUrl: rssUrl.toString() };
 });
 
-const rss2jsonEndpoint = "https://api.rss2json.com/v1/api.json";
-const allOriginsEndpoint = "https://api.allorigins.win/get";
+const allOriginsEndpoint = "https://api.allorigins.win/raw";
+const corsProxyEndpoint = "https://corsproxy.io/";
 const rssRequestTimeoutMs = 15000;
 const supabaseProjectUrl = new URL(
   "https://hzemnjhbsiffwkoiffdc.supabase.co/rest/v1/"
@@ -655,51 +655,49 @@ function parseRssXml(xmlText) {
 }
 
 async function fetchRssFeed(feed) {
-  const cacheBuster = Date.now();
   const rssUrl = new URL(feed.rssUrl);
-  rssUrl.searchParams.set("_", String(cacheBuster));
-  const primaryUrl = new URL(rss2jsonEndpoint);
-  primaryUrl.searchParams.set("rss_url", rssUrl.toString());
-  primaryUrl.searchParams.set("_", String(cacheBuster));
+  rssUrl.searchParams.set("_cb", String(Date.now()));
 
   try {
-    const response = await fetchWithTimeout(primaryUrl);
+    const requestUrl = new URL(allOriginsEndpoint);
+    requestUrl.searchParams.set("url", rssUrl.toString());
+    requestUrl.searchParams.set("_cb", String(Date.now()));
+    const response = await fetchWithTimeout(requestUrl);
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
 
-    const result = await response.json();
-    if (result.status !== "ok") {
-      throw new Error(result.message || "RSS変換サービスがエラーを返しました。");
+    const xmlText = await response.text();
+    if (!xmlText.trim()) {
+      throw new Error("AllOriginsからRSS XMLを取得できませんでした。");
     }
 
     return {
-      items: Array.isArray(result.items) ? result.items : [],
-      source: "rss2json"
+      items: parseRssXml(xmlText),
+      source: "AllOrigins"
     };
   } catch (primaryError) {
-    const fallbackUrl = new URL(allOriginsEndpoint);
-    fallbackUrl.searchParams.set("url", rssUrl.toString());
-    fallbackUrl.searchParams.set("_", String(Date.now()));
-
     try {
-      const response = await fetchWithTimeout(fallbackUrl);
+      const requestUrl = new URL(corsProxyEndpoint);
+      requestUrl.searchParams.set("url", rssUrl.toString());
+      requestUrl.searchParams.set("_cb", String(Date.now()));
+      const response = await fetchWithTimeout(requestUrl);
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}`);
       }
 
-      const result = await response.json();
-      if (typeof result.contents !== "string" || !result.contents) {
-        throw new Error("AllOriginsからRSS XMLを取得できませんでした。");
+      const xmlText = await response.text();
+      if (!xmlText.trim()) {
+        throw new Error("corsproxy.ioからRSS XMLを取得できませんでした。");
       }
 
       return {
-        items: parseRssXml(result.contents),
-        source: "AllOrigins"
+        items: parseRssXml(xmlText),
+        source: "corsproxy.io"
       };
     } catch (fallbackError) {
       throw new Error(
-        `rss2json: ${primaryError.message}; AllOrigins: ${fallbackError.message}`
+        `AllOrigins: ${primaryError.message}; corsproxy.io: ${fallbackError.message}`
       );
     }
   }
