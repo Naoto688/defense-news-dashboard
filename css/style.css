@@ -307,23 +307,41 @@ main > section[aria-labelledby="filter-heading"] .filter-controls label {
   color: #8291a4;
 }
 
-main > section[aria-labelledby="filter-heading"] > div:last-child {
+main > section[aria-labelledby="filter-heading"] > .clip-export-controls {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 0.65rem;
-  min-height: 44px;
+  justify-content: space-between;
+  gap: 0.75rem;
   margin-top: 0.85rem;
   color: var(--color-text-muted);
 }
 
-#important-only {
+.clip-export-options,
+.clip-export-option,
+.clip-export-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.clip-export-options {
+  column-gap: 1.25rem;
+}
+
+.clip-export-option {
+  min-height: 44px;
+}
+
+.clip-export-option input[type="checkbox"] {
   width: 1.15rem;
   height: 1.15rem;
   margin: 0;
   accent-color: var(--color-cyan);
 }
 
-#important-only + label {
+.clip-export-option label {
   cursor: pointer;
 }
 
@@ -693,6 +711,27 @@ main > section[aria-labelledby="news-heading"] {
   main > section[aria-labelledby="filter-heading"] .source-filter {
     width: 100%;
     min-width: 0;
+  }
+
+  .clip-export-controls,
+  .clip-export-options,
+  .clip-export-buttons {
+    width: 100%;
+  }
+
+  .clip-export-controls {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .clip-export-options {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .clip-export-buttons button {
+    flex: 1 1 100%;
   }
 
   main > section[aria-labelledby="filter-heading"] nav button {

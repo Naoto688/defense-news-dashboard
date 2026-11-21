@@ -9,7 +9,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="防衛ニュース">
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="stylesheet" href="css/style.css?v=5">
+  <link rel="stylesheet" href="css/style.css?v=6">
 </head>
 <body>
   <main id="login-screen" class="login-screen" aria-labelledby="login-heading">
@@ -113,9 +113,25 @@
           </div>
         </div>
 
-        <div>
-          <input type="checkbox" id="important-only" name="important-only">
-          <label for="important-only">重要・クリップ済みのみ表示</label>
+        <div class="clip-export-controls">
+          <div class="clip-export-options">
+            <div class="clip-export-option">
+              <input type="checkbox" id="important-only" name="important-only">
+              <label for="important-only">重要・クリップ済みのみ表示</label>
+            </div>
+            <div class="clip-export-option">
+              <input
+                type="checkbox"
+                id="memo-only-export"
+                name="memo-only-export"
+              >
+              <label for="memo-only-export">メモ記入済みのみ出力</label>
+            </div>
+          </div>
+          <div class="clip-export-buttons" aria-label="クリップ記事の出力">
+            <button type="button" id="export-clips-csv">クリップ出力（CSV）</button>
+            <button type="button" id="export-clips-md">クリップ出力（MD）</button>
+          </div>
         </div>
       </section>
 
@@ -139,6 +155,6 @@
     </main>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="js/app.js?v=8"></script>
+  <script src="js/app.js?v=9"></script>
 </body>
 </html>

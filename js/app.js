@@ -118,6 +118,9 @@ const elements = {
   searchInput: document.getElementById("keyword-search"),
   sourceFilter: document.getElementById("source-filter"),
   clipsOnlyInput: document.getElementById("important-only"),
+  memoOnlyExportInput: document.getElementById("memo-only-export"),
+  exportCsvButton: document.getElementById("export-clips-csv"),
+  exportMarkdownButton: document.getElementById("export-clips-md"),
   refreshButton: document.getElementById("refresh-button"),
   logoutButton: document.getElementById("logout-button")
 };
@@ -632,6 +635,169 @@ function comparePublishedAtDescending(left, right) {
   return rightTime - leftTime;
 }
 
+function getClipExportItems() {
+  const articlesByUrl = new Map(
+    newsItems.map((item) => [item.articleUrl, item])
+  );
+
+  return Array.from(savedClips.values())
+    .map((clip) => {
+      const currentArticle = articlesByUrl.get(clip.articleUrl);
+      const isEnglish =
+        currentArticle?.language === "en" ||
+        (!currentArticle && clip.language === "en");
+
+      return {
+        publishedAt: clip.publishedAt,
+        category: clip.category,
+        source: clip.source,
+        japaneseTitle: isEnglish
+          ? currentArticle?.title_ja || clip.title_ja || clip.title
+          : currentArticle?.title || clip.title,
+        originalTitle: clip.title,
+        url: clip.url || getSafeArticleUrl(clip.articleUrl),
+        japaneseSummary:
+          currentArticle?.summary_ja ||
+          clip.summary_ja ||
+          currentArticle?.summary ||
+          clip.summary,
+        memo: clip.memo || ""
+      };
+    })
+    .filter((item) => !elements.memoOnlyExportInput.checked || item.memo.trim())
+    .sort(comparePublishedAtDescending);
+}
+
+function getRequiredClipExportItems() {
+  const items = getClipExportItems();
+  if (items.length === 0) {
+    window.alert("出力対象のクリップ記事がありません");
+    return null;
+  }
+  return items;
+}
+
+function escapeCsvField(value) {
+  const text = String(value ?? "");
+  const safeText = /^[\t\r ]*[=+\-@]/.test(text) ? `'${text}` : text;
+  return `"${safeText.replace(/"/g, '""')}"`;
+}
+
+function escapeMarkdownText(value) {
+  return String(value ?? "")
+    .replace(/\r\n?/g, "\n")
+    .split("\n")
+    .map((line) => line.replace(/([\\`*_{}\[\]()#+.!|>~\-])/g, "\\$1"))
+    .join("\n");
+}
+
+function getExportDate() {
+  const now = new Date();
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const day = String(now.getDate()).padStart(2, "0");
+  return `${now.getFullYear()}${month}${day}`;
+}
+
+function downloadTextFile(content, fileName, mimeType) {
+  const objectUrl = URL.createObjectURL(new Blob([content], { type: mimeType }));
+  const link = document.createElement("a");
+  link.href = objectUrl;
+  link.download = fileName;
+  document.body.append(link);
+
+  try {
+    link.click();
+  } finally {
+    link.remove();
+    window.setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
+  }
+}
+
+function exportClipsAsCsv() {
+  const items = getRequiredClipExportItems();
+  if (!items) {
+    return;
+  }
+
+  const rows = [
+    [
+      "公開日時",
+      "カテゴリー",
+      "情報ソース",
+      "日本語タイトル",
+      "原文タイトル",
+      "URL",
+      "日本語要約",
+      "分析・考察メモ"
+    ],
+    ...items.map((item) => [
+      item.publishedAt ? dateFormatter.format(item.publishedAt) : "",
+      item.category,
+      item.source,
+      item.japaneseTitle,
+      item.originalTitle,
+      item.url,
+      item.japaneseSummary,
+      item.memo
+    ])
+  ];
+  const csv = `\uFEFF${rows.map((row) => row.map(escapeCsvField).join(",")).join("\r\n")}`;
+
+  try {
+    downloadTextFile(csv, `defense_clips_${getExportDate()}.csv`, "text/csv;charset=utf-8");
+  } catch (error) {
+    console.error("クリップ記事のCSV出力に失敗しました。", error);
+    window.alert("クリップ記事のCSV出力に失敗しました。");
+  }
+}
+
+function exportClipsAsMarkdown() {
+  const items = getRequiredClipExportItems();
+  if (!items) {
+    return;
+  }
+
+  const markdown = [
+    "# 防衛ニュース 重要クリップ",
+    `出力日時: ${dateFormatter.format(new Date())}`,
+    "",
+    ...items.map((item) => {
+      const memoLines = item.memo
+        ? escapeMarkdownText(item.memo)
+            .split("\n")
+            .map((line) => `> ${line}`)
+            .join("\n")
+        : "> （メモなし）";
+
+      return [
+        `## ${escapeMarkdownText(item.japaneseTitle || item.originalTitle)}`,
+        `- 公開日時: ${item.publishedAt ? dateFormatter.format(item.publishedAt) : "日時不明"}`,
+        `- カテゴリー: ${escapeMarkdownText(item.category)}`,
+        `- 情報ソース: ${escapeMarkdownText(item.source)}`,
+        `- 原文タイトル: ${escapeMarkdownText(item.originalTitle)}`,
+        `- URL: ${item.url}`,
+        "",
+        "### 要約",
+        escapeMarkdownText(item.japaneseSummary),
+        "",
+        "> 【分析・考察メモ】",
+        memoLines
+      ].join("\n");
+    })
+  ].join("\n\n");
+
+  try {
+    downloadTextFile(
+      markdown,
+      `defense_clips_${getExportDate()}.md`,
+      "text/markdown;charset=utf-8"
+    );
+  } catch (error) {
+    console.error("クリップ記事のMarkdown出力に失敗しました。", error);
+    window.alert("クリップ記事のMarkdown出力に失敗しました。");
+  }
+}
+
 function normalizeNewsData(rawItems) {
   if (!Array.isArray(rawItems)) {
     throw new Error("ニュースデータの形式が正しくありません。");
@@ -690,6 +856,8 @@ async function refreshNews() {
   const originalButtonLabel = elements.refreshButton.textContent;
   elements.refreshButton.disabled = true;
   elements.refreshButton.textContent = "取得中...";
+  elements.exportCsvButton.disabled = true;
+  elements.exportMarkdownButton.disabled = true;
   elements.newsList.setAttribute("aria-busy", "true");
   statusMessage.textContent = "最新ニュースデータを読み込んでいます。";
 
@@ -738,6 +906,8 @@ async function refreshNews() {
   } finally {
     elements.refreshButton.disabled = false;
     elements.refreshButton.textContent = originalButtonLabel;
+    elements.exportCsvButton.disabled = false;
+    elements.exportMarkdownButton.disabled = false;
     elements.newsList.removeAttribute("aria-busy");
   }
 }
@@ -937,6 +1107,9 @@ elements.clipsOnlyInput.addEventListener("change", (event) => {
   state.clipsOnly = event.target.checked;
   renderNews();
 });
+
+elements.exportCsvButton.addEventListener("click", exportClipsAsCsv);
+elements.exportMarkdownButton.addEventListener("click", exportClipsAsMarkdown);
 
 elements.newsList.addEventListener("click", async (event) => {
   const selectButton = event.target.closest("button[data-select-article-url]");
