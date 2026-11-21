@@ -1,0 +1,63 @@
+name: Weekly clip report
+
+on:
+  schedule:
+    - cron: "0 12 * * 6"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export-weekly-clips:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate weekly reports
+        run: python scripts/export_weekly_clips.py
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+
+      - name: Encrypt reports for public artifact storage
+        shell: bash
+        env:
+          REPORT_ENCRYPTION_KEY: ${{ secrets.REPORT_ENCRYPTION_KEY }}
+        run: |
+          set -euo pipefail
+          if [[ -z "$REPORT_ENCRYPTION_KEY" ]]; then
+            echo "Configure the REPORT_ENCRYPTION_KEY repository secret."
+            exit 1
+          fi
+          if [[ ${#REPORT_ENCRYPTION_KEY} -lt 32 ]]; then
+            echo "REPORT_ENCRYPTION_KEY must be at least 32 characters."
+            exit 1
+          fi
+          shopt -s nullglob
+          reports=(reports/weekly_clips_report_*.md reports/weekly_clips_report_*.csv)
+          if [[ ${#reports[@]} -eq 0 ]]; then
+            echo "No weekly report files were generated."
+            exit 1
+          fi
+          for report in "${reports[@]}"; do
+            openssl enc -aes-256-cbc -salt -pbkdf2 -iter 200000 -md sha256 \
+              -in "$report" \
+              -out "${report}.enc" \
+              -pass env:REPORT_ENCRYPTION_KEY
+          done
+
+      - name: Upload encrypted reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-clips-${{ github.run_id }}
+          path: reports/*.enc
+          if-no-files-found: error
+          retention-days: 90
