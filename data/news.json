@@ -1,5 +1,187 @@
 [
   {
+    "id": "https://www.gov.uk/government/statistics/defence-statistics-pre-release-access-list",
+    "articleUrl": "https://www.gov.uk/government/statistics/defence-statistics-pre-release-access-list",
+    "title": "Official Statistics: MOD statistics pre-release access list",
+    "title_ja": "公式統計: MOD 統計のプレリリース アクセス リスト",
+    "source": "UK Ministry of Defence",
+    "language": "en",
+    "publishedAt": "2026-11-25T09:30:09+00:00",
+    "category": "国際情勢",
+    "summary": "The individuals who have 24-hour, pre-release access to Ministry of Defence's key Official and Accredited Official Statistics publications.",
+    "summary_ja": "国防省の主要な公式および認定された公式統計出版物に 24 時間、公開前にアクセスできる個人。",
+    "url": "https://www.gov.uk/government/statistics/defence-statistics-pre-release-access-list",
+    "isSample": false
+  },
+  {
+    "id": "https://www.navalnews.com/naval-news/2026/11/kerch-bridge-attack-sea-of-azov-crimea/",
+    "articleUrl": "https://www.navalnews.com/naval-news/2026/11/kerch-bridge-attack-sea-of-azov-crimea/",
+    "title": "Russia’s Grip On Crimea Much Weaker After Key Waterways Blocked",
+    "title_ja": "主要水路封鎖でロシアのクリミア支配力は大幅に弱まる",
+    "source": "Naval News",
+    "language": "en",
+    "publishedAt": "2026-11-25T09:29:00+00:00",
+    "category": "海上防衛",
+    "summary": "Ukraine’s major attack on the Kerch Bridge, combined with a less-reported October strike on a bridge over the Don River, has effectively cut off the Sea of Azov. This makes it much harder for Russia to resupply Crimea. 8 years ago, on the 25th November 2018, Russia blocked the waterway under the Kerch Bridge to ... The post Russia’s Grip On Crimea Much Weaker After Key Waterways Blocked appeared first on Naval News .",
+    "summary_ja": "ウクライナによるケルチ橋への大規模攻撃は、あまり報道されていない10月のドン川にかかる橋への攻撃と相まって、事実上アゾフ海を遮断した。これにより、ロシアがクリミアに補給することが非常に困難になる。 8年前の2018年11月25日、ロシアはケルチ橋の下の水路を封鎖して…主要水路封鎖後、ロシアのクリミア支配は大幅に弱まるという記事が最初に海軍ニュースに掲載された。",
+    "url": "https://www.navalnews.com/naval-news/2026/11/kerch-bridge-attack-sea-of-azov-crimea/",
+    "isSample": false
+  },
+  {
+    "id": "https://www.navalnews.com/naval-news/2026/11/poland-lays-keel-third-miecznik-frigate-huragan/",
+    "articleUrl": "https://www.navalnews.com/naval-news/2026/11/poland-lays-keel-third-miecznik-frigate-huragan/",
+    "title": "Poland Lays Keel for Third Miecznik Frigate, Signs CAMM-MR Missile Deal with UK",
+    "title_ja": "ポーランド、ミエチュニク3隻目のフリゲート艦のキールを据え、英国とCAMM-MRミサイル協定を締結",
+    "source": "Naval News",
+    "language": "en",
+    "publishedAt": "2026-11-25T09:06:43+00:00",
+    "category": "海上防衛",
+    "summary": "Poland laid the keel for its third Miecznik-class frigate, ORP Huragan, in Gdynia as Warsaw and London signed an agreement to co-develop the CAMM-MR missile. The post Poland Lays Keel for Third Miecznik Frigate, Signs CAMM-MR Missile Deal with UK appeared first on Naval News .",
+    "summary_ja": "ワルシャワとロンドンがCAMM-MRミサイルを共同開発する協定に署名したため、ポーランドはグディニアでミエチニク級フリゲート3番艦ORPフラガンの起工式を行った。ポーランドが第3ミエチュニクフリゲート艦にキールを置き、英国とCAMM-MRミサイル協定に署名 この記事は、 Naval News に最初に掲載されました。",
+    "url": "https://www.navalnews.com/naval-news/2026/11/poland-lays-keel-third-miecznik-frigate-huragan/",
+    "isSample": false
+  },
+  {
+    "id": "https://www.navalnews.com/naval-news/2026/11/elbit-to-supply-aqua-marine-ew-suite-for-germanys-f128-frigates/",
+    "articleUrl": "https://www.navalnews.com/naval-news/2026/11/elbit-to-supply-aqua-marine-ew-suite-for-germanys-f128-frigates/",
+    "title": "Elbit to Supply Aqua Marine EW Suite for Germany’s F128 Frigates",
+    "title_ja": "エルビット、ドイツのF128フリゲート艦にアクアマリンEWスイートを供給",
+    "source": "Naval News",
+    "language": "en",
+    "publishedAt": "2026-11-25T08:36:31+00:00",
+    "category": "サイバー",
+    "summary": "Elbit Systems Deutschland will supply its Aqua Marine electronic warfare suite for TKMS’ F128 frigates. The German shipyard’s announcement follows the signing of a second batch by Germany’s defence procurement authority, BAAINBw. In a LinkedIn post, TKMS identified Aqua Marine as the integrated electronic warfare self-protection suite for the frigates. The shipbuilder said the system ... The post Elbit to Supply Aqua Marine EW Suite for Germany’s F128 Frigates appeared first on Naval News .",
+    "summary_ja": "Elbit Systems Deutschland は、TKMS の F128 フリゲート艦に Aqua Marine 電子戦スイートを供給します。ドイツの造船所の発表は、ドイツの防衛調達当局であるBAAINBwによる第2バッチの署名に続くものである。 LinkedIn の投稿で、TKMS は Aqua Marine がフリゲート艦用の統合電子戦自己保護スイートであると特定しました。造船所は、この",
+    "url": "https://www.navalnews.com/naval-news/2026/11/elbit-to-supply-aqua-marine-ew-suite-for-germanys-f128-frigates/",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WeHNySjBtTGdSNkt2RG9MM1JQUF8wanhxaEprb3ZCMEwzd2hxNnBjNXNxMDBiUU11ek5BZGplSS1zMEg3WWVHa1otWVBhWVM4QnRXOWdwNTNvRGVkWVNCWDlKWHJRaGs?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WeHNySjBtTGdSNkt2RG9MM1JQUF8wanhxaEprb3ZCMEwzd2hxNnBjNXNxMDBiUU11ek5BZGplSS1zMEg3WWVHa1otWVBhWVM4QnRXOWdwNTNvRGVkWVNCWDlKWHJRaGs?oc=5",
+    "title": "IHI、防衛売上高は4年2.8倍へ 副社長「脱・自前主義で変化対応」 - 日経ビジネス電子版",
+    "title_ja": "IHI、防衛売上高は4年2.8倍へ 副社長「脱・自前主義で変化対応」 - 日経ビジネス電子版",
+    "source": "宇宙・サイバー防衛",
+    "language": "ja",
+    "publishedAt": "2026-11-25T08:00:00+00:00",
+    "category": "宇宙",
+    "summary": "IHI、防衛売上高は4年2.8倍へ 副社長「脱・自前主義で変化対応」 日経ビジネス電子版",
+    "summary_ja": "IHI、防衛売上高は4年2.8倍へ 副社長「脱・自前主義で変化対応」 日経ビジネス電子版",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WeHNySjBtTGdSNkt2RG9MM1JQUF8wanhxaEprb3ZCMEwzd2hxNnBjNXNxMDBiUU11ek5BZGplSS1zMEg3WWVHa1otWVBhWVM4QnRXOWdwNTNvRGVkWVNCWDlKWHJRaGs?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbnFxN0RDZC1tcklGcjhldjRuYXNscV9WMnVQR2pjUGRGY052U0lSeUp3VXd4ZC04SWo0d3NYUWptbFhsM1NlcWJZZjltSS1MbF9OTzBvM2lpS0kxV0dacUo5RFRfOHFLUVhQczNfV0NiQllRVjZKTkktU29ZYWZyTVg0TVBXc0h1Qk5WTmtGTk52aWEzbzNfVWltUFotRjZUOTFmaTY5NEZXUkY5X1AxWW5tZXhsNXEzQWtDVDRtTXlDWmtnUGdzYQ?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbnFxN0RDZC1tcklGcjhldjRuYXNscV9WMnVQR2pjUGRGY052U0lSeUp3VXd4ZC04SWo0d3NYUWptbFhsM1NlcWJZZjltSS1MbF9OTzBvM2lpS0kxV0dacUo5RFRfOHFLUVhQczNfV0NiQllRVjZKTkktU29ZYWZyTVg0TVBXc0h1Qk5WTmtGTk52aWEzbzNfVWltUFotRjZUOTFmaTY5NEZXUkY5X1AxWW5tZXhsNXEzQWtDVDRtTXlDWmtnUGdzYQ?oc=5",
+    "title": "HII Awarded Largest International Unmanned Systems Contract in Company History by UK Ministry of Defence - HII",
+    "title_ja": "HII、英国国防省より企業史上最大の国際無人システム契約を獲得 - HII",
+    "source": "Mission Technologies / HII",
+    "language": "en",
+    "publishedAt": "2026-11-25T06:45:47+00:00",
+    "category": "技術",
+    "summary": "HII Awarded Largest International Unmanned Systems Contract in Company History by UK Ministry of Defence HII",
+    "summary_ja": "HII、英国国防省より企業史上最大の国際無人システム契約を獲得 HII",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbnFxN0RDZC1tcklGcjhldjRuYXNscV9WMnVQR2pjUGRGY052U0lSeUp3VXd4ZC04SWo0d3NYUWptbFhsM1NlcWJZZjltSS1MbF9OTzBvM2lpS0kxV0dacUo5RFRfOHFLUVhQczNfV0NiQllRVjZKTkktU29ZYWZyTVg0TVBXc0h1Qk5WTmtGTk52aWEzbzNfVWltUFotRjZUOTFmaTY5NEZXUkY5X1AxWW5tZXhsNXEzQWtDVDRtTXlDWmtnUGdzYQ?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://www.navalnews.com/naval-news/2026/11/uk-awards-hii-142-million-contract-for-royal-navy-remus-620-uuvs/",
+    "articleUrl": "https://www.navalnews.com/naval-news/2026/11/uk-awards-hii-142-million-contract-for-royal-navy-remus-620-uuvs/",
+    "title": "UK Awards HII £142 Million Contract for Royal Navy REMUS 620 UUVs",
+    "title_ja": "英国、HII と英国海軍 REMUS 620 UUV の 1 億 4,200 万ポンドの契約を締結",
+    "source": "Naval News",
+    "language": "en",
+    "publishedAt": "2026-11-25T06:38:53+00:00",
+    "category": "UUV/AUV",
+    "summary": "The UK Ministry of Defence has awarded HII a £142 million ($186 million) contract to supply REMUS 620 UUVs and Sea Launchers for the Royal Navy MHC program. The post UK Awards HII £142 Million Contract for Royal Navy REMUS 620 UUVs appeared first on Naval News .",
+    "summary_ja": "英国国防省は、英国海軍のMHCプログラムにREMUS 620 UUVとシーランチャーを供給する1億4,200万ポンド（1億8,600万ドル）の契約をHIIに締結した。英国が英国海軍 REMUS 620 UUV に HII 1 億 4,200 万ポンドの契約を授与したという記事が、Naval News に最初に掲載されました。",
+    "url": "https://www.navalnews.com/naval-news/2026/11/uk-awards-hii-142-million-contract-for-royal-navy-remus-620-uuvs/",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE51bExBYlhMbDNiT3FmZUNYbDlQTlpLcl8wMW5relowcHJRRk5oaWhJU1Vsb2hFZGREMWlsakJtUnFRLU9fNE43Tzh0WFI2aWVmMXkw?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE51bExBYlhMbDNiT3FmZUNYbDlQTlpLcl8wMW5relowcHJRRk5oaWhJU1Vsb2hFZGREMWlsakJtUnFRLU9fNE43Tzh0WFI2aWVmMXkw?oc=5",
+    "title": "宇宙サイバーセキュリティの市場規模、シェア、動向、2031年までの世界予測（MarketsandMarkets） - ZDNET Japan",
+    "title_ja": "宇宙サイバーセキュリティの市場規模、シェア、動向、2031年までの世界予測（MarketsandMarkets） - ZDNET Japan",
+    "source": "宇宙・サイバー防衛",
+    "language": "ja",
+    "publishedAt": "2026-11-25T06:30:00+00:00",
+    "category": "宇宙",
+    "summary": "宇宙サイバーセキュリティの市場規模、シェア、動向、2031年までの世界予測（MarketsandMarkets） ZDNET Japan",
+    "summary_ja": "宇宙サイバーセキュリティの市場規模、シェア、動向、2031年までの世界予測（MarketsandMarkets） ZDNET Japan",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE51bExBYlhMbDNiT3FmZUNYbDlQTlpLcl8wMW5relowcHJRRk5oaWhJU1Vsb2hFZGREMWlsakJtUnFRLU9fNE43Tzh0WFI2aWVmMXkw?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTE16SUZEdGdjNFpsS3VhZzloZ2tlSWpSMUlCSG9IdjZjcUx0MDFXUGpOczB5U3c4SFNNNGlJbjRKdEpXZjlxUGxDbl9ZaTNJOWhMRjRtUncweWFpb21TMFBRZVc2ZlVBXzhydXZDaV9MRmEwQkdrTjRHUkZvOA?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE16SUZEdGdjNFpsS3VhZzloZ2tlSWpSMUlCSG9IdjZjcUx0MDFXUGpOczB5U3c4SFNNNGlJbjRKdEpXZjlxUGxDbl9ZaTNJOWhMRjRtUncweWFpb21TMFBRZVc2ZlVBXzhydXZDaV9MRmEwQkdrTjRHUkZvOA?oc=5",
+    "title": "【お知らせ】日シンガポール防衛相会談 共同プレスステートメント - 防衛省",
+    "title_ja": "【お知らせ】日シンガポール防衛相会談 共同プレスステートメント - 防衛省",
+    "source": "防衛省・自衛隊",
+    "language": "ja",
+    "publishedAt": "2026-11-25T04:59:44+00:00",
+    "category": "国際情勢",
+    "summary": "【お知らせ】日シンガポール防衛相会談 共同プレスステートメント 防衛省",
+    "summary_ja": "【お知らせ】日シンガポール防衛相会談 共同プレスステートメント 防衛省",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE16SUZEdGdjNFpsS3VhZzloZ2tlSWpSMUlCSG9IdjZjcUx0MDFXUGpOczB5U3c4SFNNNGlJbjRKdEpXZjlxUGxDbl9ZaTNJOWhMRjRtUncweWFpb21TMFBRZVc2ZlVBXzhydXZDaV9MRmEwQkdrTjRHUkZvOA?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpeC1hdG05d1QtNmIxNWk3S1NXN1BiaENoOW14Tl9RckU2RlR1Q19BMDhqYjJqRmQ0b0d1d3V1VUI3bmhWZ09OWklNOVpTekF6dGFFc09jd0xlel92dFJFd2JWbndxcl95X3pfMTRaRVR5djBBVEpfRjROYnZ6QVk?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpeC1hdG05d1QtNmIxNWk3S1NXN1BiaENoOW14Tl9RckU2RlR1Q19BMDhqYjJqRmQ0b0d1d3V1VUI3bmhWZ09OWklNOVpTekF6dGFFc09jd0xlel92dFJFd2JWbndxcl95X3pfMTRaRVR5djBBVEpfRjROYnZ6QVk?oc=5",
+    "title": "陸上自衛隊で後輩に「バカ」「自衛隊やめろ」など暴言…精神的苦痛を与えたとして兵庫・伊丹駐屯地の2等陸曹を戒告処分 - Yahoo!ニュース",
+    "title_ja": "陸上自衛隊で後輩に「バカ」「自衛隊やめろ」など暴言…精神的苦痛を与えたとして兵庫・伊丹駐屯地の2等陸曹を戒告処分 - Yahoo!ニュース",
+    "source": "防衛省・自衛隊",
+    "language": "ja",
+    "publishedAt": "2026-11-25T03:27:29+00:00",
+    "category": "陸上防衛",
+    "summary": "陸上自衛隊で後輩に「バカ」「自衛隊やめろ」など暴言…精神的苦痛を与えたとして兵庫・伊丹駐屯地の2等陸曹を戒告処分 Yahoo!ニュース",
+    "summary_ja": "陸上自衛隊で後輩に「バカ」「自衛隊やめろ」など暴言…精神的苦痛を与えたとして兵庫・伊丹駐屯地の2等陸曹を戒告処分 Yahoo!ニュース",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpeC1hdG05d1QtNmIxNWk3S1NXN1BiaENoOW14Tl9RckU2RlR1Q19BMDhqYjJqRmQ0b0d1d3V1VUI3bmhWZ09OWklNOVpTekF6dGFFc09jd0xlel92dFJFd2JWbndxcl95X3pfMTRaRVR5djBBVEpfRjROYnZ6QVk?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObjAtVXNPZWhWQ2hXdDNvRExYbVJLYlNEN21sSF83d3J2cEptdFZVYnVXSDRuWjJVT2pNVlNkVFR1WUNSRWF2UjdHM3J0YmVXRWxEeVd0MnptX080cTI2aG9TQjlScFZwT3FlOVhSYTEzSXpoNTRqNHd6OFNhVDJCdmRMNnQ4TlRLWEljMTZ5VDhORVFjandjYlNYTDY2WGp50gGgAUFVX3lxTE5uMC1Vc09laFZDaFd0M29ETFhtUktiU0Q3bWxIXzd3cnZwSm10VlVidVdING5aMlVPak1WU2RUVHVZQ1JFYXZSN0czcnRiZVdFbER5V3Qyem1fTzRxMjZob1NCOVJwVnBPcWU5WFJhMTNJemg1NGo0d3o4U2FUMkJ2ZEw2dDhOVEtYSWMxNnlUOE5FUWNqd2NiU1hMNjZYank?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObjAtVXNPZWhWQ2hXdDNvRExYbVJLYlNEN21sSF83d3J2cEptdFZVYnVXSDRuWjJVT2pNVlNkVFR1WUNSRWF2UjdHM3J0YmVXRWxEeVd0MnptX080cTI2aG9TQjlScFZwT3FlOVhSYTEzSXpoNTRqNHd6OFNhVDJCdmRMNnQ4TlRLWEljMTZ5VDhORVFjandjYlNYTDY2WGp50gGgAUFVX3lxTE5uMC1Vc09laFZDaFd0M29ETFhtUktiU0Q3bWxIXzd3cnZwSm10VlVidVdING5aMlVPak1WU2RUVHVZQ1JFYXZSN0czcnRiZVdFbER5V3Qyem1fTzRxMjZob1NCOVJwVnBPcWU5WFJhMTNJemg1NGo0d3o4U2FUMkJ2ZEw2dDhOVEtYSWMxNnlUOE5FUWNqd2NiU1hMNjZYank?oc=5",
+    "title": "防衛分野のサイバーセキュリティ需要は、ジェネラル・ダイナミクスの株式投資家にとって何らかの対応を必要とするものなのか？ - Simply Wall St",
+    "title_ja": "防衛分野のサイバーセキュリティ需要は、ジェネラル・ダイナミクスの株式投資家にとって何らかの対応を必要とするものなのか？ - Simply Wall St",
+    "source": "宇宙・サイバー防衛",
+    "language": "ja",
+    "publishedAt": "2026-11-25T01:10:23+00:00",
+    "category": "サイバー",
+    "summary": "防衛分野のサイバーセキュリティ需要は、ジェネラル・ダイナミクスの株式投資家にとって何らかの対応を必要とするものなのか？ Simply Wall St",
+    "summary_ja": "防衛分野のサイバーセキュリティ需要は、ジェネラル・ダイナミクスの株式投資家にとって何らかの対応を必要とするものなのか？ Simply Wall St",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObjAtVXNPZWhWQ2hXdDNvRExYbVJLYlNEN21sSF83d3J2cEptdFZVYnVXSDRuWjJVT2pNVlNkVFR1WUNSRWF2UjdHM3J0YmVXRWxEeVd0MnptX080cTI2aG9TQjlScFZwT3FlOVhSYTEzSXpoNTRqNHd6OFNhVDJCdmRMNnQ4TlRLWEljMTZ5VDhORVFjandjYlNYTDY2WGp50gGgAUFVX3lxTE5uMC1Vc09laFZDaFd0M29ETFhtUktiU0Q3bWxIXzd3cnZwSm10VlVidVdING5aMlVPak1WU2RUVHVZQ1JFYXZSN0czcnRiZVdFbER5V3Qyem1fTzRxMjZob1NCOVJwVnBPcWU5WFJhMTNJemg1NGo0d3o4U2FUMkJ2ZEw2dDhOVEtYSWMxNnlUOE5FUWNqd2NiU1hMNjZYank?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hQ0tSdHZjTTlQRTJGaUZhbzRXa2UwZDdTLVpaanZBRGdIMkJnV2FDa0l0bGFtUXVJcUlpLXpWdjVfLWEwaEVTdE9NSmJuejBpdk1VSXl4M3kxRThEMmhfaFUyUkJ3UTZ5RUdiRQ?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hQ0tSdHZjTTlQRTJGaUZhbzRXa2UwZDdTLVpaanZBRGdIMkJnV2FDa0l0bGFtUXVJcUlpLXpWdjVfLWEwaEVTdE9NSmJuejBpdk1VSXl4M3kxRThEMmhfaFUyUkJ3UTZ5RUdiRQ?oc=5",
+    "title": "大島造船に新型ショップライン納入新東工業、自動で異常予兆検知 | 造船・舶用 | ニュース - 海事プレスONLINE",
+    "title_ja": "大島造船に新型ショップライン納入新東工業、自動で異常予兆検知 | 造船・舶用 | ニュース - 海事プレスONLINE",
+    "source": "海事プレス KAIJI PRESS",
+    "language": "ja",
+    "publishedAt": "2026-11-25T01:00:42+00:00",
+    "category": "海上防衛",
+    "summary": "大島造船に新型ショップライン納入新東工業、自動で異常予兆検知 | 造船・舶用 | ニュース 海事プレスONLINE",
+    "summary_ja": "大島造船に新型ショップライン納入新東工業、自動で異常予兆検知 | 造船・舶用 | ニュース 海事プレスONLINE",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hQ0tSdHZjTTlQRTJGaUZhbzRXa2UwZDdTLVpaanZBRGdIMkJnV2FDa0l0bGFtUXVJcUlpLXpWdjVfLWEwaEVTdE9NSmJuejBpdk1VSXl4M3kxRThEMmhfaFUyUkJ3UTZ5RUdiRQ?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRUpVTGRWOXB6ZzdGZWJtX1NMQVlHUloyRmx4ZFVodzZNeXRmYXNPOW93a2xVb1hEcFJYV0pKRDdjV1dSOFR3RTZoRmdTWEhQNDVhQ1pRZktWQU9qcUxmRFlJZFkxaEtqZFQ2cDU2REF4MmVjSUZQZ2ZmQ3VENWdkNEZsYmlrWVVlZU9OTHJHVDR2NUZpZnpEYU50Z1B5Yy05dFdXVnh1RldTS0tv?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRUpVTGRWOXB6ZzdGZWJtX1NMQVlHUloyRmx4ZFVodzZNeXRmYXNPOW93a2xVb1hEcFJYV0pKRDdjV1dSOFR3RTZoRmdTWEhQNDVhQ1pRZktWQU9qcUxmRFlJZFkxaEtqZFQ2cDU2REF4MmVjSUZQZ2ZmQ3VENWdkNEZsYmlrWVVlZU9OTHJHVDR2NUZpZnpEYU50Z1B5Yy05dFdXVnh1RldTS0tv?oc=5",
+    "title": "HII Dedicates 23rd Habitat for Humanity Home Sponsored by Newport News Shipbuilding - HII",
+    "title_ja": "HII、ニューポート ニューズ造船所の後援により人類のための第 23 の居住地を竣工 - HII",
+    "source": "Mission Technologies / HII",
+    "language": "en",
+    "publishedAt": "2026-11-24T22:40:50+00:00",
+    "category": "技術",
+    "summary": "HII Dedicates 23rd Habitat for Humanity Home Sponsored by Newport News Shipbuilding HII",
+    "summary_ja": "HII がニューポート ニューズ造船 HII の後援により人類のための 23 番目の居住地を献堂",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRUpVTGRWOXB6ZzdGZWJtX1NMQVlHUloyRmx4ZFVodzZNeXRmYXNPOW93a2xVb1hEcFJYV0pKRDdjV1dSOFR3RTZoRmdTWEhQNDVhQ1pRZktWQU9qcUxmRFlJZFkxaEtqZFQ2cDU2REF4MmVjSUZQZ2ZmQ3VENWdkNEZsYmlrWVVlZU9OTHJHVDR2NUZpZnpEYU50Z1B5Yy05dFdXVnh1RldTS0tv?oc=5",
+    "isSample": false
+  },
+  {
     "id": "https://www.gov.uk/government/news/142-million-navy-investment-strengthens-uk-security-and-british-jobs",
     "articleUrl": "https://www.gov.uk/government/news/142-million-navy-investment-strengthens-uk-security-and-british-jobs",
     "title": "£142 million Navy investment strengthens UK security and British jobs",
@@ -11,6 +193,20 @@
     "summary": "The UK’s ability to protect vital sea routes is set to be strengthened through a £142 million investment in unmanned underwater vehicles.",
     "summary_ja": "重要な航路を保護する英国の能力は、無人水中車両への1億4,200万ポンドの投資を通じて強化される予定である。",
     "url": "https://www.gov.uk/government/news/142-million-navy-investment-strengthens-uk-security-and-british-jobs",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VZmdfTWRYWk1oNEd4bndfMUcyWTloSVpvVWZtTHMzbWVGRWs2QlkxdjZBSzBLMEhOdkpybDNEakZ1aTFHUkJDZGFFUE1EdU1jbjh5Q2JBanhHcEhDQlVPTlczM0EteEhEdGo5Yg?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VZmdfTWRYWk1oNEd4bndfMUcyWTloSVpvVWZtTHMzbWVGRWs2QlkxdjZBSzBLMEhOdkpybDNEakZ1aTFHUkJDZGFFUE1EdU1jbjh5Q2JBanhHcEhDQlVPTlczM0EteEhEdGo5Yg?oc=5",
+    "title": "CSAF presents Presidential Unit Citation to 509th, 131st Bomb Wings - U.S. Strategic Command (.mil)",
+    "title_ja": "CSAF、第509、第131爆撃航空団に大統領部隊表彰状を授与 - 米国戦略軍 (.mil)",
+    "source": "U.S. Strategic Command",
+    "language": "en",
+    "publishedAt": "2026-11-24T22:22:30+00:00",
+    "category": "宇宙",
+    "summary": "CSAF presents Presidential Unit Citation to 509th, 131st Bomb Wings U.S. Strategic Command (.mil)",
+    "summary_ja": "CSAF、第509、第131爆撃航空団米国戦略軍（.mil）に大統領部隊表彰状を贈呈",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VZmdfTWRYWk1oNEd4bndfMUcyWTloSVpvVWZtTHMzbWVGRWs2QlkxdjZBSzBLMEhOdkpybDNEakZ1aTFHUkJDZGFFUE1EdU1jbjh5Q2JBanhHcEhDQlVPTlczM0EteEhEdGo5Yg?oc=5",
     "isSample": false
   },
   {
@@ -42,17 +238,17 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdEpTbHk2SnJZdVJYMG9TTlY3UFZrZFIxTjNYOXFJbUVpUmMwWWFYNkZUZlByWkE1TGVXelowREJaeDlpWW93c0pfaTVEWUx1QlBXSUVCcFkzWkpIME4xNW1HbW80bVBHeU1mOGJjWi1NLUZ2VzJsRVJOLXhWSDl0b1RWUjFvclRtdlE?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdEpTbHk2SnJZdVJYMG9TTlY3UFZrZFIxTjNYOXFJbUVpUmMwWWFYNkZUZlByWkE1TGVXelowREJaeDlpWW93c0pfaTVEWUx1QlBXSUVCcFkzWkpIME4xNW1HbW80bVBHeU1mOGJjWi1NLUZ2VzJsRVJOLXhWSDl0b1RWUjFvclRtdlE?oc=5",
-    "title": "Masts Installed On Second Royal Navy Type 31 Frigate - Navy Leaders",
-    "title_ja": "イギリス海軍の 2 番艦タイプ 31 フリゲートにマストが設置 - 海軍指導者",
+    "id": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTDV0Wk8wVmQxS28tZWxwejVXX1B0VkhEZzJfWmpjcDh1MVl6dmxWUTJBZGRjcmxkd0FYRFNNODVvdlNrRzlFeGxpRGNYelgtYll6ZEFIU2Q1UjlmUHgzc1B4Uk5paE8tZ05oUEU1SG5iRnhhcnlhaTB5SFJSSU1yTEwzQQ?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTDV0Wk8wVmQxS28tZWxwejVXX1B0VkhEZzJfWmpjcDh1MVl6dmxWUTJBZGRjcmxkd0FYRFNNODVvdlNrRzlFeGxpRGNYelgtYll6ZEFIU2Q1UjlmUHgzc1B4Uk5paE8tZ05oUEU1SG5iRnhhcnlhaTB5SFJSSU1yTEwzQQ?oc=5",
+    "title": "New US Coast Guard Cutter Welcomed Into Service - Navy Leaders",
+    "title_ja": "新しい米国沿岸警備隊のカッターが就役を歓迎 - 海軍指導者",
     "source": "Navy Leaders",
     "language": "en",
-    "publishedAt": "2026-11-24T19:02:04+00:00",
+    "publishedAt": "2026-11-24T19:02:03+00:00",
     "category": "海上防衛",
-    "summary": "Masts Installed On Second Royal Navy Type 31 Frigate Navy Leaders",
-    "summary_ja": "イギリス海軍の 2 番艦タイプ 31 フリゲート海軍リーダーに設置されたマスト",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdEpTbHk2SnJZdVJYMG9TTlY3UFZrZFIxTjNYOXFJbUVpUmMwWWFYNkZUZlByWkE1TGVXelowREJaeDlpWW93c0pfaTVEWUx1QlBXSUVCcFkzWkpIME4xNW1HbW80bVBHeU1mOGJjWi1NLUZ2VzJsRVJOLXhWSDl0b1RWUjFvclRtdlE?oc=5",
+    "summary": "New US Coast Guard Cutter Welcomed Into Service Navy Leaders",
+    "summary_ja": "米国沿岸警備隊の新しいカッターが海軍指導者に歓迎される",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTDV0Wk8wVmQxS28tZWxwejVXX1B0VkhEZzJfWmpjcDh1MVl6dmxWUTJBZGRjcmxkd0FYRFNNODVvdlNrRzlFeGxpRGNYelgtYll6ZEFIU2Q1UjlmUHgzc1B4Uk5paE8tZ05oUEU1SG5iRnhhcnlhaTB5SFJSSU1yTEwzQQ?oc=5",
     "isSample": false
   },
   {
@@ -95,6 +291,34 @@
     "summary": "Amphibious assault ship USS Makin Island (LHD-8) and amphibious transport dock USS John P. Murtha (LPD-26) departed Tuesday from Sembawang, Singapore, and are heading toward the Indian Ocean. Makin Island and John P. Murtha, embarked with elements of the 13th Marine Expeditionary Unit, are transiting north through the Malacca Strait, according to local ship spotters and AIS data. AIS data shows the two ships were in the Malacca Strait south of Malaysia’s capital of Kuala Lumpur at 10 p.m. local time with fleet oiler USNS Rappahannock (T-AO-204). Makin Island, John P. Murtha, amphibious transport dock USS Anchorage (LPD-23) and the",
     "summary_ja": "強襲揚陸艦マキン・アイランド(LHD-8)と水陸両用輸送ドックUSSジョン・P・マーサ(LPD-26)は火曜日、シンガポールのセンバワンから出港し、インド洋に向かっています。地元の船舶監視員とAISのデータによると、第13海兵遠征部隊の部隊を乗せたマキン島とジョン・P・マーサはマラッカ海峡を北に航行している。 AISのデータによると、2隻は午後10時にマレーシアの首都クアラルンプールの南にあるマラ",
     "url": "https://news.usni.org/2026/11/24/amphibs-uss-makin-island-uss-john-p-murtha-depart-singapore",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16cVpVcTEyOHZHZVNsa2NCRTJtUVI0M0h4NjNrd3ByQ003ajBqd0tlNks5WTRCS2kxeEh1NUsyWFZBRXBVVGl1YkJQcTBHeVJVODVYTWRhNXg3cEhCQUpyV2hTbjFLbmdPRU1VYw?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16cVpVcTEyOHZHZVNsa2NCRTJtUVI0M0h4NjNrd3ByQ003ajBqd0tlNks5WTRCS2kxeEh1NUsyWFZBRXBVVGl1YkJQcTBHeVJVODVYTWRhNXg3cEhCQUpyV2hTbjFLbmdPRU1VYw?oc=5",
+    "title": "防衛省、自衛官の定数削減へ 「AI指揮統制」で人手補強 - 日本経済新聞",
+    "title_ja": "防衛省、自衛官の定数削減へ 「AI指揮統制」で人手補強 - 日本経済新聞",
+    "source": "防衛省・自衛隊",
+    "language": "ja",
+    "publishedAt": "2026-11-24T17:00:00+00:00",
+    "category": "技術",
+    "summary": "防衛省、自衛官の定数削減へ 「AI指揮統制」で人手補強 日本経済新聞",
+    "summary_ja": "防衛省、自衛官の定数削減へ 「AI指揮統制」で人手補強 日本経済新聞",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16cVpVcTEyOHZHZVNsa2NCRTJtUVI0M0h4NjNrd3ByQ003ajBqd0tlNks5WTRCS2kxeEh1NUsyWFZBRXBVVGl1YkJQcTBHeVJVODVYTWRhNXg3cEhCQUpyV2hTbjFLbmdPRU1VYw?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OdW1rd1dyeHNUVnNRUkkxck5pNTlQR3dGWlBrUm9XMWZ4TVAxWE5sZlM4aHVDSVZJalNyMmJaak9qUGVFZEx0NjVLZ3UzbDZjQmFOUUhRMGdwVVRXcUI3MFgybENtdmVQaGNxXzctZ0ZwcmtHQndlcEJCQQ?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OdW1rd1dyeHNUVnNRUkkxck5pNTlQR3dGWlBrUm9XMWZ4TVAxWE5sZlM4aHVDSVZJalNyMmJaak9qUGVFZEx0NjVLZ3UzbDZjQmFOUUhRMGdwVVRXcUI3MFgybENtdmVQaGNxXzctZ0ZwcmtHQndlcEJCQQ?oc=5",
+    "title": "Data Vulnerabilities in U.S.-China Competition - CSIS | Center for Strategic and International Studies",
+    "title_ja": "米中競争におけるデータの脆弱性 - CSIS |戦略国際​​問題研究センター",
+    "source": "CSIS Japan Chair",
+    "language": "en",
+    "publishedAt": "2026-11-24T16:52:01+00:00",
+    "category": "国際情勢",
+    "summary": "Data Vulnerabilities in U.S.-China Competition CSIS | Center for Strategic and International Studies",
+    "summary_ja": "米中競争におけるデータの脆弱性 CSIS |戦略国際​​問題研究センター",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9OdW1rd1dyeHNUVnNRUkkxck5pNTlQR3dGWlBrUm9XMWZ4TVAxWE5sZlM4aHVDSVZJalNyMmJaak9qUGVFZEx0NjVLZ3UzbDZjQmFOUUhRMGdwVVRXcUI3MFgybENtdmVQaGNxXzctZ0ZwcmtHQndlcEJCQQ?oc=5",
     "isSample": false
   },
   {
@@ -151,6 +375,34 @@
     "summary": "Wes Streeting has become the first UK Defence Secretary to visit Kharkiv – 20km from the frontline in Eastern Ukraine – meeting troops at the forefront of Ukraine’s fight for freedom and reaffirming the UK’s unwavering commitment to stand with the Ukrainian people.",
     "summary_ja": "ウェス・ストリーティング氏は、ウクライナ東部の最前線から20キロ離れたハリコフを英国国防長官として初めて訪問し、ウクライナの自由を求める戦いの最前線にいる軍隊と面会し、ウクライナ国民とともにあるという英国の揺るぎない決意を再確認した。",
     "url": "https://www.gov.uk/government/news/first-uk-defence-secretary-to-visit-kharkiv-as-uk-ramps-up-support-for-ukraine",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1JTjFUMG1hZXlIZVludnJTTnZ0QWpwdnJjZmtMd2JxY3pIeVVnR0h6TXY5a2xiLVA3Z2ttV0luSnZqeW5ZTlRWeFhpUjViWllIa2lIMzR3Q2FBMU9DR3kzQVdjQWY0VDQ?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1JTjFUMG1hZXlIZVludnJTTnZ0QWpwdnJjZmtMd2JxY3pIeVVnR0h6TXY5a2xiLVA3Z2ttV0luSnZqeW5ZTlRWeFhpUjViWllIa2lIMzR3Q2FBMU9DR3kzQVdjQWY0VDQ?oc=5",
+    "title": "総合海運の強みが業績に反映商船三井・田村城太郎社長に聞く | 海運＜経営・全般＞ | ニュース - 海事プレスONLINE",
+    "title_ja": "総合海運の強みが業績に反映商船三井・田村城太郎社長に聞く | 海運＜経営・全般＞ | ニュース - 海事プレスONLINE",
+    "source": "海事プレス KAIJI PRESS",
+    "language": "ja",
+    "publishedAt": "2026-11-24T15:00:31+00:00",
+    "category": "海上防衛",
+    "summary": "総合海運の強みが業績に反映商船三井・田村城太郎社長に聞く | 海運＜経営・全般＞ | ニュース 海事プレスONLINE",
+    "summary_ja": "総合海運の強みが業績に反映商船三井・田村城太郎社長に聞く | 海運＜経営・全般＞ | ニュース 海事プレスONLINE",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1JTjFUMG1hZXlIZVludnJTTnZ0QWpwdnJjZmtMd2JxY3pIeVVnR0h6TXY5a2xiLVA3Z2ttV0luSnZqeW5ZTlRWeFhpUjViWllIa2lIMzR3Q2FBMU9DR3kzQVdjQWY0VDQ?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBhLUJUXzdTMmhnQ1BrdzAtUTBoT3ZlVWRneUlMWXRWN0lVU2Zfell2SjUwc3Y4S1VWUEpyallQcFp4THNuc1E?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBhLUJUXzdTMmhnQ1BrdzAtUTBoT3ZlVWRneUlMWXRWN0lVU2Zfell2SjUwc3Y4S1VWUEpyallQcFp4THNuc1E?oc=5",
+    "title": "Sakana Namazu Small - Sakana AI",
+    "title_ja": "さかな鯰 小 - さかなAI",
+    "source": "Sakana AI",
+    "language": "en",
+    "publishedAt": "2026-11-24T15:00:00+00:00",
+    "category": "技術",
+    "summary": "Sakana Namazu Small Sakana AI",
+    "summary_ja": "さかな鯰 小さかなAI",
+    "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBhLUJUXzdTMmhnQ1BrdzAtUTBoT3ZlVWRneUlMWXRWN0lVU2Zfell2SjUwc3Y4S1VWUEpyallQcFp4THNuc1E?oc=5",
     "isSample": false
   },
   {
@@ -224,17 +476,17 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LeUhXb2kxUjkzTHdIZkp2Z1dFVkVRN05RU0ZvS0VNcFlxMmlxVmdnS19mdERJSzZLOE9MVmJ2emlFVDE3S05WWkRQUnhYYUVoaTZDNHAyV3hHUGo3Qjhhd1doS214bUxZeE1xUmNRdGFPWmNvX2JKc2RtZENrbDQ?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LeUhXb2kxUjkzTHdIZkp2Z1dFVkVRN05RU0ZvS0VNcFlxMmlxVmdnS19mdERJSzZLOE9MVmJ2emlFVDE3S05WWkRQUnhYYUVoaTZDNHAyV3hHUGo3Qjhhd1doS214bUxZeE1xUmNRdGFPWmNvX2JKc2RtZENrbDQ?oc=5",
-    "title": "安保3文書改定に向けて維新が防衛産業の業界団体からヒアリング（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-    "title_ja": "安保3文書改定に向けて維新が防衛産業の業界団体からヒアリング（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-    "source": "防衛装備・防衛産業",
-    "language": "ja",
-    "publishedAt": "2026-11-24T14:21:49+00:00",
-    "category": "技術",
-    "summary": "安保3文書改定に向けて維新が防衛産業の業界団体からヒアリング（TBS NEWS DIG Powered by JNN） Yahoo!ニュース",
-    "summary_ja": "安保3文書改定に向けて維新が防衛産業の業界団体からヒアリング（TBS NEWS DIG Powered by JNN） Yahoo!ニュース",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LeUhXb2kxUjkzTHdIZkp2Z1dFVkVRN05RU0ZvS0VNcFlxMmlxVmdnS19mdERJSzZLOE9MVmJ2emlFVDE3S05WWkRQUnhYYUVoaTZDNHAyV3hHUGo3Qjhhd1doS214bUxZeE1xUmNRdGFPWmNvX2JKc2RtZENrbDQ?oc=5",
+    "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSkNhWF8wT1Zxa0FsT1B1OGFLMVZTeHpOS3FlTm8wYWh1LWlOY0RkbGlzZHFLc2c2RjVzSFdNRUlfOXZ0V0l4VU9OcXdUQ0oyYWo0R2w4ZTlhcWVCV0M1LU5mci1kOEtrZVk1R3lHcnVpdS11VGd2VzFwQ3hqdHNrWXhuRWtwWlVDMktrdzhxZw?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSkNhWF8wT1Zxa0FsT1B1OGFLMVZTeHpOS3FlTm8wYWh1LWlOY0RkbGlzZHFLc2c2RjVzSFdNRUlfOXZ0V0l4VU9OcXdUQ0oyYWo0R2w4ZTlhcWVCV0M1LU5mci1kOEtrZVk1R3lHcnVpdS11VGd2VzFwQ3hqdHNrWXhuRWtwWlVDMktrdzhxZw?oc=5",
+    "title": "How Repression in China Shaped Syria’s Civil War - CSIS | Center for Strategic and International Studies",
+    "title_ja": "中国の弾圧がシリア内戦をどのように形作ったのか - CSIS |戦略国際​​問題研究センター",
+    "source": "CSIS Japan Chair",
+    "language": "en",
+    "publishedAt": "2026-11-24T13:45:19+00:00",
+    "category": "国際情勢",
+    "summary": "How Repression in China Shaped Syria’s Civil War CSIS | Center for Strategic and International Studies",
+    "summary_ja": "中国の弾圧がシリア内戦をどのように形作ったのか CSIS |戦略国際​​問題研究センター",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSkNhWF8wT1Zxa0FsT1B1OGFLMVZTeHpOS3FlTm8wYWh1LWlOY0RkbGlzZHFLc2c2RjVzSFdNRUlfOXZ0V0l4VU9OcXdUQ0oyYWo0R2w4ZTlhcWVCV0M1LU5mci1kOEtrZVk1R3lHcnVpdS11VGd2VzFwQ3hqdHNrWXhuRWtwWlVDMktrdzhxZw?oc=5",
     "isSample": false
   },
   {
@@ -294,17 +546,17 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5RcG9Fczc1ZWNRRUNzRno5LTJYUVZIbHdIdXcyTThIU3VrUVh6OXlxV1NQa210UzJrWjl5a1plQUFDZw?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5RcG9Fczc1ZWNRRUNzRno5LTJYUVZIbHdIdXcyTThIU3VrUVh6OXlxV1NQa210UzJrWjl5a1plQUFDZw?oc=5",
-    "title": "- shield.ai",
-    "title_ja": "- シールド.ai",
-    "source": "Shield AI",
-    "language": "en",
-    "publishedAt": "2026-11-24T11:36:09+00:00",
-    "category": "技術",
-    "summary": "shield.ai",
-    "summary_ja": "シールド.ai",
-    "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5RcG9Fczc1ZWNRRUNzRno5LTJYUVZIbHdIdXcyTThIU3VrUVh6OXlxV1NQa210UzJrWjl5a1plQUFDZw?oc=5",
+    "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yT2VSVHk1REozc2hMWDU5anpUbEtlNEVlVzZvMjZpUXhNcHBzakh0VVJaZkw0NDJoOUZSSkU3TnI4dDNpODNTLWlaZHdjakpfV2NZODNjNDIyMVcxQUZIUHRDR251UWxTVm8xTV9iR3FibVduNmlIX2hTaUdpOXc?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yT2VSVHk1REozc2hMWDU5anpUbEtlNEVlVzZvMjZpUXhNcHBzakh0VVJaZkw0NDJoOUZSSkU3TnI4dDNpODNTLWlaZHdjakpfV2NZODNjNDIyMVcxQUZIUHRDR251UWxTVm8xTV9iR3FibVduNmlIX2hTaUdpOXc?oc=5",
+    "title": "女性366人の個人情報を漏洩 三原市が自衛隊広島地方協力本部に誤って提供 自衛隊側が書き写して持ち帰る 2日後に自衛隊側から連絡受け判明（RCC中国放送） - Yahoo!ニュース",
+    "title_ja": "女性366人の個人情報を漏洩 三原市が自衛隊広島地方協力本部に誤って提供 自衛隊側が書き写して持ち帰る 2日後に自衛隊側から連絡受け判明（RCC中国放送） - Yahoo!ニュース",
+    "source": "防衛省・自衛隊",
+    "language": "ja",
+    "publishedAt": "2026-11-24T11:12:16+00:00",
+    "category": "国際情勢",
+    "summary": "女性366人の個人情報を漏洩 三原市が自衛隊広島地方協力本部に誤って提供 自衛隊側が書き写して持ち帰る 2日後に自衛隊側から連絡受け判明（RCC中国放送） Yahoo!ニュース",
+    "summary_ja": "女性366人の個人情報を漏洩 三原市が自衛隊広島地方協力本部に誤って提供 自衛隊側が書き写して持ち帰る 2日後に自衛隊側から連絡受け判明（RCC中国放送） Yahoo!ニュース",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yT2VSVHk1REozc2hMWDU5anpUbEtlNEVlVzZvMjZpUXhNcHBzakh0VVJaZkw0NDJoOUZSSkU3TnI4dDNpODNTLWlaZHdjakpfV2NZODNjNDIyMVcxQUZIUHRDR251UWxTVm8xTV9iR3FibVduNmlIX2hTaUdpOXc?oc=5",
     "isSample": false
   },
   {
@@ -336,20 +588,6 @@
     "isSample": false
   },
   {
-    "id": "https://www.gov.uk/guidance/information-for-defence-personnel-about-usa-tax-regulations",
-    "articleUrl": "https://www.gov.uk/guidance/information-for-defence-personnel-about-usa-tax-regulations",
-    "title": "Information for defence personnel about USA tax regulations",
-    "title_ja": "米国の税規制に関する国防関係者向けの情報",
-    "source": "UK Ministry of Defence",
-    "language": "en",
-    "publishedAt": "2026-11-24T09:18:33+00:00",
-    "category": "国際情勢",
-    "summary": "Guidance on the US Foreign Account Tax Compliance Act (FATCA) for Service and MOD civilian personnel whose children were born in the United States while they were assigned there.",
-    "summary_ja": "米国に配属されている間に子供が米国で生まれた軍人および国防省の文官向けの米国外国口座税遵守法 (FATCA) に関するガイダンス。",
-    "url": "https://www.gov.uk/guidance/information-for-defence-personnel-about-usa-tax-regulations",
-    "isSample": false
-  },
-  {
     "id": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wUUpmbkNZeWRMSGtQU2ZRWV9yTHk2RmZHb2l3V2RLTlVyMFZLMGw3YTFZUTNSSS1FU2pCSWY4eXMxOVd2WHNpVmlBNzZjY2tSNmR4UHp4X0pKZWo0N0lodzZJRm5NMjBQOTRjdzJSaE5tX3lIWVE?oc=5",
     "articleUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wUUpmbkNZeWRMSGtQU2ZRWV9yTHk2RmZHb2l3V2RLTlVyMFZLMGw3YTFZUTNSSS1FU2pCSWY4eXMxOVd2WHNpVmlBNzZjY2tSNmR4UHp4X0pKZWo0N0lodzZJRm5NMjBQOTRjdzJSaE5tX3lIWVE?oc=5",
     "title": "韓国・ブラジル、初の防衛産業共同委員会を開催 - Korea.net",
@@ -361,6 +599,20 @@
     "summary": "韓国・ブラジル、初の防衛産業共同委員会を開催 Korea.net",
     "summary_ja": "韓国・ブラジル、初の防衛産業共同委員会を開催 Korea.net",
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0wUUpmbkNZeWRMSGtQU2ZRWV9yTHk2RmZHb2l3V2RLTlVyMFZLMGw3YTFZUTNSSS1FU2pCSWY4eXMxOVd2WHNpVmlBNzZjY2tSNmR4UHp4X0pKZWo0N0lodzZJRm5NMjBQOTRjdzJSaE5tX3lIWVE?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5LZEMtTFkxY1BBUG91VmplQVVvQjFWV1NDQlY0YTg3YzFtTW4ySEpiTnBycGNCMUNiVEU0MEF3Tk1XbThibUtMQnhtYUF4Rmt5WVNSYUdXenpOc0xLTGdDRC05WVJvaXNlMWlYTmkxZFdMcjI1?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5LZEMtTFkxY1BBUG91VmplQVVvQjFWV1NDQlY0YTg3YzFtTW4ySEpiTnBycGNCMUNiVEU0MEF3Tk1XbThibUtMQnhtYUF4Rmt5WVNSYUdXenpOc0xLTGdDRC05WVJvaXNlMWlYTmkxZFdMcjI1?oc=5",
+    "title": "韓国貿易保険公社、韓国防衛産業振興会と提携し中小防衛企業の輸出金融を全方位で拡大 - BigGo ファイナンス",
+    "title_ja": "韓国貿易保険公社、韓国防衛産業振興会と提携し中小防衛企業の輸出金融を全方位で拡大 - BigGo ファイナンス",
+    "source": "防衛装備・防衛産業",
+    "language": "ja",
+    "publishedAt": "2026-11-24T06:36:00+00:00",
+    "category": "技術",
+    "summary": "韓国貿易保険公社、韓国防衛産業振興会と提携し中小防衛企業の輸出金融を全方位で拡大 BigGo ファイナンス",
+    "summary_ja": "韓国貿易保険公社、韓国防衛産業振興会と提携し中小防衛企業の輸出金融を全方位で拡大 BigGo ファイナンス",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5LZEMtTFkxY1BBUG91VmplQVVvQjFWV1NDQlY0YTg3YzFtTW4ySEpiTnBycGNCMUNiVEU0MEF3Tk1XbThibUtMQnhtYUF4Rmt5WVNSYUdXenpOc0xLTGdDRC05WVJvaXNlMWlYTmkxZFdMcjI1?oc=5",
     "isSample": false
   },
   {
@@ -378,6 +630,20 @@
     "isSample": false
   },
   {
+    "id": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5JbEF0Wk5KVGJPaGVkM0dJUDhIOEk3YVR5M1lxLWFfdEdoUjhuUFZqNVpCOWJCTkdEMkgwOV8xRGc0aV9GQnFPdmtQMDYzajdZTW1ua2ZGMVQ4WWJ1cW1Nc3RodWdnUGdOUk1JSURSUkU0RjjSAXhBVV95cUxNWFpmYVRvMWxRTEV1Z0NuX2RpWVVQQ3liNkFPQ240cTJFMWN5Z1I0MkwyMFhsTzVEcWdIczlMMHNVSjc2NG5wS082OWJDUjlXcGJMNEk3cU5mQm5TMlprSlloSHdIZy1qa2FYbWFQT0lBRk5QSE5tU3M?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5JbEF0Wk5KVGJPaGVkM0dJUDhIOEk3YVR5M1lxLWFfdEdoUjhuUFZqNVpCOWJCTkdEMkgwOV8xRGc0aV9GQnFPdmtQMDYzajdZTW1ua2ZGMVQ4WWJ1cW1Nc3RodWdnUGdOUk1JSURSUkU0RjjSAXhBVV95cUxNWFpmYVRvMWxRTEV1Z0NuX2RpWVVQQ3liNkFPQ240cTJFMWN5Z1I0MkwyMFhsTzVEcWdIczlMMHNVSjc2NG5wS082OWJDUjlXcGJMNEk3cU5mQm5TMlprSlloSHdIZy1qa2FYbWFQT0lBRk5QSE5tU3M?oc=5",
+    "title": "NATO、宇宙空間での防衛強調 ロシアの核衛星報道で - ｄメニューニュース",
+    "title_ja": "NATO、宇宙空間での防衛強調 ロシアの核衛星報道で - ｄメニューニュース",
+    "source": "宇宙・サイバー防衛",
+    "language": "ja",
+    "publishedAt": "2026-11-24T04:05:00+00:00",
+    "category": "宇宙",
+    "summary": "NATO、宇宙空間での防衛強調 ロシアの核衛星報道で ｄメニューニュース",
+    "summary_ja": "NATO、宇宙空間での防衛強調 ロシアの核衛星報道で ｄメニューニュース",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5JbEF0Wk5KVGJPaGVkM0dJUDhIOEk3YVR5M1lxLWFfdEdoUjhuUFZqNVpCOWJCTkdEMkgwOV8xRGc0aV9GQnFPdmtQMDYzajdZTW1ua2ZGMVQ4WWJ1cW1Nc3RodWdnUGdOUk1JSURSUkU0RjjSAXhBVV95cUxNWFpmYVRvMWxRTEV1Z0NuX2RpWVVQQ3liNkFPQ240cTJFMWN5Z1I0MkwyMFhsTzVEcWdIczlMMHNVSjc2NG5wS082OWJDUjlXcGJMNEk3cU5mQm5TMlprSlloSHdIZy1qa2FYbWFQT0lBRk5QSE5tU3M?oc=5",
+    "isSample": false
+  },
+  {
     "id": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrdlB5TkRmSXRuTzhZY1pBU01DR29INlRSd080OTE2UFd5NUppNnN3Z1RZQVdJWk96ZXVhdFI4Ym1ENk50RS1nc1FpcVNpaHAzOV9FWUNhVGIxU0RHWExRVFhocW1tUTBPdzZYYXdXSFE3b2pp?oc=5",
     "articleUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrdlB5TkRmSXRuTzhZY1pBU01DR29INlRSd080OTE2UFd5NUppNnN3Z1RZQVdJWk96ZXVhdFI4Ym1ENk50RS1nc1FpcVNpaHAzOV9FWUNhVGIxU0RHWExRVFhocW1tUTBPdzZYYXdXSFE3b2pp?oc=5",
     "title": "Press Release - ClassNK",
@@ -389,20 +655,6 @@
     "summary": "Press Release ClassNK",
     "summary_ja": "プレスリリース ClassNK",
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrdlB5TkRmSXRuTzhZY1pBU01DR29INlRSd080OTE2UFd5NUppNnN3Z1RZQVdJWk96ZXVhdFI4Ym1ENk50RS1nc1FpcVNpaHAzOV9FWUNhVGIxU0RHWExRVFhocW1tUTBPdzZYYXdXSFE3b2pp?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FTEo0Y1lqdzF2X2ViQk9FTlBZMzQ2MmdMWmZ4c1JZSjFwZVdsZk1PMjFRX3hmRmNrNkFaeF9MaG44a3pjcHk2ck1HMmd1a0VpNnYxOGN2TWJQTEpzdHJWZWVWdHRNcXRn?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FTEo0Y1lqdzF2X2ViQk9FTlBZMzQ2MmdMWmZ4c1JZSjFwZVdsZk1PMjFRX3hmRmNrNkFaeF9MaG44a3pjcHk2ck1HMmd1a0VpNnYxOGN2TWJQTEpzdHJWZWVWdHRNcXRn?oc=5",
-    "title": "Third Ecosystem、2027年度の重点戦略3領域「フィジカルAI・ロボット」「防衛・宇宙」「データセンター」に向けた「次世代重点領域 実行戦略策定パッケージ」を提供開始 - ニコニコニュース",
-    "title_ja": "Third Ecosystem、2027年度の重点戦略3領域「フィジカルAI・ロボット」「防衛・宇宙」「データセンター」に向けた「次世代重点領域 実行戦略策定パッケージ」を提供開始 - ニコニコニュース",
-    "source": "宇宙・サイバー防衛",
-    "language": "ja",
-    "publishedAt": "2026-11-24T01:15:28+00:00",
-    "category": "宇宙",
-    "summary": "Third Ecosystem、2027年度の重点戦略3領域「フィジカルAI・ロボット」「防衛・宇宙」「データセンター」に向けた「次世代重点領域 実行戦略策定パッケージ」を提供開始 ニコニコニュース",
-    "summary_ja": "Third Ecosystem、2027年度の重点戦略3領域「フィジカルAI・ロボット」「防衛・宇宙」「データセンター」に向けた「次世代重点領域 実行戦略策定パッケージ」を提供開始 ニコニコニュース",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FTEo0Y1lqdzF2X2ViQk9FTlBZMzQ2MmdMWmZ4c1JZSjFwZVdsZk1PMjFRX3hmRmNrNkFaeF9MaG44a3pjcHk2ck1HMmd1a0VpNnYxOGN2TWJQTEpzdHJWZWVWdHRNcXRn?oc=5",
     "isSample": false
   },
   {
@@ -462,20 +714,6 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb3NCTV8ycmtVQXBJQ3pSTXBJSkJnMXE2TDZuLUM5cVJrNXpMUzlQMGs1NkRaQ1NKa0xhQ1lVcWtJbTR3Y3dHbjB0WDBLRER2ZEFjY3hvOEVTZ0tXbExtY1F6VW15ZTRDX0w1dUVvOXhoYlZvQXNlTkExQ2JEOEQ1YUVFM0c5YWJRaWdLcDJ4akE?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb3NCTV8ycmtVQXBJQ3pSTXBJSkJnMXE2TDZuLUM5cVJrNXpMUzlQMGs1NkRaQ1NKa0xhQ1lVcWtJbTR3Y3dHbjB0WDBLRER2ZEFjY3hvOEVTZ0tXbExtY1F6VW15ZTRDX0w1dUVvOXhoYlZvQXNlTkExQ2JEOEQ1YUVFM0c5YWJRaWdLcDJ4akE?oc=5",
-    "title": "Winning the Space Race Will Require a Diplomatic Victory at WRC-27 - CSIS | Center for Strategic and International Studies",
-    "title_ja": "宇宙開発競争に勝つにはWRC-27での外交的勝利が必要 - CSIS |戦略国際​​問題研究センター",
-    "source": "CSIS Japan Chair",
-    "language": "en",
-    "publishedAt": "2026-11-23T15:00:07+00:00",
-    "category": "宇宙",
-    "summary": "Winning the Space Race Will Require a Diplomatic Victory at WRC-27 CSIS | Center for Strategic and International Studies",
-    "summary_ja": "宇宙開発競争に勝つには、WRC-27 CSIS での外交的勝利が必要 |戦略国際​​問題研究センター",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb3NCTV8ycmtVQXBJQ3pSTXBJSkJnMXE2TDZuLUM5cVJrNXpMUzlQMGs1NkRaQ1NKa0xhQ1lVcWtJbTR3Y3dHbjB0WDBLRER2ZEFjY3hvOEVTZ0tXbExtY1F6VW15ZTRDX0w1dUVvOXhoYlZvQXNlTkExQ2JEOEQ1YUVFM0c5YWJRaWdLcDJ4akE?oc=5",
-    "isSample": false
-  },
-  {
     "id": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA5UEZFWU5YaF9sVGhISWJPSU5SSHZPeTZnLXFoelB3LUdsX1l4aEpUNzlGZlYwTFZKOTlteWdZLUFCbnZqWmdkanZ3dkpxNnhP?oc=5",
     "articleUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA5UEZFWU5YaF9sVGhISWJPSU5SSHZPeTZnLXFoelB3LUdsX1l4aEpUNzlGZlYwTFZKOTlteWdZLUFCbnZqWmdkanZ3dkpxNnhP?oc=5",
     "title": "Introducing the Sakana AI Applied Research Lab - Sakana AI",
@@ -487,20 +725,6 @@
     "summary": "Introducing the Sakana AI Applied Research Lab Sakana AI",
     "summary_ja": "さかなAI応用研究室のご紹介 さかなAI",
     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA5UEZFWU5YaF9sVGhISWJPSU5SSHZPeTZnLXFoelB3LUdsX1l4aEpUNzlGZlYwTFZKOTlteWdZLUFCbnZqWmdkanZ3dkpxNnhP?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSjFiV0J1MlpHS0xyVWI0SHQ3elJOYnlvOFlTdVVVTXNMLVhvQU9QczJMVHpwa2IzQU96QTIyVHpXQzlQZGpNR1FqZC14QlQ0ekhOT0dNRUk0SWxBaUo4YVdtQlkzREhhVWZBT1R2WEFpM1ktNm9FVklrcHhZRHFzdzFhNmNNUWpa?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSjFiV0J1MlpHS0xyVWI0SHQ3elJOYnlvOFlTdVVVTXNMLVhvQU9QczJMVHpwa2IzQU96QTIyVHpXQzlQZGpNR1FqZC14QlQ0ekhOT0dNRUk0SWxBaUo4YVdtQlkzREhhVWZBT1R2WEFpM1ktNm9FVklrcHhZRHFzdzFhNmNNUWpa?oc=5",
-    "title": "Ukrainian USVs Sank Russian Corvette, Says Zelenskyy - Navy Leaders",
-    "title_ja": "ウクライナのUSVがロシアのコルベットを撃沈、ゼレンスキー氏が語る - 海軍指導者",
-    "source": "Navy Leaders",
-    "language": "en",
-    "publishedAt": "2026-11-23T11:02:11+00:00",
-    "category": "海上防衛",
-    "summary": "Ukrainian USVs Sank Russian Corvette, Says Zelenskyy Navy Leaders",
-    "summary_ja": "ウクライナのUSVがロシアのコルベットを撃沈、ゼレンスキー海軍指導者らは語る",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSjFiV0J1MlpHS0xyVWI0SHQ3elJOYnlvOFlTdVVVTXNMLVhvQU9QczJMVHpwa2IzQU96QTIyVHpXQzlQZGpNR1FqZC14QlQ0ekhOT0dNRUk0SWxBaUo4YVdtQlkzREhhVWZBT1R2WEFpM1ktNm9FVklrcHhZRHFzdzFhNmNNUWpa?oc=5",
     "isSample": false
   },
   {
@@ -560,48 +784,6 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12YURoNDZ0SlVwMHBucjFGaW4zLW1qTmFaNzlsOUQyOFZCX3hxVXVpTm9YN2FsSnE4dFl1aDBqb0FtOTExSjlIODY5OHpnZw?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12YURoNDZ0SlVwMHBucjFGaW4zLW1qTmFaNzlsOUQyOFZCX3hxVXVpTm9YN2FsSnE4dFl1aDBqb0FtOTExSjlIODY5OHpnZw?oc=5",
-    "title": "【寄稿】「消費減税と防衛費」 議論の熱量が足りない 山口響 - NEWSjp",
-    "title_ja": "【寄稿】「消費減税と防衛費」 議論の熱量が足りない 山口響 - NEWSjp",
-    "source": "宇宙・サイバー防衛",
-    "language": "ja",
-    "publishedAt": "2026-11-23T03:25:00+00:00",
-    "category": "宇宙",
-    "summary": "【寄稿】「消費減税と防衛費」 議論の熱量が足りない 山口響 NEWSjp",
-    "summary_ja": "【寄稿】「消費減税と防衛費」 議論の熱量が足りない 山口響 NEWSjp",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE12YURoNDZ0SlVwMHBucjFGaW4zLW1qTmFaNzlsOUQyOFZCX3hxVXVpTm9YN2FsSnE4dFl1aDBqb0FtOTExSjlIODY5OHpnZw?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa2hYUHFnSDVCaTRNMlpkSTc0dW9ETC0zX1RveFlLSEFzWFBzemN4WUtCbkRNR0QwYS05X1RZRGJEWC1YdGo4ODVXaExuZXhER0JwamZMWjlKODBHNGtreU1NYklLR3RfcTFqc0p2MW1tNldCblBIZmJzbjQybkhiM1dVRlc4bk10alNWdDF6MFRsZ0hDMDNmZkxfeWl3NTFpNGJ1MQ?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa2hYUHFnSDVCaTRNMlpkSTc0dW9ETC0zX1RveFlLSEFzWFBzemN4WUtCbkRNR0QwYS05X1RZRGJEWC1YdGo4ODVXaExuZXhER0JwamZMWjlKODBHNGtreU1NYklLR3RfcTFqc0p2MW1tNldCblBIZmJzbjQybkhiM1dVRlc4bk10alNWdDF6MFRsZ0hDMDNmZkxfeWl3NTFpNGJ1MQ?oc=5",
-    "title": "Electronic Technician – Submarine Sustainment Program - Thales Careers",
-    "title_ja": "電子技術者 – 潜水艦維持プログラム - タレスの採用情報",
-    "source": "Thales Defence",
-    "language": "en",
-    "publishedAt": "2026-11-22T22:51:48+00:00",
-    "category": "海上防衛",
-    "summary": "Electronic Technician – Submarine Sustainment Program Thales Careers",
-    "summary_ja": "電子技術者 – 潜水艦維持プログラム タレスの採用情報",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOa2hYUHFnSDVCaTRNMlpkSTc0dW9ETC0zX1RveFlLSEFzWFBzemN4WUtCbkRNR0QwYS05X1RZRGJEWC1YdGo4ODVXaExuZXhER0JwamZMWjlKODBHNGtreU1NYklLR3RfcTFqc0p2MW1tNldCblBIZmJzbjQybkhiM1dVRlc4bk10alNWdDF6MFRsZ0hDMDNmZkxfeWl3NTFpNGJ1MQ?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMib0FVX3lxTE80amRmdGFjS0xlYUNkZExiRGdqbi1oOXRxOEhJR1oxV0ZQUkFFWHhVTlZMVnMzUXNDYTIwRXZVMV9ZNldfckl1R3dNYkxDQ0I3TnNFUFM1UzU4QVBpdm1Jd0NGMnJqd2h5UHFfOEV5VQ?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE80amRmdGFjS0xlYUNkZExiRGdqbi1oOXRxOEhJR1oxV0ZQUkFFWHhVTlZMVnMzUXNDYTIwRXZVMV9ZNldfckl1R3dNYkxDQ0I3TnNFUFM1UzU4QVBpdm1Jd0NGMnJqd2h5UHFfOEV5VQ?oc=5",
-    "title": "長射程ミサイルを演習に初投入 「敵基地攻撃」運用能力を示す - 山陽新聞",
-    "title_ja": "長射程ミサイルを演習に初投入 「敵基地攻撃」運用能力を示す - 山陽新聞",
-    "source": "宇宙・サイバー防衛",
-    "language": "ja",
-    "publishedAt": "2026-11-22T22:39:45+00:00",
-    "category": "宇宙",
-    "summary": "長射程ミサイルを演習に初投入 「敵基地攻撃」運用能力を示す 山陽新聞",
-    "summary_ja": "長射程ミサイルを演習に初投入 「敵基地攻撃」運用能力を示す 山陽新聞",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE80amRmdGFjS0xlYUNkZExiRGdqbi1oOXRxOEhJR1oxV0ZQUkFFWHhVTlZMVnMzUXNDYTIwRXZVMV9ZNldfckl1R3dNYkxDQ0I3TnNFUFM1UzU4QVBpdm1Jd0NGMnJqd2h5UHFfOEV5VQ?oc=5",
-    "isSample": false
-  },
-  {
     "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0enFDZUhjUERxQzVDTkJHamFBVnRTR1c5NDV6Q3kxZ25hWnBvTU43UEJHcDBzblVZdW45a25aOUNsTmlrNWJaQkVxc3BGU0RlTVFjRTk0eHo0b0k4cnRNUTM5SkZ4Nm8?oc=5",
     "articleUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0enFDZUhjUERxQzVDTkJHamFBVnRTR1c5NDV6Q3kxZ25hWnBvTU43UEJHcDBzblVZdW45a25aOUNsTmlrNWJaQkVxc3BGU0RlTVFjRTk0eHo0b0k4cnRNUTM5SkZ4Nm8?oc=5",
     "title": "防衛産業の強化は「追い風」か、それとも… 軍需工場の記憶と教訓 [高市政権の安保見直し][安全保障関連3文書] - 朝日新聞",
@@ -613,48 +795,6 @@
     "summary": "防衛産業の強化は「追い風」か、それとも… 軍需工場の記憶と教訓 [高市政権の安保見直し][安全保障関連3文書] 朝日新聞",
     "summary_ja": "防衛産業の強化は「追い風」か、それとも… 軍需工場の記憶と教訓 [高市政権の安保見直し][安全保障関連3文書] 朝日新聞",
     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0enFDZUhjUERxQzVDTkJHamFBVnRTR1c5NDV6Q3kxZ25hWnBvTU43UEJHcDBzblVZdW45a25aOUNsTmlrNWJaQkVxc3BGU0RlTVFjRTk0eHo0b0k4cnRNUTM5SkZ4Nm8?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zUWFKenN1c3JPV2pCamtpRGZGTkxkQW4tS1h1cnZXVG5IdXpGRjNSREtocFdJSUhZVC1RRzRFVHB4S3FTQUktcGZIbk9BbU5Ic3hKUThXd09HNGtKUzBIQW9mWS1rTHBRWUhIcXNodlNNMEdLNXlfRXhYcEFzNFk?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zUWFKenN1c3JPV2pCamtpRGZGTkxkQW4tS1h1cnZXVG5IdXpGRjNSREtocFdJSUhZVC1RRzRFVHB4S3FTQUktcGZIbk9BbU5Ic3hKUThXd09HNGtKUzBIQW9mWS1rTHBRWUhIcXNodlNNMEdLNXlfRXhYcEFzNFk?oc=5",
-    "title": "”プルーインパルス”も3年ぶりに登場 航空自衛隊「岐阜基地航空祭」（メ〜テレ（名古屋テレビ）） - Yahoo!ニュース",
-    "title_ja": "”プルーインパルス”も3年ぶりに登場 航空自衛隊「岐阜基地航空祭」（メ〜テレ（名古屋テレビ）） - Yahoo!ニュース",
-    "source": "防衛省・自衛隊",
-    "language": "ja",
-    "publishedAt": "2026-11-22T16:17:01+00:00",
-    "category": "航空防衛",
-    "summary": "”プルーインパルス”も3年ぶりに登場 航空自衛隊「岐阜基地航空祭」（メ〜テレ（名古屋テレビ）） Yahoo!ニュース",
-    "summary_ja": "”プルーインパルス”も3年ぶりに登場 航空自衛隊「岐阜基地航空祭」（メ〜テレ（名古屋テレビ）） Yahoo!ニュース",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zUWFKenN1c3JPV2pCamtpRGZGTkxkQW4tS1h1cnZXVG5IdXpGRjNSREtocFdJSUhZVC1RRzRFVHB4S3FTQUktcGZIbk9BbU5Ic3hKUThXd09HNGtKUzBIQW9mWS1rTHBRWUhIcXNodlNNMEdLNXlfRXhYcEFzNFk?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://www.navalnews.com/naval-news/2026/11/russian-warship-destroyed-in-huge-explosion-in-libya/",
-    "articleUrl": "https://www.navalnews.com/naval-news/2026/11/russian-warship-destroyed-in-huge-explosion-in-libya/",
-    "title": "Russian Warship Destroyed In Huge Explosion In Libya",
-    "title_ja": "リビアで大爆発、ロシア軍艦が破壊",
-    "source": "Naval News",
-    "language": "en",
-    "publishedAt": "2026-11-22T11:59:11+00:00",
-    "category": "海上防衛",
-    "summary": "Breaking: A Russian warship explosion in Benghazi, Libya engulfed the Steregushchiy-class corvette Merkury in flames, almost certainly destroying it. A large explosion reported in the Libyan port of Benghazi indicates that a Russian missile corvette has almost certainly been destroyed. Flames engulfed the vessel although it is currently unclear whether it has sunk at its ... The post Russian Warship Destroyed In Huge Explosion In Libya appeared first on Naval News .",
-    "summary_ja": "速報：リビアのベンガジでロシアの軍艦が爆発し、ステレグシチイ級コルベット艦マーキュリーが炎に包まれ、ほぼ確実に破壊された。リビアのベンガジ港で報告された大規模な爆発は、ロシアのミサイルコルベットがほぼ確実に破壊されたことを示している。船は炎に包まれたが、現在沈没したかどうかは不明だ... リビアの大爆発で破壊されたロシア軍艦の記事が最初に海軍ニュースに掲載された。",
-    "url": "https://www.navalnews.com/naval-news/2026/11/russian-warship-destroyed-in-huge-explosion-in-libya/",
-    "isSample": false
-  },
-  {
-    "id": "https://www.navalnews.com/naval-news/2026/11/u-s-navy-prepares-for-third-zumwalt-hypersonic-upgrade/",
-    "articleUrl": "https://www.navalnews.com/naval-news/2026/11/u-s-navy-prepares-for-third-zumwalt-hypersonic-upgrade/",
-    "title": "U.S. Navy Prepares for Third Zumwalt Hypersonic Upgrade",
-    "title_ja": "米海軍、ズムワルト極超音速改修の第3弾を準備",
-    "source": "Naval News",
-    "language": "en",
-    "publishedAt": "2026-11-21T16:14:42+00:00",
-    "category": "海上防衛",
-    "summary": "The U.S. Navy plans a 2028 overhaul to equip Zumwalt-class destroyer USS Michael Monsoor (DDG-1001) with Conventional Prompt Strike hypersonic missiles. The post U.S. Navy Prepares for Third Zumwalt Hypersonic Upgrade appeared first on Naval News .",
-    "summary_ja": "米海軍は、ズムウォルト級駆逐艦マイケル・モンスール（DDG-1001）に従来型プロンプトストライク極超音速ミサイルを装備するための2028年のオーバーホールを計画している。米国海軍が第三次ズムワルト極超音速アップグレードを準備するという記事は、Naval News に最初に掲載されました。",
-    "url": "https://www.navalnews.com/naval-news/2026/11/u-s-navy-prepares-for-third-zumwalt-hypersonic-upgrade/",
     "isSample": false
   },
   {
@@ -686,48 +826,6 @@
     "isSample": false
   },
   {
-    "id": "https://www.navalnews.com/naval-news/2026/11/french-navy-suffren-class-ssn-de-grasse-active-service/",
-    "articleUrl": "https://www.navalnews.com/naval-news/2026/11/french-navy-suffren-class-ssn-de-grasse-active-service/",
-    "title": "French Navy’s Fourth Suffren-class SSN ‘De Grasse’ Enters Active Service",
-    "title_ja": "フランス海軍のシュフラン級SSN 4番艦「ド・グラース」が現役に就く",
-    "source": "Naval News",
-    "language": "en",
-    "publishedAt": "2026-11-21T10:18:51+00:00",
-    "category": "海上防衛",
-    "summary": "France’s fourth Suffren-class SSN, De Grasse, has officially entered active service with the French Navy under the Barracuda submarine program. The post French Navy’s Fourth Suffren-class SSN ‘De Grasse’ Enters Active Service appeared first on Naval News .",
-    "summary_ja": "フランスのシュフラン級 SSN の 4 番艦ド・グラースは、バラクーダ潜水艦計画に基づいてフランス海軍に正式に就役しました。フランス海軍のシュフラン級 SSN 4 番艦「ド・グラース」が現役に就くという記事は、Naval News に最初に掲載されました。",
-    "url": "https://www.navalnews.com/naval-news/2026/11/french-navy-suffren-class-ssn-de-grasse-active-service/",
-    "isSample": false
-  },
-  {
-    "id": "https://www.navalnews.com/naval-news/2026/11/uk-and-norway-commit-over-100m-for-two-new-fast-attack-craft-for-ukraine/",
-    "articleUrl": "https://www.navalnews.com/naval-news/2026/11/uk-and-norway-commit-over-100m-for-two-new-fast-attack-craft-for-ukraine/",
-    "title": "UK and Norway Commit Over £100M for Two New Fast Attack Craft for Ukraine",
-    "title_ja": "英国とノルウェー、ウクライナ向けの新型高速攻撃艇2隻に1億ポンド以上を約束",
-    "source": "Naval News",
-    "language": "en",
-    "publishedAt": "2026-11-21T08:46:25+00:00",
-    "category": "海上防衛",
-    "summary": "Built in the UK, the two 30-meter Fast Attack Craft will carry advanced air defense and missile systems to help the Ukrainian Navy protect the Black Sea Grain Corridor. UK Prime Minister’s office press release Two advanced fast attack boats for Ukraine are being jointly funded by the UK and Norway to boost Ukrainian defence and apply further pressure on Russia. ... The post UK and Norway Commit Over £100M for Two New Fast Attack Craft for Ukraine appeared first on Naval News .",
-    "summary_ja": "英国で建造された2隻の全長30メートルの高速攻撃艇は、ウクライナ海軍が黒海穀物回廊を守るのに役立つ高度な防空システムとミサイルシステムを搭載する予定だ。英国首相官邸のプレスリリース ウクライナ向けの最新鋭高速攻撃艇2隻は、ウクライナの防衛を強化し、ロシアにさらなる圧力をかけるため、英国とノルウェーによって共同資金提供されている。 ... 英国とノルウェーがウクライナ向け新型高速攻撃艇2隻に1億ポン",
-    "url": "https://www.navalnews.com/naval-news/2026/11/uk-and-norway-commit-over-100m-for-two-new-fast-attack-craft-for-ukraine/",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIMEEwU25ma1Z0Ri1pLWpBV2JjbUswV19Vd0JxODlMcDNpRFVZdEZubUt2Q0VqM25nSkx2eEFkVEhCazg3dFo5Q2stSHJMaFh2bDhKRnFjbDVBODVCX1NFNjhUbExJLXJobnRFbg?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIMEEwU25ma1Z0Ri1pLWpBV2JjbUswV19Vd0JxODlMcDNpRFVZdEZubUt2Q0VqM25nSkx2eEFkVEhCazg3dFo5Q2stSHJMaFh2bDhKRnFjbDVBODVCX1NFNjhUbExJLXJobnRFbg?oc=5",
-    "title": "防衛省の装備計画に圧縮案 企業に伝達、投資縮小の可能性 - 日本経済新聞",
-    "title_ja": "防衛省の装備計画に圧縮案 企業に伝達、投資縮小の可能性 - 日本経済新聞",
-    "source": "防衛省・自衛隊",
-    "language": "ja",
-    "publishedAt": "2026-11-21T08:00:00+00:00",
-    "category": "国際情勢",
-    "summary": "防衛省の装備計画に圧縮案 企業に伝達、投資縮小の可能性 日本経済新聞",
-    "summary_ja": "防衛省の装備計画に圧縮案 企業に伝達、投資縮小の可能性 日本経済新聞",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIMEEwU25ma1Z0Ri1pLWpBV2JjbUswV19Vd0JxODlMcDNpRFVZdEZubUt2Q0VqM25nSkx2eEFkVEhCazg3dFo5Q2stSHJMaFh2bDhKRnFjbDVBODVCX1NFNjhUbExJLXJobnRFbg?oc=5",
-    "isSample": false
-  },
-  {
     "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTE84ajdWcFdodkxrTE5HZktnaHo5dktOOHVZXzMtcXRIV1BhVXlqTUdKazNVVUpzQWdTZXM2VFZEYnc1STZWdzFnLXVudnpfQUFZVUUwaV9NODV6ZnVDVjEzclp5YWtQMjB5VkFSTmJjWUZybkVlbVI1aUNR?oc=5",
     "articleUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE84ajdWcFdodkxrTE5HZktnaHo5dktOOHVZXzMtcXRIV1BhVXlqTUdKazNVVUpzQWdTZXM2VFZEYnc1STZWdzFnLXVudnpfQUFZVUUwaV9NODV6ZnVDVjEzclp5YWtQMjB5VkFSTmJjWUZybkVlbVI1aUNR?oc=5",
     "title": "Northern Navies Agreement Signed At ISPC - Navy Leaders",
@@ -739,20 +837,6 @@
     "summary": "Northern Navies Agreement Signed At ISPC Navy Leaders",
     "summary_ja": "ISPC海軍首脳会議で北方海軍協定が署名",
     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE84ajdWcFdodkxrTE5HZktnaHo5dktOOHVZXzMtcXRIV1BhVXlqTUdKazNVVUpzQWdTZXM2VFZEYnc1STZWdzFnLXVudnpfQUFZVUUwaV9NODV6ZnVDVjEzclp5YWtQMjB5VkFSTmJjWUZybkVlbVI1aUNR?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05c2Vfckh0b093Uk1ycUZ3bUVyRmJHY2phVjRNZWFJLXFwZktyTmZSVHZPRXlZanhlSmdQLUl1eGpHRXJOTWNvUFVvU1F1RVlGdlBoRUJhb1d5X0RLSmZJeS1lQ2tHR0E4NV9WUTJXbjdHYjMtVkhj?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05c2Vfckh0b093Uk1ycUZ3bUVyRmJHY2phVjRNZWFJLXFwZktyTmZSVHZPRXlZanhlSmdQLUl1eGpHRXJOTWNvUFVvU1F1RVlGdlBoRUJhb1d5X0RLSmZJeS1lQ2tHR0E4NV9WUTJXbjdHYjMtVkhj?oc=5",
-    "title": "Hanwha Ocean Launches New ROKN Frigate - Navy Leaders",
-    "title_ja": "ハンファ・オーシャン、韓国海軍の新型フリゲート艦を進水 - 海軍指導者",
-    "source": "Navy Leaders",
-    "language": "en",
-    "publishedAt": "2026-11-21T03:05:28+00:00",
-    "category": "海上防衛",
-    "summary": "Hanwha Ocean Launches New ROKN Frigate Navy Leaders",
-    "summary_ja": "ハンファ・オーシャン、新しい韓国フリゲート艦海軍リーダーを進水",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE05c2Vfckh0b093Uk1ycUZ3bUVyRmJHY2phVjRNZWFJLXFwZktyTmZSVHZPRXlZanhlSmdQLUl1eGpHRXJOTWNvUFVvU1F1RVlGdlBoRUJhb1d5X0RLSmZJeS1lQ2tHR0E4NV9WUTJXbjdHYjMtVkhj?oc=5",
     "isSample": false
   },
   {
@@ -938,17 +1022,31 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NQjg4c1RQNi1kZDlIZ0JMMGM4MXhUM19NaHdFQ0FNX0J0dl90NlA3X3FuRlgzU0ZsMnBwT2U2NGRsdkJXb21FOWw2aFJISFMwa0tKMXBMX1RhNXJnQ1I5YkNoVmU5TlMyaXc?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NQjg4c1RQNi1kZDlIZ0JMMGM4MXhUM19NaHdFQ0FNX0J0dl90NlA3X3FuRlgzU0ZsMnBwT2U2NGRsdkJXb21FOWw2aFJISFMwa0tKMXBMX1RhNXJnQ1I5YkNoVmU5TlMyaXc?oc=5",
-    "title": "What is SWaP-C? - BAE Systems",
-    "title_ja": "SWaP-Cとは何ですか? - BAE システムズ",
+    "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ndHdEVFoxQUQ2c1h6OU1laklhS3RnOVpKR2JYWUZkUUVpTGVpVW0tNi1GVU9hZUU3dUJ1ZnpTTm94Nm83MThYM2FIQXpkUEg2MHh1ZU1Ddmd5Zw?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ndHdEVFoxQUQ2c1h6OU1laklhS3RnOVpKR2JYWUZkUUVpTGVpVW0tNi1GVU9hZUU3dUJ1ZnpTTm94Nm83MThYM2FIQXpkUEg2MHh1ZU1Ddmd5Zw?oc=5",
+    "title": "Connect Hub is here! - BAE Systems",
+    "title_ja": "コネクトハブが登場！ - BAE システムズ",
     "source": "BAE Systems",
     "language": "en",
     "publishedAt": "2026-11-20T16:26:00+00:00",
     "category": "海上防衛",
-    "summary": "What is SWaP-C? BAE Systems",
-    "summary_ja": "SWaP-Cとは何ですか? BAEシステムズ",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NQjg4c1RQNi1kZDlIZ0JMMGM4MXhUM19NaHdFQ0FNX0J0dl90NlA3X3FuRlgzU0ZsMnBwT2U2NGRsdkJXb21FOWw2aFJISFMwa0tKMXBMX1RhNXJnQ1I5YkNoVmU5TlMyaXc?oc=5",
+    "summary": "Connect Hub is here! BAE Systems",
+    "summary_ja": "コネクトハブが登場！ BAEシステムズ",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ndHdEVFoxQUQ2c1h6OU1laklhS3RnOVpKR2JYWUZkUUVpTGVpVW0tNi1GVU9hZUU3dUJ1ZnpTTm94Nm83MThYM2FIQXpkUEg2MHh1ZU1Ddmd5Zw?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5rc3p6Zi02NG9BWnZyOHkxUU9qZ0pQWmw2SWhwMUt2Sy0tRFJXXzJZVTZlb213T2J6QVlUYk1ydmdsNkZwNFI2dVkwbmlHWk4zLWV4YWZOQkk1dkZ6akEwWUx6N2xyU3N3TkdfcG1vMDdWQmt0c19ubGhfWQ?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5rc3p6Zi02NG9BWnZyOHkxUU9qZ0pQWmw2SWhwMUt2Sy0tRFJXXzJZVTZlb213T2J6QVlUYk1ydmdsNkZwNFI2dVkwbmlHWk4zLWV4YWZOQkk1dkZ6akEwWUx6N2xyU3N3TkdfcG1vMDdWQmt0c19ubGhfWQ?oc=5",
+    "title": "日チリ防衛相会談について - 防衛省",
+    "title_ja": "日チリ防衛相会談について - 防衛省",
+    "source": "防衛省・自衛隊",
+    "language": "ja",
+    "publishedAt": "2026-11-20T14:22:20+00:00",
+    "category": "国際情勢",
+    "summary": "日チリ防衛相会談について 防衛省",
+    "summary_ja": "日チリ防衛相会談について 防衛省",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5rc3p6Zi02NG9BWnZyOHkxUU9qZ0pQWmw2SWhwMUt2Sy0tRFJXXzJZVTZlb213T2J6QVlUYk1ydmdsNkZwNFI2dVkwbmlHWk4zLWV4YWZOQkk1dkZ6akEwWUx6N2xyU3N3TkdfcG1vMDdWQmt0c19ubGhfWQ?oc=5",
     "isSample": false
   },
   {
@@ -994,20 +1092,6 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xQkotWFY0cEpZM1Z4YWd5RDlkNXRma0doSDlUbktIWG1xd0t6d2gwV3FqN0pwdXRDTmJSQWJYT3NDMkVrUW8wTG55cG1halNkRktCZkZ4OEJmWWlsWW1CVUN3NHdXaW11Tmc?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xQkotWFY0cEpZM1Z4YWd5RDlkNXRma0doSDlUbktIWG1xd0t6d2gwV3FqN0pwdXRDTmJSQWJYT3NDMkVrUW8wTG55cG1halNkRktCZkZ4OEJmWWlsWW1CVUN3NHdXaW11Tmc?oc=5",
-    "title": "【JPIセミナー】「宇宙ビジネスの最新動向と企業の新規参入のポイント ～参入領域の見極めと国内外ルールへの対応～」12月10日(木)開催 - PR TIMES",
-    "title_ja": "【JPIセミナー】「宇宙ビジネスの最新動向と企業の新規参入のポイント ～参入領域の見極めと国内外ルールへの対応～」12月10日(木)開催 - PR TIMES",
-    "source": "宇宙・サイバー防衛",
-    "language": "ja",
-    "publishedAt": "2026-11-20T07:00:02+00:00",
-    "category": "宇宙",
-    "summary": "【JPIセミナー】「宇宙ビジネスの最新動向と企業の新規参入のポイント ～参入領域の見極めと国内外ルールへの対応～」12月10日(木)開催 PR TIMES",
-    "summary_ja": "【JPIセミナー】「宇宙ビジネスの最新動向と企業の新規参入のポイント ～参入領域の見極めと国内外ルールへの対応～」12月10日(木)開催 PR TIMES",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xQkotWFY0cEpZM1Z4YWd5RDlkNXRma0doSDlUbktIWG1xd0t6d2gwV3FqN0pwdXRDTmJSQWJYT3NDMkVrUW8wTG55cG1halNkRktCZkZ4OEJmWWlsWW1CVUN3NHdXaW11Tmc?oc=5",
-    "isSample": false
-  },
-  {
     "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaV29uWXVkakpDV3M1WjhMcERSdVBnSHk0c0s1dlpWQ1pxTThYaGQweEtxelVKOEhVTGJPa2dSZXhHSnU2Qmd2OTJXblVWTDJFNXkxTkZtZ3RBd1JRaHlLYlA4OEVrbV9lcWpXcA?oc=5",
     "articleUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaV29uWXVkakpDV3M1WjhMcERSdVBnSHk0c0s1dlpWQ1pxTThYaGQweEtxelVKOEhVTGJPa2dSZXhHSnU2Qmd2OTJXblVWTDJFNXkxTkZtZ3RBd1JRaHlLYlA4OEVrbV9lcWpXcA?oc=5",
     "title": "海事プレス社創立70周年企画【未来を探せ～70の視点】フェリー・RORO船の対応力強化#65 内海造船 寺尾弘志社長 - 海事プレスONLINE",
@@ -1050,17 +1134,17 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1aLTNHT2VwVmdzWnZOeWRHaEc3eXNud3REdzNlSkZVZkFLRWZhZVgwa0ZNRzFpdTBwSThZRGFobm9YN3l5ZmdDRGR1LW93ZU00dDU0NjVuWXVUc2lUajVrbkFQWmFsVzI1NXA1MA?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1aLTNHT2VwVmdzWnZOeWRHaEc3eXNud3REdzNlSkZVZkFLRWZhZVgwa0ZNRzFpdTBwSThZRGFobm9YN3l5ZmdDRGR1LW93ZU00dDU0NjVuWXVUc2lUajVrbkFQWmFsVzI1NXA1MA?oc=5",
-    "title": "自衛隊員の位置情報流出 安保リスクに迫ったビッグデータ解析の裏側 - 日本経済新聞",
-    "title_ja": "自衛隊員の位置情報流出 安保リスクに迫ったビッグデータ解析の裏側 - 日本経済新聞",
-    "source": "防衛省・自衛隊",
-    "language": "ja",
-    "publishedAt": "2026-11-20T02:52:24+00:00",
-    "category": "国際情勢",
-    "summary": "自衛隊員の位置情報流出 安保リスクに迫ったビッグデータ解析の裏側 日本経済新聞",
-    "summary_ja": "自衛隊員の位置情報流出 安保リスクに迫ったビッグデータ解析の裏側 日本経済新聞",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1aLTNHT2VwVmdzWnZOeWRHaEc3eXNud3REdzNlSkZVZkFLRWZhZVgwa0ZNRzFpdTBwSThZRGFobm9YN3l5ZmdDRGR1LW93ZU00dDU0NjVuWXVUc2lUajVrbkFQWmFsVzI1NXA1MA?oc=5",
+    "id": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMWY3SE1iM1QzTW5DeUswX2t1NFZ1Z1M2THVIb0lsSzlKN2hUckpkb2VEUUFhTU1Nbk52c3I2Nm5McUxoRkhvcWkxQzVRSG1EcHZaVGNBM25jQjFmWFBZZG1NRWZCRzIxckphdWNTY1FCYnlCTE9qLWo2RDRHTENEdG1n?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMWY3SE1iM1QzTW5DeUswX2t1NFZ1Z1M2THVIb0lsSzlKN2hUckpkb2VEUUFhTU1Nbk52c3I2Nm5McUxoRkhvcWkxQzVRSG1EcHZaVGNBM25jQjFmWFBZZG1NRWZCRzIxckphdWNTY1FCYnlCTE9qLWo2RDRHTENEdG1n?oc=5",
+    "title": "BAE Systems Bags $138m Submarine Propulsor Deal - Navy Leaders",
+    "title_ja": "BAEシステムズ、1億3,800万ドルの潜水艦推進装置契約を締結 - 海軍指導者",
+    "source": "Navy Leaders",
+    "language": "en",
+    "publishedAt": "2026-11-20T03:09:10+00:00",
+    "category": "海上防衛",
+    "summary": "BAE Systems Bags $138m Submarine Propulsor Deal Navy Leaders",
+    "summary_ja": "BAEシステムズ、1億3800万ドルの潜水艦推進装置取引を海軍指導者らと交わす",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMWY3SE1iM1QzTW5DeUswX2t1NFZ1Z1M2THVIb0lsSzlKN2hUckpkb2VEUUFhTU1Nbk52c3I2Nm5McUxoRkhvcWkxQzVRSG1EcHZaVGNBM25jQjFmWFBZZG1NRWZCRzIxckphdWNTY1FCYnlCTE9qLWo2RDRHTENEdG1n?oc=5",
     "isSample": false
   },
   {
@@ -1078,17 +1162,17 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBkLWtUcUtfTmhBSHZHUnRDZmJhZ0NKa0dwUGtyUGZjVURONWdMYkxTckt3NlNiUk9zN2ZPa0hWYjYweTZpTFEzaXhjaw?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBkLWtUcUtfTmhBSHZHUnRDZmJhZ0NKa0dwUGtyUGZjVURONWdMYkxTckt3NlNiUk9zN2ZPa0hWYjYweTZpTFEzaXhjaw?oc=5",
-    "title": "Nucleus: High-Fidelity Image Generation - shield.ai",
-    "title_ja": "Nucleus: 高忠実度の画像生成 - Shield.ai",
-    "source": "Shield AI",
-    "language": "en",
-    "publishedAt": "2026-11-19T21:28:04+00:00",
-    "category": "技術",
-    "summary": "Nucleus: High-Fidelity Image Generation shield.ai",
-    "summary_ja": "Nucleus: 高忠実度画像生成 Shield.ai",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBkLWtUcUtfTmhBSHZHUnRDZmJhZ0NKa0dwUGtyUGZjVURONWdMYkxTckt3NlNiUk9zN2ZPa0hWYjYweTZpTFEzaXhjaw?oc=5",
+    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FUkpOanQ4aktUOFZoX2owdW1oWUMtdlh2X1B6RlJYeGhrSXFyU0pka2xXTzNnTDUyV3B5cC1qbWtoSHFLbV91ME81SGVhdVhTcEx0Yw?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FUkpOanQ4aktUOFZoX2owdW1oWUMtdlh2X1B6RlJYeGhrSXFyU0pka2xXTzNnTDUyV3B5cC1qbWtoSHFLbV91ME81SGVhdVhTcEx0Yw?oc=5",
+    "title": "安保3文書改定へ「防衛と経済の好循環」構想 新法人設立を検討 - 朝雲デジタル",
+    "title_ja": "安保3文書改定へ「防衛と経済の好循環」構想 新法人設立を検討 - 朝雲デジタル",
+    "source": "宇宙・サイバー防衛",
+    "language": "ja",
+    "publishedAt": "2026-11-19T22:00:20+00:00",
+    "category": "宇宙",
+    "summary": "安保3文書改定へ「防衛と経済の好循環」構想 新法人設立を検討 朝雲デジタル",
+    "summary_ja": "安保3文書改定へ「防衛と経済の好循環」構想 新法人設立を検討 朝雲デジタル",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FUkpOanQ4aktUOFZoX2owdW1oWUMtdlh2X1B6RlJYeGhrSXFyU0pka2xXTzNnTDUyV3B5cC1qbWtoSHFLbV91ME81SGVhdVhTcEx0Yw?oc=5",
     "isSample": false
   },
   {
@@ -1103,20 +1187,6 @@
     "summary": "〈防衛産業〉迎撃ミサイルも小銃と同じ｢武器｣区分､輸出で｢費用を返せ｣と言われる…元装備庁長官が語る韓国との差 東洋経済オンライン",
     "summary_ja": "〈防衛産業〉迎撃ミサイルも小銃と同じ｢武器｣区分､輸出で｢費用を返せ｣と言われる…元装備庁長官が語る韓国との差 東洋経済オンライン",
     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9OR3FQMW5VNXZYOGZHaXNiQWYwNWE1WVBNbDdibkFhcXE5WEFIMFJNMkZJLVdidG1UUzdqNHVxclM0X3Y0d3VZU2RtUUhxWmswdVJEVS1ELUJrQUZudE4w?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KRWM5V2c0a1AxX3VHQTY5bC1rX0xjd3hJSXF6WXFLeHYtVjVPa24yY3U1LW1iZW5rb2hQQzQzelM3WEE0Y2JzUTFtSldUZlJmQU9uS3U4amIzbTNFMVpkRkgyVDJaT0k?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KRWM5V2c0a1AxX3VHQTY5bC1rX0xjd3hJSXF6WXFLeHYtVjVPa24yY3U1LW1iZW5rb2hQQzQzelM3WEE0Y2JzUTFtSldUZlJmQU9uS3U4amIzbTNFMVpkRkgyVDJaT0k?oc=5",
-    "title": "ベイカレント、幹部自衛官30人をスピード採用 防衛コンサルが活況 - 日経ビジネス電子版",
-    "title_ja": "ベイカレント、幹部自衛官30人をスピード採用 防衛コンサルが活況 - 日経ビジネス電子版",
-    "source": "宇宙・サイバー防衛",
-    "language": "ja",
-    "publishedAt": "2026-11-19T20:00:00+00:00",
-    "category": "宇宙",
-    "summary": "ベイカレント、幹部自衛官30人をスピード採用 防衛コンサルが活況 日経ビジネス電子版",
-    "summary_ja": "ベイカレント、幹部自衛官30人をスピード採用 防衛コンサルが活況 日経ビジネス電子版",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KRWM5V2c0a1AxX3VHQTY5bC1rX0xjd3hJSXF6WXFLeHYtVjVPa24yY3U1LW1iZW5rb2hQQzQzelM3WEE0Y2JzUTFtSldUZlJmQU9uS3U4amIzbTNFMVpkRkgyVDJaT0k?oc=5",
     "isSample": false
   },
   {
@@ -1145,20 +1215,6 @@
     "summary": "Between a Rock and a Hard Place: Evaluating the Risks of Chinese Memory Chips CSIS | Center for Strategic and International Studies",
     "summary_ja": "岩と困難な場所の間: 中国製メモリチップのリスク評価 CSIS |戦略国際​​問題研究センター",
     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMEF5X0s2a0xadEVNOVd1c1BPMURqV1pTOEY3UjhfMXpfeEJKUnRIQzQ5Ykhremtnekd3OXlDamFfRkJYZkp2eUJycGlVeVZaRGllRG96UlU5ZmdXQllndGVhMXBLdDQ0WGo0NGdLTnFWM0d1YTBLWmNFcm9WcV9KaU9saTN0YWxYd1NERWV4WkVqbWg0Nmo1VWNqdw?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWVZLTmNsLXdrVlZqaVFLaUNTMzFSbHY2STdDWWFnald2b3N5emIzNHA3cXN1Z0RMdTRkcnd0X0lFSWlNOVQ4Y1lBUTFQSTYxSHFsRnpVdHVWWW52dmVGc2ppQm8teWpWVk93bXZGSDRrbTBUcmRrMk5sLU9wblZ3emFkdXdhOEMw?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWVZLTmNsLXdrVlZqaVFLaUNTMzFSbHY2STdDWWFnald2b3N5emIzNHA3cXN1Z0RMdTRkcnd0X0lFSWlNOVQ4Y1lBUTFQSTYxSHFsRnpVdHVWWW52dmVGc2ppQm8teWpWVk93bXZGSDRrbTBUcmRrMk5sLU9wblZ3emFkdXdhOEMw?oc=5",
-    "title": "Trump-Xi-Putin Summit: What Happened? | The Capital Cable #147 - CSIS | Center for Strategic and International Studies",
-    "title_ja": "トランプ・習・プーチン首脳会談：何が起こったのか？ |首都ケーブル #147 - CSIS |戦略国際​​問題研究センター",
-    "source": "CSIS Japan Chair",
-    "language": "en",
-    "publishedAt": "2026-11-19T13:45:00+00:00",
-    "category": "国際情勢",
-    "summary": "Trump-Xi-Putin Summit: What Happened? | The Capital Cable #147 CSIS | Center for Strategic and International Studies",
-    "summary_ja": "トランプ・習・プーチン首脳会談：何が起こったのか？ |キャピタル ケーブル #147 CSIS |戦略国際​​問題研究センター",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWVZLTmNsLXdrVlZqaVFLaUNTMzFSbHY2STdDWWFnald2b3N5emIzNHA3cXN1Z0RMdTRkcnd0X0lFSWlNOVQ4Y1lBUTFQSTYxSHFsRnpVdHVWWW52dmVGc2ppQm8teWpWVk93bXZGSDRrbTBUcmRrMk5sLU9wblZ3emFkdXdhOEMw?oc=5",
     "isSample": false
   },
   {
@@ -1192,14 +1248,14 @@
   {
     "id": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8xUHBEc1NyZDlac09OWjM1SjRZc3VUX3dvdXQtR0hKcVBQdkg4MzZnbG9YVDRjOUhwNUlhU0VHXzhTVHhxUzR4SkswWlpPUXI1dmJCbGlQZ1N5NUxIUFlzNHRvc2FMM2xrdHQydTN0SlNrODl1aVNGSzc5VQ?oc=5",
     "articleUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8xUHBEc1NyZDlac09OWjM1SjRZc3VUX3dvdXQtR0hKcVBQdkg4MzZnbG9YVDRjOUhwNUlhU0VHXzhTVHhxUzR4SkswWlpPUXI1dmJCbGlQZ1N5NUxIUFlzNHRvc2FMM2xrdHQydTN0SlNrODl1aVNGSzc5VQ?oc=5",
-    "title": "日独防衛当局間（ＭＭ）協議の開催（結果） - 防衛省",
-    "title_ja": "日独防衛当局間（ＭＭ）協議の開催（結果） - 防衛省",
+    "title": "【お知らせ】 - 防衛省",
+    "title_ja": "【お知らせ】 - 防衛省",
     "source": "防衛省・自衛隊",
     "language": "ja",
     "publishedAt": "2026-11-19T10:13:44+00:00",
     "category": "国際情勢",
-    "summary": "日独防衛当局間（ＭＭ）協議の開催（結果） 防衛省",
-    "summary_ja": "日独防衛当局間（ＭＭ）協議の開催（結果） 防衛省",
+    "summary": "【お知らせ】 防衛省",
+    "summary_ja": "【お知らせ】 防衛省",
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8xUHBEc1NyZDlac09OWjM1SjRZc3VUX3dvdXQtR0hKcVBQdkg4MzZnbG9YVDRjOUhwNUlhU0VHXzhTVHhxUzR4SkswWlpPUXI1dmJCbGlQZ1N5NUxIUFlzNHRvc2FMM2xrdHQydTN0SlNrODl1aVNGSzc5VQ?oc=5",
     "isSample": false
   },
@@ -1215,6 +1271,20 @@
     "summary": "来年は新造船増加も運賃上昇かコンテナ船長期契約、港湾混雑は継続 | 海運＜コンテナ・物流＞ | ニュース 海事プレスONLINE",
     "summary_ja": "来年は新造船増加も運賃上昇かコンテナ船長期契約、港湾混雑は継続 | 海運＜コンテナ・物流＞ | ニュース 海事プレスONLINE",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rb2t5dUpBdVhqM0psOXB6MGFiUlMwMUFscUZBSDB0N09valRBd1Y3SXYtMERzLTI5WVc5dkl5VjNoX19INlIyczF1ZDc0eHFXLTdWZlJWWEUwamNGQ1IxbUx0ZF9aVGd1?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNWtDQW9NM2wxT0pwWlRMbGtYNnp0OFUwcXBYYzcxSmktRlpDOXV3UmxYVkI1UlZpNWYyZWNteHk2dG1OaEEwU1hwN05fQXU4bHFWbVpGR1NwMHdYc1FJb0JySXlnWm92blVjamFsWXV6T2h6b0FjZWptY3BzYk9HeU5zdXFRZExjTFpETFdRZ2RPZXBMTy1weElLanBUNTZVbDZLR0w5ekVrZWxCRWpLTU0xNWdwV2RLXzRHUg?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNWtDQW9NM2wxT0pwWlRMbGtYNnp0OFUwcXBYYzcxSmktRlpDOXV3UmxYVkI1UlZpNWYyZWNteHk2dG1OaEEwU1hwN05fQXU4bHFWbVpGR1NwMHdYc1FJb0JySXlnWm92blVjamFsWXV6T2h6b0FjZWptY3BzYk9HeU5zdXFRZExjTFpETFdRZ2RPZXBMTy1weElLanBUNTZVbDZLR0w5ekVrZWxCRWpLTU0xNWdwV2RLXzRHUg?oc=5",
+    "title": "Airbus space technology facilitates scientific research in Antarctica - Airbus",
+    "title_ja": "エアバスの宇宙技術が南極での科学研究を促進 - エアバス",
+    "source": "Airbus Defence and Space",
+    "language": "en",
+    "publishedAt": "2026-11-19T09:00:00+00:00",
+    "category": "宇宙",
+    "summary": "Airbus space technology facilitates scientific research in Antarctica Airbus",
+    "summary_ja": "エアバスの宇宙技術が南極での科学研究を促進 エアバス",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNWtDQW9NM2wxT0pwWlRMbGtYNnp0OFUwcXBYYzcxSmktRlpDOXV3UmxYVkI1UlZpNWYyZWNteHk2dG1OaEEwU1hwN05fQXU4bHFWbVpGR1NwMHdYc1FJb0JySXlnWm92blVjamFsWXV6T2h6b0FjZWptY3BzYk9HeU5zdXFRZExjTFpETFdRZ2RPZXBMTy1weElLanBUNTZVbDZLR0w5ekVrZWxCRWpLTU0xNWdwV2RLXzRHUg?oc=5",
     "isSample": false
   },
   {
@@ -1316,20 +1386,6 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52NVNuUnN4OHNFdllvTnhkVUdfQmJpb29raXR6SmRCd2FvMTg2MmZMVDlPd2hkYW12ekx5a1htZUN1QjJzRS1MSGNxQzlHeURRU3h5VkxTNE1vQUpJQlhUQ3BwcmE0d2RiX1YxYQ?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52NVNuUnN4OHNFdllvTnhkVUdfQmJpb29raXR6SmRCd2FvMTg2MmZMVDlPd2hkYW12ekx5a1htZUN1QjJzRS1MSGNxQzlHeURRU3h5VkxTNE1vQUpJQlhUQ3BwcmE0d2RiX1YxYQ?oc=5",
-    "title": "東南アジアで造船能力7割増HD現代、ベトナム年30隻、比国でも年10隻へ | 造船・舶用 | ニュース - 海事プレスONLINE",
-    "title_ja": "東南アジアで造船能力7割増HD現代、ベトナム年30隻、比国でも年10隻へ | 造船・舶用 | ニュース - 海事プレスONLINE",
-    "source": "海事プレス KAIJI PRESS",
-    "language": "ja",
-    "publishedAt": "2026-11-19T08:00:00+00:00",
-    "category": "海上防衛",
-    "summary": "東南アジアで造船能力7割増HD現代、ベトナム年30隻、比国でも年10隻へ | 造船・舶用 | ニュース 海事プレスONLINE",
-    "summary_ja": "東南アジアで造船能力7割増HD現代、ベトナム年30隻、比国でも年10隻へ | 造船・舶用 | ニュース 海事プレスONLINE",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52NVNuUnN4OHNFdllvTnhkVUdfQmJpb29raXR6SmRCd2FvMTg2MmZMVDlPd2hkYW12ekx5a1htZUN1QjJzRS1MSGNxQzlHeURRU3h5VkxTNE1vQUpJQlhUQ3BwcmE0d2RiX1YxYQ?oc=5",
-    "isSample": false
-  },
-  {
     "id": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zdHBsbUFONkpKdnBDaXE0dVRhS28wY1pSUS14NXdHWEI2ZzhGNFpMTVNNeFc0RmNzZWRKdnBLdFBybk1EbzAxSnhCSzBiWkZVSUxLZEpqOGdtVXNfTHhiRThYb09FTmEzSExV?oc=5",
     "articleUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zdHBsbUFONkpKdnBDaXE0dVRhS28wY1pSUS14NXdHWEI2ZzhGNFpMTVNNeFc0RmNzZWRKdnBLdFBybk1EbzAxSnhCSzBiWkZVSUxLZEpqOGdtVXNfTHhiRThYb09FTmEzSExV?oc=5",
     "title": "Maritime Users Conference 2027 - exail.com",
@@ -1341,6 +1397,20 @@
     "summary": "Maritime Users Conference 2027 exail.com",
     "summary_ja": "海事ユーザー会議 2027 exail.com",
     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1zdHBsbUFONkpKdnBDaXE0dVRhS28wY1pSUS14NXdHWEI2ZzhGNFpMTVNNeFc0RmNzZWRKdnBLdFBybk1EbzAxSnhCSzBiWkZVSUxLZEpqOGdtVXNfTHhiRThYb09FTmEzSExV?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNM1hTNHBSMVRubEJ3Ri16UVlYbldYZkZucWJ6TGdKQndoanRHbHp4OC02VTVTYjktSWMteklYVGJpb2JxVXl1WE5Bd2c4cDloc0poQUpPck1aNy1kd09GNVhveUdJeVJNQmpuWi14Uld6VG9jRTNMeGpjNDJHNkZVRnJkZlItcWx5bHFnekxiQW1XSXVUb01ranBVWXViLWhQekduaWRDQXNBWFVORW1VRlNsanZUZFNfb084dTJlMEpiUVhRTGVEcmxNZXd5Ri0tSW1YRU1NLTZ5V2h1WDB0dw?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNM1hTNHBSMVRubEJ3Ri16UVlYbldYZkZucWJ6TGdKQndoanRHbHp4OC02VTVTYjktSWMteklYVGJpb2JxVXl1WE5Bd2c4cDloc0poQUpPck1aNy1kd09GNVhveUdJeVJNQmpuWi14Uld6VG9jRTNMeGpjNDJHNkZVRnJkZlItcWx5bHFnekxiQW1XSXVUb01ranBVWXViLWhQekduaWRDQXNBWFVORW1VRlNsanZUZFNfb084dTJlMEpiUVhRTGVEcmxNZXd5Ri0tSW1YRU1NLTZ5V2h1WDB0dw?oc=5",
+    "title": "無人防衛2 - 日経クロステック",
+    "title_ja": "無人防衛2 - 日経クロステック",
+    "source": "宇宙・サイバー防衛",
+    "language": "ja",
+    "publishedAt": "2026-11-19T03:22:12+00:00",
+    "category": "宇宙",
+    "summary": "無人防衛2 日経クロステック",
+    "summary_ja": "無人防衛2 日経クロステック",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNM1hTNHBSMVRubEJ3Ri16UVlYbldYZkZucWJ6TGdKQndoanRHbHp4OC02VTVTYjktSWMteklYVGJpb2JxVXl1WE5Bd2c4cDloc0poQUpPck1aNy1kd09GNVhveUdJeVJNQmpuWi14Uld6VG9jRTNMeGpjNDJHNkZVRnJkZlItcWx5bHFnekxiQW1XSXVUb01ranBVWXViLWhQekduaWRDQXNBWFVORW1VRlNsanZUZFNfb084dTJlMEpiUVhRTGVEcmxNZXd5Ri0tSW1YRU1NLTZ5V2h1WDB0dw?oc=5",
     "isSample": false
   },
   {
@@ -1358,6 +1428,20 @@
     "isSample": false
   },
   {
+    "id": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBdHRvTFp6alBEdlhoVnVsS1dmUm1mcDBYWXI4bk9BdkJFVExwOUNNNGpIbmVBNEY1V3R3OGh6d3VxVUFyNVlGcmloNkswbEhCaDNiajdXWEE?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBdHRvTFp6alBEdlhoVnVsS1dmUm1mcDBYWXI4bk9BdkJFVExwOUNNNGpIbmVBNEY1V3R3OGh6d3VxVUFyNVlGcmloNkswbEhCaDNiajdXWEE?oc=5",
+    "title": "大手銀グループ、サイバー防衛体制強化 人員拡充・AI投入 - 日刊工業新聞",
+    "title_ja": "大手銀グループ、サイバー防衛体制強化 人員拡充・AI投入 - 日刊工業新聞",
+    "source": "宇宙・サイバー防衛",
+    "language": "ja",
+    "publishedAt": "2026-11-18T20:00:00+00:00",
+    "category": "サイバー",
+    "summary": "大手銀グループ、サイバー防衛体制強化 人員拡充・AI投入 日刊工業新聞",
+    "summary_ja": "大手銀グループ、サイバー防衛体制強化 人員拡充・AI投入 日刊工業新聞",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBdHRvTFp6alBEdlhoVnVsS1dmUm1mcDBYWXI4bk9BdkJFVExwOUNNNGpIbmVBNEY1V3R3OGh6d3VxVUFyNVlGcmloNkswbEhCaDNiajdXWEE?oc=5",
+    "isSample": false
+  },
+  {
     "id": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVHZYQ1lrcjFIV1p5VUJmWVpJVTRyN3lYelR0ckFoOVZyU0p5TVMzQzFxR0pUcjZwM1Z1WExsRG5KT0J6bWgyaktqQUYzRk93MWlsRURyRE5rUFlDTnJqbHNFbVltazZUYzR5VU12dWZIOTN5RnY5ajJHZktEckRScnVtSnl1cTdxX1FBdlczN1R3cmlEWkpQV29ubWdlNjZrcVJqTXgxOEVrNDA?oc=5",
     "articleUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVHZYQ1lrcjFIV1p5VUJmWVpJVTRyN3lYelR0ckFoOVZyU0p5TVMzQzFxR0pUcjZwM1Z1WExsRG5KT0J6bWgyaktqQUYzRk93MWlsRURyRE5rUFlDTnJqbHNFbVltazZUYzR5VU12dWZIOTN5RnY5ajJHZktEckRScnVtSnl1cTdxX1FBdlczN1R3cmlEWkpQV29ubWdlNjZrcVJqTXgxOEVrNDA?oc=5",
     "title": "New Export Controls on Remote Access: The Implications for Industry and Competition with China - CSIS | Center for Strategic and International Studies",
@@ -1369,20 +1453,6 @@
     "summary": "New Export Controls on Remote Access: The Implications for Industry and Competition with China CSIS | Center for Strategic and International Studies",
     "summary_ja": "リモートアクセスに関する新たな輸出規制：業界と中国CSISとの競争への影響 |戦略国際​​問題研究センター",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVHZYQ1lrcjFIV1p5VUJmWVpJVTRyN3lYelR0ckFoOVZyU0p5TVMzQzFxR0pUcjZwM1Z1WExsRG5KT0J6bWgyaktqQUYzRk93MWlsRURyRE5rUFlDTnJqbHNFbVltazZUYzR5VU12dWZIOTN5RnY5ajJHZktEckRScnVtSnl1cTdxX1FBdlczN1R3cmlEWkpQV29ubWdlNjZrcVJqTXgxOEVrNDA?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaHJ6cXh2b3AwZDc2WWlfXzlnTDdaRml0eFZWSzBBUk40TFFFRzR3b1U4LXVqOUc4ZGVfNlhKM04xcFU0N3N1d1J2NGlhTlMzZVdmWUk1c2hUeXlIcWw2X0ZlZkhLVFJ0aG90aEZ6X2V2UWdtaGFYaGNMN2UxREs1QWpCV1QzcnRFemthLW9zdGVSNUFwdkE?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaHJ6cXh2b3AwZDc2WWlfXzlnTDdaRml0eFZWSzBBUk40TFFFRzR3b1U4LXVqOUc4ZGVfNlhKM04xcFU0N3N1d1J2NGlhTlMzZVdmWUk1c2hUeXlIcWw2X0ZlZkhLVFJ0aG90aEZ6X2V2UWdtaGFYaGNMN2UxREs1QWpCV1QzcnRFemthLW9zdGVSNUFwdkE?oc=5",
-    "title": "Second Brazilian Tamandaré-Class Frigate Tests Combat Systems - Navy Leaders",
-    "title_ja": "ブラジルの2番タマンダレ級フリゲート艦が戦闘システムをテスト - 海軍指導者",
-    "source": "Navy Leaders",
-    "language": "en",
-    "publishedAt": "2026-11-18T19:05:54+00:00",
-    "category": "海上防衛",
-    "summary": "Second Brazilian Tamandaré-Class Frigate Tests Combat Systems Navy Leaders",
-    "summary_ja": "ブラジルの2番タマンダレ級フリゲート艦が戦闘システムをテスト 海軍指導者",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaHJ6cXh2b3AwZDc2WWlfXzlnTDdaRml0eFZWSzBBUk40TFFFRzR3b1U4LXVqOUc4ZGVfNlhKM04xcFU0N3N1d1J2NGlhTlMzZVdmWUk1c2hUeXlIcWw2X0ZlZkhLVFJ0aG90aEZ6X2V2UWdtaGFYaGNMN2UxREs1QWpCV1QzcnRFemthLW9zdGVSNUFwdkE?oc=5",
     "isSample": false
   },
   {
@@ -1400,17 +1470,17 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1LUVBmdHk0R3FrWEJqVGc5X3UxamVyVnNnQU9rYk5zR3VQQzVLaHNnVDNSWUJVdTRyc05QSm10TXZuMkxzaFBTTUw2YmVjSkd3SHNPZkZhamRwbTBEdVhOUDVnWTV5VkxMUG13Vmkxd1gwYmtvUUFWQW9pdlNlZw?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1LUVBmdHk0R3FrWEJqVGc5X3UxamVyVnNnQU9rYk5zR3VQQzVLaHNnVDNSWUJVdTRyc05QSm10TXZuMkxzaFBTTUw2YmVjSkd3SHNPZkZhamRwbTBEdVhOUDVnWTV5VkxMUG13Vmkxd1gwYmtvUUFWQW9pdlNlZw?oc=5",
-    "title": "ドイツの軌道攻撃構想PODS、仏独の戦略対立を深める恐れ - Meta-Defense",
-    "title_ja": "ドイツの軌道攻撃構想PODS、仏独の戦略対立を深める恐れ - Meta-Defense",
-    "source": "宇宙・サイバー防衛",
-    "language": "ja",
-    "publishedAt": "2026-11-18T17:22:48+00:00",
-    "category": "宇宙",
-    "summary": "ドイツの軌道攻撃構想PODS、仏独の戦略対立を深める恐れ Meta-Defense",
-    "summary_ja": "ドイツの軌道攻撃構想PODS、仏独の戦略対立を深める恐れ Meta-Defense",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1LUVBmdHk0R3FrWEJqVGc5X3UxamVyVnNnQU9rYk5zR3VQQzVLaHNnVDNSWUJVdTRyc05QSm10TXZuMkxzaFBTTUw2YmVjSkd3SHNPZkZhamRwbTBEdVhOUDVnWTV5VkxMUG13Vmkxd1gwYmtvUUFWQW9pdlNlZw?oc=5",
+    "id": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZDdVdklYSXRLc3Q2MUN0ZEN5dVhaMEpUcXViN3ZxTi1uOXVKNTY0cWtUc0tMcFdvcllkNVJrcE5YQ0h2ZnFsT1VtMkZWMDJEQTEtQ2RvWGsyWnZNYk9PUzFVNGVDN1MzMVhyZ1hCb0VEWmNQM3JoVmIzV1BKSlZMdA?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZDdVdklYSXRLc3Q2MUN0ZEN5dVhaMEpUcXViN3ZxTi1uOXVKNTY0cWtUc0tMcFdvcllkNVJrcE5YQ0h2ZnFsT1VtMkZWMDJEQTEtQ2RvWGsyWnZNYk9PUzFVNGVDN1MzMVhyZ1hCb0VEWmNQM3JoVmIzV1BKSlZMdA?oc=5",
+    "title": "US Navy Almost Doubles HII Lionfish UUV Order - Navy Leaders",
+    "title_ja": "米海軍、HIIミノカサゴUUV発注をほぼ2倍に - 海軍指導者",
+    "source": "Navy Leaders",
+    "language": "en",
+    "publishedAt": "2026-11-18T12:33:06+00:00",
+    "category": "UUV/AUV",
+    "summary": "US Navy Almost Doubles HII Lionfish UUV Order Navy Leaders",
+    "summary_ja": "米海軍、HII ミノカサゴ UUV 命令をほぼ 2 倍に 海軍指導者",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZDdVdklYSXRLc3Q2MUN0ZEN5dVhaMEpUcXViN3ZxTi1uOXVKNTY0cWtUc0tMcFdvcllkNVJrcE5YQ0h2ZnFsT1VtMkZWMDJEQTEtQ2RvWGsyWnZNYk9PUzFVNGVDN1MzMVhyZ1hCb0VEWmNQM3JoVmIzV1BKSlZMdA?oc=5",
     "isSample": false
   },
   {
@@ -1428,20 +1498,6 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2clN4ZnJqZl9zZlVIY20zaGQ5aU04YjlWcFVqektkem1JbFBucW84cXE3N2VFbzVXWHF5bWU1d3RsR0pfb0pZbXRsRWtEY21rdkd4SDkxSTBHX3c1bGVRVE9fblJZLVUtRXIzN01B?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2clN4ZnJqZl9zZlVIY20zaGQ5aU04YjlWcFVqektkem1JbFBucW84cXE3N2VFbzVXWHF5bWU1d3RsR0pfb0pZbXRsRWtEY21rdkd4SDkxSTBHX3c1bGVRVE9fblJZLVUtRXIzN01B?oc=5",
-    "title": "CISAの新サイバー戦略が、 ソフトウェア開発に求めるもの - GitLab",
-    "title_ja": "CISAの新サイバー戦略が、 ソフトウェア開発に求めるもの - GitLab",
-    "source": "宇宙・サイバー防衛",
-    "language": "ja",
-    "publishedAt": "2026-11-18T11:50:19+00:00",
-    "category": "サイバー",
-    "summary": "CISAの新サイバー戦略が、 ソフトウェア開発に求めるもの GitLab",
-    "summary_ja": "CISAの新サイバー戦略が、 ソフトウェア開発に求めるもの GitLab",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2clN4ZnJqZl9zZlVIY20zaGQ5aU04YjlWcFVqektkem1JbFBucW84cXE3N2VFbzVXWHF5bWU1d3RsR0pfb0pZbXRsRWtEY21rdkd4SDkxSTBHX3c1bGVRVE9fblJZLVUtRXIzN01B?oc=5",
-    "isSample": false
-  },
-  {
     "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTFByMUMzTGNXNk5aek93OGZ1c21CbUVNR185T05mNXMtYlYwVExyZTBqODNWNHBwZFVGbWJoV2dvQko0ZlI0VFRHQm5ZNjEzRzVrQ2hzMEk4MUxjamdQS3dlQ1BKa0R2eFVNNTVDUA?oc=5",
     "articleUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFByMUMzTGNXNk5aek93OGZ1c21CbUVNR185T05mNXMtYlYwVExyZTBqODNWNHBwZFVGbWJoV2dvQko0ZlI0VFRHQm5ZNjEzRzVrQ2hzMEk4MUxjamdQS3dlQ1BKa0R2eFVNNTVDUA?oc=5",
     "title": "政府、防衛産業再編に税優遇方針 装備品輸出支援の司令塔も新設 - 日本経済新聞",
@@ -1453,34 +1509,6 @@
     "summary": "政府、防衛産業再編に税優遇方針 装備品輸出支援の司令塔も新設 日本経済新聞",
     "summary_ja": "政府、防衛産業再編に税優遇方針 装備品輸出支援の司令塔も新設 日本経済新聞",
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFByMUMzTGNXNk5aek93OGZ1c21CbUVNR185T05mNXMtYlYwVExyZTBqODNWNHBwZFVGbWJoV2dvQko0ZlI0VFRHQm5ZNjEzRzVrQ2hzMEk4MUxjamdQS3dlQ1BKa0R2eFVNNTVDUA?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMia0FVX3lxTE82Ukh3WlNjWEprcWZjSFFYNEs5VEhIY1M2aUMwaUNUTDJERnF4Rnh6cDUtc3pHQXlJb29kY2FVTHFXNnBfelpWNmwwWnJFdG1SUXk4QWd4LUtXR2lHRHowcXR6Z09Kbnd3WHc0?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE82Ukh3WlNjWEprcWZjSFFYNEs5VEhIY1M2aUMwaUNUTDJERnF4Rnh6cDUtc3pHQXlJb29kY2FVTHFXNnBfelpWNmwwWnJFdG1SUXk4QWd4LUtXR2lHRHowcXR6Z09Kbnd3WHc0?oc=5",
-    "title": "荒井陸上幕僚長 定例記者会見 - 防衛省",
-    "title_ja": "荒井陸上幕僚長 定例記者会見 - 防衛省",
-    "source": "防衛省・自衛隊",
-    "language": "ja",
-    "publishedAt": "2026-11-18T08:37:52+00:00",
-    "category": "国際情勢",
-    "summary": "荒井陸上幕僚長 定例記者会見 防衛省",
-    "summary_ja": "荒井陸上幕僚長 定例記者会見 防衛省",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE82Ukh3WlNjWEprcWZjSFFYNEs5VEhIY1M2aUMwaUNUTDJERnF4Rnh6cDUtc3pHQXlJb29kY2FVTHFXNnBfelpWNmwwWnJFdG1SUXk4QWd4LUtXR2lHRHowcXR6Z09Kbnd3WHc0?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ReW9XOFJyU0ZrWUF2TThmNmhOZVBOcVhXUHdKdWhpX0M3VHdFTFdtYzBFLW5aeXN5RWVZTElBNmlFRVBpZ0x0VmJnaWVvZUU4Vy1KSFA1QlRGU0dTeTVEVGg1ZkY5cUE?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ReW9XOFJyU0ZrWUF2TThmNmhOZVBOcVhXUHdKdWhpX0M3VHdFTFdtYzBFLW5aeXN5RWVZTElBNmlFRVBpZ0x0VmJnaWVvZUU4Vy1KSFA1QlRGU0dTeTVEVGg1ZkY5cUE?oc=5",
-    "title": "毒性対策徹底、独自の安全設計アンモニア燃料船“いざなみ” | 海運＜経営・全般＞ | ニュース - 海事プレスONLINE",
-    "title_ja": "毒性対策徹底、独自の安全設計アンモニア燃料船“いざなみ” | 海運＜経営・全般＞ | ニュース - 海事プレスONLINE",
-    "source": "海事プレス KAIJI PRESS",
-    "language": "ja",
-    "publishedAt": "2026-11-18T08:00:00+00:00",
-    "category": "海上防衛",
-    "summary": "毒性対策徹底、独自の安全設計アンモニア燃料船“いざなみ” | 海運＜経営・全般＞ | ニュース 海事プレスONLINE",
-    "summary_ja": "毒性対策徹底、独自の安全設計アンモニア燃料船“いざなみ” | 海運＜経営・全般＞ | ニュース 海事プレスONLINE",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ReW9XOFJyU0ZrWUF2TThmNmhOZVBOcVhXUHdKdWhpX0M3VHdFTFdtYzBFLW5aeXN5RWVZTElBNmlFRVBpZ0x0VmJnaWVvZUU4Vy1KSFA1QlRGU0dTeTVEVGg1ZkY5cUE?oc=5",
     "isSample": false
   },
   {
@@ -1512,17 +1540,31 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBKV1M3VkJqRHAyVHhhTkdpc05falgydjd0TVh3TnlLaUxfODFPUWxJWFFKcDJ4NGNkU3o3bzc2RGpVMU9jcjFxVy1mcGNzNkJiYXoyeVRLbw?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBKV1M3VkJqRHAyVHhhTkdpc05falgydjd0TVh3TnlLaUxfODFPUWxJWFFKcDJ4NGNkU3o3bzc2RGpVMU9jcjFxVy1mcGNzNkJiYXoyeVRLbw?oc=5",
-    "title": "陸上自衛隊島松駐屯地の50代1等陸尉が停職2日の懲戒処分 部下への不適切な指導 隊員へのアンケートで発覚 - TBS NEWS DIG",
-    "title_ja": "陸上自衛隊島松駐屯地の50代1等陸尉が停職2日の懲戒処分 部下への不適切な指導 隊員へのアンケートで発覚 - TBS NEWS DIG",
-    "source": "防衛省・自衛隊",
-    "language": "ja",
-    "publishedAt": "2026-11-18T07:09:00+00:00",
-    "category": "陸上防衛",
-    "summary": "陸上自衛隊島松駐屯地の50代1等陸尉が停職2日の懲戒処分 部下への不適切な指導 隊員へのアンケートで発覚 TBS NEWS DIG",
-    "summary_ja": "陸上自衛隊島松駐屯地の50代1等陸尉が停職2日の懲戒処分 部下への不適切な指導 隊員へのアンケートで発覚 TBS NEWS DIG",
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBKV1M3VkJqRHAyVHhhTkdpc05falgydjd0TVh3TnlLaUxfODFPUWxJWFFKcDJ4NGNkU3o3bzc2RGpVMU9jcjFxVy1mcGNzNkJiYXoyeVRLbw?oc=5",
+    "id": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS01sYWZOYXk3aTIwTnl1TWtEWUxjYTRYOGtoVENTX0NfaVUyUThSdEtyYUJyWmxLZHp5YWVhWW1WaEZJMzJPaE1xd09GX0UtWUdXSXd3ZFdzR0RCaHBZM0VHekVYV3NjWnVjX085QlpHRE9JSVJ4ZFN5UFM5WDZtNU05endRYlBfSks1TGNpcEN2OG55djZmUzZlZ2pqSTVRMzBBUUcwSklKclRkTldvM21qa0Izdw?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS01sYWZOYXk3aTIwTnl1TWtEWUxjYTRYOGtoVENTX0NfaVUyUThSdEtyYUJyWmxLZHp5YWVhWW1WaEZJMzJPaE1xd09GX0UtWUdXSXd3ZFdzR0RCaHBZM0VHekVYV3NjWnVjX085QlpHRE9JSVJ4ZFN5UFM5WDZtNU05endRYlBfSks1TGNpcEN2OG55djZmUzZlZ2pqSTVRMzBBUUcwSklKclRkTldvM21qa0Izdw?oc=5",
+    "title": "The Dutch touch: Sharpening the H225M’s combat edge for the RNLASF - Airbus",
+    "title_ja": "オランダのタッチ: RNLASF 向けの H225M の戦闘力を研ぎ澄ます - エアバス",
+    "source": "Airbus Defence and Space",
+    "language": "en",
+    "publishedAt": "2026-11-18T07:27:31+00:00",
+    "category": "航空防衛",
+    "summary": "The Dutch touch: Sharpening the H225M’s combat edge for the RNLASF Airbus",
+    "summary_ja": "オランダのタッチ: RNLASF エアバス向けの H225M の戦闘力を研ぎ澄ます",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS01sYWZOYXk3aTIwTnl1TWtEWUxjYTRYOGtoVENTX0NfaVUyUThSdEtyYUJyWmxLZHp5YWVhWW1WaEZJMzJPaE1xd09GX0UtWUdXSXd3ZFdzR0RCaHBZM0VHekVYV3NjWnVjX085QlpHRE9JSVJ4ZFN5UFM5WDZtNU05endRYlBfSks1TGNpcEN2OG55djZmUzZlZ2pqSTVRMzBBUUcwSklKclRkTldvM21qa0Izdw?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5sU0RFMXo2VmpEYi0tYnBRTURONTB0NEdRa0phZEZqYklpeHZpcWJBWmhGT3JXZ2MwRHhnOW1tMUhuclJJa0lVb0FjUnNCaFlrakRQbW5hWlRBaXZoQ1g2N2s3VGd2bFVpN0lqXw?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5sU0RFMXo2VmpEYi0tYnBRTURONTB0NEdRa0phZEZqYklpeHZpcWJBWmhGT3JXZ2MwRHhnOW1tMUhuclJJa0lVb0FjUnNCaFlrakRQbW5hWlRBaXZoQ1g2N2s3VGd2bFVpN0lqXw?oc=5",
+    "title": "B-21 landing - U.S. Strategic Command (.mil)",
+    "title_ja": "B-21 着陸 - 米国戦略軍 (.mil)",
+    "source": "U.S. Strategic Command",
+    "language": "en",
+    "publishedAt": "2026-11-18T03:47:24+00:00",
+    "category": "宇宙",
+    "summary": "B-21 landing U.S. Strategic Command (.mil)",
+    "summary_ja": "米国戦略軍に着陸するB-21 (.mil)",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5sU0RFMXo2VmpEYi0tYnBRTURONTB0NEdRa0phZEZqYklpeHZpcWJBWmhGT3JXZ2MwRHhnOW1tMUhuclJJa0lVb0FjUnNCaFlrakRQbW5hWlRBaXZoQ1g2N2s3VGd2bFVpN0lqXw?oc=5",
     "isSample": false
   },
   {
@@ -1551,20 +1593,6 @@
     "summary": "Five new orders for Exail DriX in the US exail.com",
     "summary_ja": "米国での Exail DriX の新規注文 5 件 exail.com",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeWZtS1FnYm5WYUJieDBmZVFzbXBGSExOOGJxRWdQVG9Cc1hFQ01CNGw3NE5kb2oyeW9YcGc5WHd5NENUdXNwbE5KUHFBWlNyLXpGNmlmMWszdVRBazJsTkp0bmxEcjd1SDhVWjhYNjVvN3ZzVDlLa0VjdXcyWGxSQl8yOHltNDRuRkZnbjhRSHFEV2lFbVBXTVgwTkQ5di1t?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRkRrTHhtTnhRTXRxUW1yWURUeEpGYlQ1bUp5dnV5cDRMX0tBTUtfNDFCVV9vTzM3eUhjQnM1aGdJajVxdXJPTk9nZHhIRDRsaHVURzc2QV85c1ZaMXpQV1FiSHp1Wkwxd3g5OEQtdk5RemJSSHF2MF95c0Y4YjdaZy13TXhtOWQ4VGRWQ1JiaHVxWTFTNlhLcDRmMi1UQm1nVVlpcTBDTnJwRmo4YVphUllDdmlWTi11ZjNlVzdB?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRkRrTHhtTnhRTXRxUW1yWURUeEpGYlQ1bUp5dnV5cDRMX0tBTUtfNDFCVV9vTzM3eUhjQnM1aGdJajVxdXJPTk9nZHhIRDRsaHVURzc2QV85c1ZaMXpQV1FiSHp1Wkwxd3g5OEQtdk5RemJSSHF2MF95c0Y4YjdaZy13TXhtOWQ4VGRWQ1JiaHVxWTFTNlhLcDRmMi1UQm1nVVlpcTBDTnJwRmo4YVphUllDdmlWTi11ZjNlVzdB?oc=5",
-    "title": "Middle East Airlines A321XLR Delivery - Airbus",
-    "title_ja": "ミドルイースト航空 A321XLR 配達 - エアバス",
-    "source": "Airbus Defence and Space",
-    "language": "en",
-    "publishedAt": "2026-11-17T11:47:54+00:00",
-    "category": "航空防衛",
-    "summary": "Middle East Airlines A321XLR Delivery Airbus",
-    "summary_ja": "ミドルイースト航空 A321XLR 配達エアバス",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRkRrTHhtTnhRTXRxUW1yWURUeEpGYlQ1bUp5dnV5cDRMX0tBTUtfNDFCVV9vTzM3eUhjQnM1aGdJajVxdXJPTk9nZHhIRDRsaHVURzc2QV85c1ZaMXpQV1FiSHp1Wkwxd3g5OEQtdk5RemJSSHF2MF95c0Y4YjdaZy13TXhtOWQ4VGRWQ1JiaHVxWTFTNlhLcDRmMi1UQm1nVVlpcTBDTnJwRmo4YVphUllDdmlWTi11ZjNlVzdB?oc=5",
     "isSample": false
   },
   {
@@ -1638,20 +1666,6 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbVEtMml3WUhNLUJOY3NGYTNzV1MxZEhHM1ZOMkpKaXlKdWlTOWZZTGFaSkhhN0RFVkR0NUVwSEJfcnhtSkVZZzAtdC1jRVBhbmU4QUFzYXRxSE9qdTF0SFF0Sjl4WGxDc0Y2UnRSWGhkVXQ1TEtCcEJFN2JiMktBU0VWY0lVOTFnOHg1VDQ4WQ?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbVEtMml3WUhNLUJOY3NGYTNzV1MxZEhHM1ZOMkpKaXlKdWlTOWZZTGFaSkhhN0RFVkR0NUVwSEJfcnhtSkVZZzAtdC1jRVBhbmU4QUFzYXRxSE9qdTF0SFF0Sjl4WGxDc0Y2UnRSWGhkVXQ1TEtCcEJFN2JiMktBU0VWY0lVOTFnOHg1VDQ4WQ?oc=5",
-    "title": "Kelluu Launches Project HALO Airship-Borne Passive Radar - Navy Leaders",
-    "title_ja": "ケルー、飛行船搭載型パッシブレーダー「HALO」プロジェクトを開始 - 海軍指導者",
-    "source": "Navy Leaders",
-    "language": "en",
-    "publishedAt": "2026-11-16T18:55:47+00:00",
-    "category": "海上防衛",
-    "summary": "Kelluu Launches Project HALO Airship-Borne Passive Radar Navy Leaders",
-    "summary_ja": "ケルー、飛行船搭載パッシブレーダープロジェクト HALO を開始 海軍のリーダー",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbVEtMml3WUhNLUJOY3NGYTNzV1MxZEhHM1ZOMkpKaXlKdWlTOWZZTGFaSkhhN0RFVkR0NUVwSEJfcnhtSkVZZzAtdC1jRVBhbmU4QUFzYXRxSE9qdTF0SFF0Sjl4WGxDc0Y2UnRSWGhkVXQ1TEtCcEJFN2JiMktBU0VWY0lVOTFnOHg1VDQ4WQ?oc=5",
-    "isSample": false
-  },
-  {
     "id": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1NVFV2REp2Y0lOV2ZQc0lZNnJNNjBmSnpzU0FKWHBZV1p1bDcyZ0VJR01EQk9DOHhHMExKTzR1S1E2QQ?oc=5",
     "articleUrl": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1NVFV2REp2Y0lOV2ZQc0lZNnJNNjBmSnpzU0FKWHBZV1p1bDcyZ0VJR01EQk9DOHhHMExKTzR1S1E2QQ?oc=5",
     "title": "JFinBench: 最新の金融資格試験を用いた日本語金融ベンチマークの公開 - Sakana AI",
@@ -1663,6 +1677,20 @@
     "summary": "JFinBench: 最新の金融資格試験を用いた日本語金融ベンチマークの公開 Sakana AI",
     "summary_ja": "JFinBench: 最新の金融資格試験を用いた日本語金融ベンチマークの公開 Sakana AI",
     "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1NVFV2REp2Y0lOV2ZQc0lZNnJNNjBmSnpzU0FKWHBZV1p1bDcyZ0VJR01EQk9DOHhHMExKTzR1S1E2QQ?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVGV0YWl6THNQdURQNnBKNFBOcTE3SnR4cEl1c1Iwc002QWpra19sRGRrOGVNMURncHJwSm5DRDY0NG5iMW9ZWmNBMGtrMWdObnY0TzRLenN1b1lkeUlRcU1FVm1yN2xLVFpfc2xVR2ZuR2VadVh3T0RzdmFxLVptcjlIMURjQmRhRmc?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVGV0YWl6THNQdURQNnBKNFBOcTE3SnR4cEl1c1Iwc002QWpra19sRGRrOGVNMURncHJwSm5DRDY0NG5iMW9ZWmNBMGtrMWdObnY0TzRLenN1b1lkeUlRcU1FVm1yN2xLVFpfc2xVR2ZuR2VadVh3T0RzdmFxLVptcjlIMURjQmRhRmc?oc=5",
+    "title": "UFORCE Set to Grow UK Operations After Funding Boost - Navy Leaders",
+    "title_ja": "UFORCE、資金増強後英国での事業拡大に向け準備 - 海軍指導者",
+    "source": "Navy Leaders",
+    "language": "en",
+    "publishedAt": "2026-11-16T11:26:20+00:00",
+    "category": "海上防衛",
+    "summary": "UFORCE Set to Grow UK Operations After Funding Boost Navy Leaders",
+    "summary_ja": "UFORCE、海軍指導者らへの資金提供後、英国での事業拡大に着手",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVGV0YWl6THNQdURQNnBKNFBOcTE3SnR4cEl1c1Iwc002QWpra19sRGRrOGVNMURncHJwSm5DRDY0NG5iMW9ZWmNBMGtrMWdObnY0TzRLenN1b1lkeUlRcU1FVm1yN2xLVFpfc2xVR2ZuR2VadVh3T0RzdmFxLVptcjlIMURjQmRhRmc?oc=5",
     "isSample": false
   },
   {
@@ -1680,6 +1708,20 @@
     "isSample": false
   },
   {
+    "id": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRDMxd3BCa2czQTlXUFE2aTlnRlJFNmFBbWx1dnQzblFyVUdhUHEzODhOZXB1VnJvZGctYXVvWXlBdF8wZnpXbEFyUTh5bHBib3d5dHpSS29sTWw5bmMtQzdqWmM3bUNpTFdxa21SeURrNWtDU3ZyelhJa1l0TWs1TE9oa0tVdncwc3l0NEtGWVplbkk?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRDMxd3BCa2czQTlXUFE2aTlnRlJFNmFBbWx1dnQzblFyVUdhUHEzODhOZXB1VnJvZGctYXVvWXlBdF8wZnpXbEFyUTh5bHBib3d5dHpSS29sTWw5bmMtQzdqWmM3bUNpTFdxa21SeURrNWtDU3ZyelhJa1l0TWs1TE9oa0tVdncwc3l0NEtGWVplbkk?oc=5",
+    "title": "Dynamics in U.S.-Japan Semiconductor Partnership For National Security - CSIS | Center for Strategic and International Studies",
+    "title_ja": "国家安全保障のための日米半導体パートナーシップのダイナミクス - CSIS |戦略国際​​問題研究センター",
+    "source": "CSIS Japan Chair",
+    "language": "en",
+    "publishedAt": "2026-11-16T08:00:00+00:00",
+    "category": "国際情勢",
+    "summary": "Dynamics in U.S.-Japan Semiconductor Partnership For National Security CSIS | Center for Strategic and International Studies",
+    "summary_ja": "国家安全保障のための日米半導体パートナーシップのダイナミクス CSIS |戦略国際​​問題研究センター",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRDMxd3BCa2czQTlXUFE2aTlnRlJFNmFBbWx1dnQzblFyVUdhUHEzODhOZXB1VnJvZGctYXVvWXlBdF8wZnpXbEFyUTh5bHBib3d5dHpSS29sTWw5bmMtQzdqWmM3bUNpTFdxa21SeURrNWtDU3ZyelhJa1l0TWs1TE9oa0tVdncwc3l0NEtGWVplbkk?oc=5",
+    "isSample": false
+  },
+  {
     "id": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9iTGUyWjNZZE8wbkcxYXhyRVAwYkFKUFN5NGdjTXJlYkNmTU5wenlLenYzQUFkWmZZV3p6SVd1aUhwZG1FLS1IWGhmVG1Nbms3b2V3?oc=5",
     "articleUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9iTGUyWjNZZE8wbkcxYXhyRVAwYkFKUFN5NGdjTXJlYkNmTU5wenlLenYzQUFkWmZZV3p6SVd1aUhwZG1FLS1IWGhmVG1Nbms3b2V3?oc=5",
     "title": "ClassNK Web Portal - ClassNK",
@@ -1691,20 +1733,6 @@
     "summary": "ClassNK Web Portal ClassNK",
     "summary_ja": "ClassNKウェブポータル ClassNK",
     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9iTGUyWjNZZE8wbkcxYXhyRVAwYkFKUFN5NGdjTXJlYkNmTU5wenlLenYzQUFkWmZZV3p6SVd1aUhwZG1FLS1IWGhmVG1Nbms3b2V3?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTTBXaUhoVFd1T3g1UkNNV29vOWtYQkdFSzFwVENXWWRpeV9ONVE5OUE3UU1qWFV0a3pnMEF6S2xYd2tlTW85Qm5ET0Y0MTZFYWZkSkJCN0dkMG8wT0p6MF9Tc24zMDVTQjlYemxsMjhlVkx4TkdDSWgxU2RaVUI3QVBRQjBHUkJIaTlXUXlvQnhYNkZlYmlV?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTTBXaUhoVFd1T3g1UkNNV29vOWtYQkdFSzFwVENXWWRpeV9ONVE5OUE3UU1qWFV0a3pnMEF6S2xYd2tlTW85Qm5ET0Y0MTZFYWZkSkJCN0dkMG8wT0p6MF9Tc24zMDVTQjlYemxsMjhlVkx4TkdDSWgxU2RaVUI3QVBRQjBHUkJIaTlXUXlvQnhYNkZlYmlV?oc=5",
-    "title": "Multi-sensor Satellite Systems for ISR - Kongsberg",
-    "title_ja": "ISR 用マルチセンサー衛星システム - Kongsberg",
-    "source": "KONGSBERG",
-    "language": "en",
-    "publishedAt": "2026-11-14T14:35:41+00:00",
-    "category": "宇宙",
-    "summary": "Multi-sensor Satellite Systems for ISR Kongsberg",
-    "summary_ja": "ISR Kongsberg 用マルチセンサー衛星システム",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTTBXaUhoVFd1T3g1UkNNV29vOWtYQkdFSzFwVENXWWRpeV9ONVE5OUE3UU1qWFV0a3pnMEF6S2xYd2tlTW85Qm5ET0Y0MTZFYWZkSkJCN0dkMG8wT0p6MF9Tc24zMDVTQjlYemxsMjhlVkx4TkdDSWgxU2RaVUI3QVBRQjBHUkJIaTlXUXlvQnhYNkZlYmlV?oc=5",
     "isSample": false
   },
   {
@@ -1778,31 +1806,17 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GeThuX2hNekpYMjc2SXBiSDlMNjJOVmg5dDRFYm50Ql9GN2tYOHRsQmg4MGpFTV9ibDYyQzh6bjRmckM2M2lmX09CTmNIaWktU3FiNzNNbTV3M0x0aE9F?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GeThuX2hNekpYMjc2SXBiSDlMNjJOVmg5dDRFYm50Ql9GN2tYOHRsQmg4MGpFTV9ibDYyQzh6bjRmckM2M2lmX09CTmNIaWktU3FiNzNNbTV3M0x0aE9F?oc=5",
-    "title": "Steinar Bjørnstad - Navy Leaders",
-    "title_ja": "シュタイナー・ビョルンスタッド - 海軍指導者",
+    "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtUGNYM09XakhiS04yYTg5THp3aUJKcC1uNmZpT24wNGd1YkpoTFdfMkxyNERyZU9qTTQxbFE4MVByMjFDaW1RQ3B2R3ZuM2g4aVZjRWNMS1E0WG4xbGhteXRxa1FTcDJD?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtUGNYM09XakhiS04yYTg5THp3aUJKcC1uNmZpT24wNGd1YkpoTFdfMkxyNERyZU9qTTQxbFE4MVByMjFDaW1RQ3B2R3ZuM2g4aVZjRWNMS1E0WG4xbGhteXRxa1FTcDJD?oc=5",
+    "title": "Colonel Bjørnar Bragstad - Navy Leaders",
+    "title_ja": "ビョルナール・ブラグスタッド大佐 - 海軍指導者",
     "source": "Navy Leaders",
     "language": "en",
-    "publishedAt": "2026-11-13T00:27:29+00:00",
+    "publishedAt": "2026-11-13T00:27:06+00:00",
     "category": "海上防衛",
-    "summary": "Steinar Bjørnstad Navy Leaders",
-    "summary_ja": "シュタイナー・ビョルンスタッド海軍指導者",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GeThuX2hNekpYMjc2SXBiSDlMNjJOVmg5dDRFYm50Ql9GN2tYOHRsQmg4MGpFTV9ibDYyQzh6bjRmckM2M2lmX09CTmNIaWktU3FiNzNNbTV3M0x0aE9F?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSi1PNjY1bVpzZTBycmRuZU4za0JhMW9INVBzdmZzNi1mZmZqQTF1cW93QlA3a3IzYzhmbTZEQVQyci1wOVM0d0RvUUJZMzhfUUR5QXJNX21sVkF4ZHdSaGpmazBjNnlYS21FSllfUWxHWVRjV1RvZjJrT3BhWnBCVFBJQ2dSUTFZcVk0WWhuUFhlR0dN?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSi1PNjY1bVpzZTBycmRuZU4za0JhMW9INVBzdmZzNi1mZmZqQTF1cW93QlA3a3IzYzhmbTZEQVQyci1wOVM0d0RvUUJZMzhfUUR5QXJNX21sVkF4ZHdSaGpmazBjNnlYS21FSllfUWxHWVRjV1RvZjJrT3BhWnBCVFBJQ2dSUTFZcVk0WWhuUFhlR0dN?oc=5",
-    "title": "Frigate Pledge And New Mine Support Vessels Announced At AFF - Navy Leaders",
-    "title_ja": "フリゲート艦の誓約と新しい機雷支援船がAFFで発表 - 海軍指導者",
-    "source": "Navy Leaders",
-    "language": "en",
-    "publishedAt": "2026-11-12T17:28:01+00:00",
-    "category": "機雷",
-    "summary": "Frigate Pledge And New Mine Support Vessels Announced At AFF Navy Leaders",
-    "summary_ja": "フリゲート艦の誓約と新たな機雷支援艦艇がAFF海軍首脳会議で発表",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSi1PNjY1bVpzZTBycmRuZU4za0JhMW9INVBzdmZzNi1mZmZqQTF1cW93QlA3a3IzYzhmbTZEQVQyci1wOVM0d0RvUUJZMzhfUUR5QXJNX21sVkF4ZHdSaGpmazBjNnlYS21FSllfUWxHWVRjV1RvZjJrT3BhWnBCVFBJQ2dSUTFZcVk0WWhuUFhlR0dN?oc=5",
+    "summary": "Colonel Bjørnar Bragstad Navy Leaders",
+    "summary_ja": "ビョルナール・ブラッグスタッド大佐 海軍指導者",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtUGNYM09XakhiS04yYTg5THp3aUJKcC1uNmZpT24wNGd1YkpoTFdfMkxyNERyZU9qTTQxbFE4MVByMjFDaW1RQ3B2R3ZuM2g4aVZjRWNMS1E0WG4xbGhteXRxa1FTcDJD?oc=5",
     "isSample": false
   },
   {
@@ -1848,59 +1862,17 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5wZXktc0RjcXg5ZGR5MF9OYlBFWTQ5czlJZlN3NHRUa2dFQUVlY3N1Wk8tck0zWTVoWkk2NFpFZzZ6WWo0?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5wZXktc0RjcXg5ZGR5MF9OYlBFWTQ5czlJZlN3NHRUa2dFQUVlY3N1Wk8tck0zWTVoWkk2NFpFZzZ6WWo0?oc=5",
-    "title": "マイケル・ロジャース米退役海軍大将、トム・モラン元CIA支局長がSakana AIのシニアアドバイザーに就任 - Sakana AI",
-    "title_ja": "マイケル・ロジャース米退役海軍大将、トム・モラン元CIA支局長がSakana AIのシニアアドバイザーに就任 - Sakana AI",
-    "source": "Sakana AI",
-    "language": "ja",
-    "publishedAt": "2026-11-11T08:00:00+00:00",
-    "category": "技術",
-    "summary": "マイケル・ロジャース米退役海軍大将、トム・モラン元CIA支局長がSakana AIのシニアアドバイザーに就任 Sakana AI",
-    "summary_ja": "マイケル・ロジャース米退役海軍大将、トム・モラン元CIA支局長がSakana AIのシニアアドバイザーに就任 Sakana AI",
-    "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5wZXktc0RjcXg5ZGR5MF9OYlBFWTQ5czlJZlN3NHRUa2dFQUVlY3N1Wk8tck0zWTVoWkk2NFpFZzZ6WWo0?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNejhERVdsU0lKdXBSQkVSS1RzZzZUTGIxQ1Jfc0QwT2lTTG1vOWp3VEFuZFZxMklyc0Q5RUVQbXZnSU8xbTNqYTYzUkk2eldvOWNTbUZ2OUZXRzZLTVliRWJmQVZkclhMSmNoS2RBWmFtamFpd3BZaHFacENhU1h2WDNMMlpPQks2VDc3M2Z2VldmV0NuYWhTQ3FoS0pBVWxRODdVZlpXNkZ1Ty1TYkhGcE9HOGdSV3k2bkE?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNejhERVdsU0lKdXBSQkVSS1RzZzZUTGIxQ1Jfc0QwT2lTTG1vOWp3VEFuZFZxMklyc0Q5RUVQbXZnSU8xbTNqYTYzUkk2eldvOWNTbUZ2OUZXRzZLTVliRWJmQVZkclhMSmNoS2RBWmFtamFpd3BZaHFacENhU1h2WDNMMlpPQks2VDc3M2Z2VldmV0NuYWhTQ3FoS0pBVWxRODdVZlpXNkZ1Ty1TYkhGcE9HOGdSV3k2bkE?oc=5",
-    "title": "Shield and NIPPI Corporation to establish local maintenance and training support for V-BAT in Japan - shield.ai",
-    "title_ja": "ShieldとNIPPI Corporationが日本におけるV-BATの現地メンテナンスとトレーニングサポートを設立 - Shield.ai",
-    "source": "Shield AI",
+    "id": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQnN2Z0pwMEk0WEpWdFljMUFOeUxGbWlIMFBqWHh5RUpnQ01sRGV2V19IVGtUOEFMYXR2ODNRSXJkRnVTUWlOTy1seEpuWkktRG8yeVdhbGJSUkFBeVJDbWVvMlI1Y2habGxLOFpIZjlzSnNkMmJNZW9aSExjbXh0T2Y4and1TE03T3BB?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQnN2Z0pwMEk0WEpWdFljMUFOeUxGbWlIMFBqWHh5RUpnQ01sRGV2V19IVGtUOEFMYXR2ODNRSXJkRnVTUWlOTy1seEpuWkktRG8yeVdhbGJSUkFBeVJDbWVvMlI1Y2habGxLOFpIZjlzSnNkMmJNZW9aSExjbXh0T2Y4and1TE03T3BB?oc=5",
+    "title": "Steel Cut On First FDI Frigate For Royal Swedish Navy - Navy Leaders",
+    "title_ja": "スウェーデン海軍初のFDIフリゲートの鋼材を切断 - 海軍指導者",
+    "source": "Navy Leaders",
     "language": "en",
-    "publishedAt": "2026-11-11T08:00:00+00:00",
-    "category": "技術",
-    "summary": "Shield and NIPPI Corporation to establish local maintenance and training support for V-BAT in Japan shield.ai",
-    "summary_ja": "ShieldとNIPPI株式会社が日本におけるV-BATの現地メンテナンスおよびトレーニングサポートを設立 Shield.ai",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNejhERVdsU0lKdXBSQkVSS1RzZzZUTGIxQ1Jfc0QwT2lTTG1vOWp3VEFuZFZxMklyc0Q5RUVQbXZnSU8xbTNqYTYzUkk2eldvOWNTbUZ2OUZXRzZLTVliRWJmQVZkclhMSmNoS2RBWmFtamFpd3BZaHFacENhU1h2WDNMMlpPQks2VDc3M2Z2VldmV0NuYWhTQ3FoS0pBVWxRODdVZlpXNkZ1Ty1TYkhGcE9HOGdSV3k2bkE?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUklydjNobjMzNzBvRkotQU9kUmg4VUdLdktIRUZWOGdsQk5tVEJ3eV94NjlyV1RHUnV0TDZLTHhPcVNZYlRmMGtEd1RMa3JIUEJpR1lyeWJtaTc0WlFEZ1ltdkNNTjVqN1NqenM2YVMwWEhvQ0MwbzlzV3R3Q1AwZzFQR1djejJjTVJvQUs4R0lVd210UUZjb1FmV0Z4QkZVbDgxdk5aeXB2bmZwUFI0N1ZBQ2ZVd0pRRU02d2RnWDJ5TFBiWnlhNDJUQmlUWFE?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUklydjNobjMzNzBvRkotQU9kUmg4VUdLdktIRUZWOGdsQk5tVEJ3eV94NjlyV1RHUnV0TDZLTHhPcVNZYlRmMGtEd1RMa3JIUEJpR1lyeWJtaTc0WlFEZ1ltdkNNTjVqN1NqenM2YVMwWEhvQ0MwbzlzV3R3Q1AwZzFQR1djejJjTVJvQUs4R0lVd210UUZjb1FmV0Z4QkZVbDgxdk5aeXB2bmZwUFI0N1ZBQ2ZVd0pRRU02d2RnWDJ5TFBiWnlhNDJUQmlUWFE?oc=5",
-    "title": "Commercial Aircraft in the U.S. - Airbus",
-    "title_ja": "米国の民間航空機 - エアバス",
-    "source": "Airbus Defence and Space",
-    "language": "en",
-    "publishedAt": "2026-11-11T08:00:00+00:00",
-    "category": "航空防衛",
-    "summary": "Commercial Aircraft in the U.S. Airbus",
-    "summary_ja": "米国エアバスの民間航空機",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUklydjNobjMzNzBvRkotQU9kUmg4VUdLdktIRUZWOGdsQk5tVEJ3eV94NjlyV1RHUnV0TDZLTHhPcVNZYlRmMGtEd1RMa3JIUEJpR1lyeWJtaTc0WlFEZ1ltdkNNTjVqN1NqenM2YVMwWEhvQ0MwbzlzV3R3Q1AwZzFQR1djejJjTVJvQUs4R0lVd210UUZjb1FmV0Z4QkZVbDgxdk5aeXB2bmZwUFI0N1ZBQ2ZVd0pRRU02d2RnWDJ5TFBiWnlhNDJUQmlUWFE?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTUpXUHhHQ1pYZEsxNHgzX0FnaVNWS0QwOEdIRXQ1aXpDNjRUcEpHZmJIVjlNdmNZdlQxSXBtQUpGV29GTmw1WS1xSnBpNW5zRkZ1ZkFEVmgxYzNCM1VsLUNaRGJEaXlsNFpMS3VoNzlBWUNPU09OOURTZnFZNjEtZXBYcWszdHZ5WU9rVlpKaGIzYkN4MUp0eDZxVGFnNkR1VzMwTmFCdlFpdw?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTUpXUHhHQ1pYZEsxNHgzX0FnaVNWS0QwOEdIRXQ1aXpDNjRUcEpHZmJIVjlNdmNZdlQxSXBtQUpGV29GTmw1WS1xSnBpNW5zRkZ1ZkFEVmgxYzNCM1VsLUNaRGJEaXlsNFpMS3VoNzlBWUNPU09OOURTZnFZNjEtZXBYcWszdHZ5WU9rVlpKaGIzYkN4MUp0eDZxVGFnNkR1VzMwTmFCdlFpdw?oc=5",
-    "title": "HII and Navy Break Ground on New Customer Support Complex at Ingalls Shipbuilding - HII",
-    "title_ja": "HII と海軍がインガルス造船所の新しい顧客サポート施設の着工 - HII",
-    "source": "Mission Technologies / HII",
-    "language": "en",
-    "publishedAt": "2026-11-11T01:17:35+00:00",
+    "publishedAt": "2026-11-11T22:26:30+00:00",
     "category": "海上防衛",
-    "summary": "HII and Navy Break Ground on New Customer Support Complex at Ingalls Shipbuilding HII",
-    "summary_ja": "HII と海軍がインガルス造船所 HII の新しい顧客サポート施設の着工",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTUpXUHhHQ1pYZEsxNHgzX0FnaVNWS0QwOEdIRXQ1aXpDNjRUcEpHZmJIVjlNdmNZdlQxSXBtQUpGV29GTmw1WS1xSnBpNW5zRkZ1ZkFEVmgxYzNCM1VsLUNaRGJEaXlsNFpMS3VoNzlBWUNPU09OOURTZnFZNjEtZXBYcWszdHZ5WU9rVlpKaGIzYkN4MUp0eDZxVGFnNkR1VzMwTmFCdlFpdw?oc=5",
+    "summary": "Steel Cut On First FDI Frigate For Royal Swedish Navy Navy Leaders",
+    "summary_ja": "スウェーデン王立海軍海軍指導者向けの最初のFDIフリゲートの鋼材を切断",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQnN2Z0pwMEk0WEpWdFljMUFOeUxGbWlIMFBqWHh5RUpnQ01sRGV2V19IVGtUOEFMYXR2ODNRSXJkRnVTUWlOTy1seEpuWkktRG8yeVdhbGJSUkFBeVJDbWVvMlI1Y2habGxLOFpIZjlzSnNkMmJNZW9aSExjbXh0T2Y4and1TE03T3BB?oc=5",
     "isSample": false
   },
   {
@@ -1929,20 +1901,6 @@
     "summary": "Ocean Infinity selected as Commercial Mission Partner for Royal Navy Atlantic Net programme Ocean Infinity",
     "summary_ja": "オーシャン・インフィニティが英国海軍アトランティック・ネット・プログラムの商用ミッション・パートナーに選ばれる オーシャン・インフィニティ",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMTZ3VEFJVnA4dVlENE1DcE9rSUhQc3hURGIzUUdWWFQ1QU0xWVE3bWZtZm9IXy04UkEwcC1jVmFfdlpodU54dEt2dmNHVFdaMXlkM1ZHTDBoTUVINGhQbGh5VHdZYXEzWUhVWHpVcDhKZ1M0UkFrbUVVM0gzV1ZaeWVxc1BRUmo5SUNlcXY2TUVSbVkwM0tZdVBrU1FfM3FWeGc2M0hMOUNCX29ySWRUbHRVNnNVZ2Mtc3ViZEk3R3Q?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS2YyQWxSUERFQXV6LWNlQk52N214cFVjVlZXS05qdE96ZmhLODlleC1uQ1ltSVdJNVYxM3BLaHY0WDJzMmo2TDlaZHlhVDZBdVpHZ3Z4ekJKSTJNQy1BUUNPcklnU0hrWGpRb0tJRVBtdVhtbGQ3SmNMdk9NQ0lIb2FaQWNQQQ?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS2YyQWxSUERFQXV6LWNlQk52N214cFVjVlZXS05qdE96ZmhLODlleC1uQ1ltSVdJNVYxM3BLaHY0WDJzMmo2TDlaZHlhVDZBdVpHZ3Z4ekJKSTJNQy1BUUNPcklnU0hrWGpRb0tJRVBtdVhtbGQ3SmNMdk9NQ0lIb2FaQWNQQQ?oc=5",
-    "title": "Munition Inventories: An Update Amid Renewed War Risk - CSIS | Center for Strategic and International Studies",
-    "title_ja": "軍需品目録: 戦争リスクが再燃する中での最新情報 - CSIS |戦略国際​​問題研究センター",
-    "source": "CSIS Japan Chair",
-    "language": "en",
-    "publishedAt": "2026-11-10T08:00:00+00:00",
-    "category": "国際情勢",
-    "summary": "Munition Inventories: An Update Amid Renewed War Risk CSIS | Center for Strategic and International Studies",
-    "summary_ja": "軍需品目録: 戦争リスクが再燃する中での最新情報 CSIS |戦略国際​​問題研究センター",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPS2YyQWxSUERFQXV6LWNlQk52N214cFVjVlZXS05qdE96ZmhLODlleC1uQ1ltSVdJNVYxM3BLaHY0WDJzMmo2TDlaZHlhVDZBdVpHZ3Z4ekJKSTJNQy1BUUNPcklnU0hrWGpRb0tJRVBtdVhtbGQ3SmNMdk9NQ0lIb2FaQWNQQQ?oc=5",
     "isSample": false
   },
   {
@@ -2013,6 +1971,20 @@
     "summary": "Variable Optical Delay Line (VODL)| Definition exail.com",
     "summary_ja": "可変光遅延線 (VODL)|定義 exail.com",
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNX1NYWkt2dTdxaFpST1dWWFh6S1ZhM0trYy1jTXRrM3dfTEZ4MGhDN0pSTzdjUWg5QnNDRGhfdVROcVZPZzJfQnhYcEw0aVQxZEFDa0sxUDRDdkFfOXdCUUU1QzhFd0FMOFk5RnNvellfQ0NVM09BMUsxa19WOHRtT0JVbmpEN2ZNRG4xNG9xWnlNUHc?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSk82ajA1OVZ6ZHZsV04yNzZ5ckowUlRIUVV6MUFmcEdpTWRDcml6M0hzYUV1T2lTcjd5Zm9xSTlJZ0Y0S01xT3VLbnVHaGo0UVpRRElvSGdMVS00V1FUZUZvaUh0eEt3RC1fMFJRS0J1bUk1WFVtVF9hQUF0QkdGMktMdDJDVnU4NWhIQQ?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSk82ajA1OVZ6ZHZsV04yNzZ5ckowUlRIUVV6MUFmcEdpTWRDcml6M0hzYUV1T2lTcjd5Zm9xSTlJZ0Y0S01xT3VLbnVHaGo0UVpRRElvSGdMVS00V1FUZUZvaUh0eEt3RC1fMFJRS0J1bUk1WFVtVF9hQUF0QkdGMktMdDJDVnU4NWhIQQ?oc=5",
+    "title": "Inertial Quantum Navigation - exail.com",
+    "title_ja": "慣性量子航法 - exail.com",
+    "source": "Exail Defense & Security",
+    "language": "en",
+    "publishedAt": "2026-11-05T08:00:00+00:00",
+    "category": "技術",
+    "summary": "Inertial Quantum Navigation exail.com",
+    "summary_ja": "慣性量子航法 exail.com",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSk82ajA1OVZ6ZHZsV04yNzZ5ckowUlRIUVV6MUFmcEdpTWRDcml6M0hzYUV1T2lTcjd5Zm9xSTlJZ0Y0S01xT3VLbnVHaGo0UVpRRElvSGdMVS00V1FUZUZvaUh0eEt3RC1fMFJRS0J1bUk1WFVtVF9hQUF0QkdGMktMdDJDVnU4NWhIQQ?oc=5",
     "isSample": false
   },
   {
@@ -2100,20 +2072,6 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUFlpVk80OEJkTWVYbmFzNV9BTzAxaDlQRHQtamxRd3dSc1BSZExFSXczLTRENS0wM21CNjFYM21WNEhYcXQ0OW9SN2M1bVV0Y3BJbWhCeXFUY2hTeWc2ams1Rkg2V0lGMmVnaTZYV0M3U1J5WmRILXJBck84aXlxaFhMUUNPX1hhSlBCR2Mtdkl0cnRVUVhEVm9uejI1THJyeW9xRVZYSUZreVN4UnlwREUyRDR1LUVjR0t0ajY1OFRxc0JhR0gwSS12cw?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUFlpVk80OEJkTWVYbmFzNV9BTzAxaDlQRHQtamxRd3dSc1BSZExFSXczLTRENS0wM21CNjFYM21WNEhYcXQ0OW9SN2M1bVV0Y3BJbWhCeXFUY2hTeWc2ams1Rkg2V0lGMmVnaTZYV0M3U1J5WmRILXJBck84aXlxaFhMUUNPX1hhSlBCR2Mtdkl0cnRVUVhEVm9uejI1THJyeW9xRVZYSUZreVN4UnlwREUyRDR1LUVjR0t0ajY1OFRxc0JhR0gwSS12cw?oc=5",
-    "title": "Exail brings military-grade inertial navigation to compact naval and autonomous platforms with Marins M1 - exail.com",
-    "title_ja": "Exail は、Marins M1 により軍用グレードの慣性航法をコンパクトな海軍および自律型プラットフォームにもたらします - exail.com",
-    "source": "Exail Defense & Security",
-    "language": "en",
-    "publishedAt": "2026-10-26T07:00:00+00:00",
-    "category": "海上防衛",
-    "summary": "Exail brings military-grade inertial navigation to compact naval and autonomous platforms with Marins M1 exail.com",
-    "summary_ja": "Exail は、Marins M1 により軍用グレードの慣性航法をコンパクトな海軍および自律型プラットフォームにもたらします exail.com",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUFlpVk80OEJkTWVYbmFzNV9BTzAxaDlQRHQtamxRd3dSc1BSZExFSXczLTRENS0wM21CNjFYM21WNEhYcXQ0OW9SN2M1bVV0Y3BJbWhCeXFUY2hTeWc2ams1Rkg2V0lGMmVnaTZYV0M3U1J5WmRILXJBck84aXlxaFhMUUNPX1hhSlBCR2Mtdkl0cnRVUVhEVm9uejI1THJyeW9xRVZYSUZreVN4UnlwREUyRDR1LUVjR0t0ajY1OFRxc0JhR0gwSS12cw?oc=5",
-    "isSample": false
-  },
-  {
     "id": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXRwa1MxWklRS01fWGNUV09lMU5EdWROeXZXNHhHUkFRUGFIa0pBNGltamlYSDVhb25vVUhiX3k1VE43d3ZTc3M4RUVnMGZKR192d2ZZSUFpaXlIWHpYOEV1aXZ4MWhTa2lvb1k0bG04cWNjRzJPWXI0cFRYWER6X0JHZ21pMGdZeG5LNm4tT0pqX0dJVmRBSXZVMjNJaTRxZ1F6U29EOW0?oc=5",
     "articleUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMXRwa1MxWklRS01fWGNUV09lMU5EdWROeXZXNHhHUkFRUGFIa0pBNGltamlYSDVhb25vVUhiX3k1VE43d3ZTc3M4RUVnMGZKR192d2ZZSUFpaXlIWHpYOEV1aXZ4MWhTa2lvb1k0bG04cWNjRzJPWXI0cFRYWER6X0JHZ21pMGdZeG5LNm4tT0pqX0dJVmRBSXZVMjNJaTRxZ1F6U29EOW0?oc=5",
     "title": "Denmark announces plans to acquire Joint Strike Missile - Kongsberg",
@@ -2139,6 +2097,20 @@
     "summary": "Airbus Corporate Presentation November 2026 EN Airbus",
     "summary_ja": "エアバス企業プレゼンテーション 2026 年 11 月 JP Airbus",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcVRDQUlBX0hmX0lzamNzUjh3UGtHVURfWFVWNE94T2RwcXBUTFlrcDBrRTNqU0ZqY2pwVmNIdk50TGVqc280d2ZSdm1NbzJOT2F4WjdJR0JXbUkxZUNrNXU2dF9XWWdMMkVPOGJDZmJBNlNTWUtka1U5dTV2NDI1VFh4eHpDcXVldkhzR3BBbHhXTk0wOHlHdGtJYXJiWDNPUjhZdUY1YmZ1MXBJcXVIakxJMVpReEhHQ2c?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRURUQk50QmhPbEZkcndOSk5MWGVEZC12eG43a1NrUnVmTGZZQ1p6UlM1Q1c3MS1JMFl2eC1pTHpvNE9rdzdlMW9hUzd6T3ltajItQVNqaWd6Q2xWb0dsQjZoM1o4UmdyTldoWHpiZGNXM1BBMl9yTWl3ZnZFQ09weFUxZVFScmY4QVE?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRURUQk50QmhPbEZkcndOSk5MWGVEZC12eG43a1NrUnVmTGZZQ1p6UlM1Q1c3MS1JMFl2eC1pTHpvNE9rdzdlMW9hUzd6T3ltajItQVNqaWd6Q2xWb0dsQjZoM1o4UmdyTldoWHpiZGNXM1BBMl9yTWl3ZnZFQ09weFUxZVFScmY4QVE?oc=5",
+    "title": "Royal Navy Extends Russian Navy Shadowing Activities - Navy Leaders",
+    "title_ja": "イギリス海軍、ロシア海軍の監視活動を拡大 - 海軍指導者",
+    "source": "Navy Leaders",
+    "language": "en",
+    "publishedAt": "2026-08-11T12:32:27+00:00",
+    "category": "海上防衛",
+    "summary": "Royal Navy Extends Russian Navy Shadowing Activities Navy Leaders",
+    "summary_ja": "イギリス海軍、ロシア海軍の監視活動を拡大 海軍指導者",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRURUQk50QmhPbEZkcndOSk5MWGVEZC12eG43a1NrUnVmTGZZQ1p6UlM1Q1c3MS1JMFl2eC1pTHpvNE9rdzdlMW9hUzd6T3ltajItQVNqaWd6Q2xWb0dsQjZoM1o4UmdyTldoWHpiZGNXM1BBMl9yTWl3ZnZFQ09weFUxZVFScmY4QVE?oc=5",
     "isSample": false
   },
   {
@@ -2198,6 +2170,20 @@
     "isSample": false
   },
   {
+    "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnNHI1X0dVdGYxb3BULWZHRjJPYkY3UUlLaktCSzFnODcwVW1vWUdKVzZGOHFQMUtfUS03X1VrNnA1TTVQTHlaWXN1bnR5YXZoT2xqMVp2ZGdjTWpZYmxpTThkNTNtdHpB?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnNHI1X0dVdGYxb3BULWZHRjJPYkY3UUlLaktCSzFnODcwVW1vWUdKVzZGOHFQMUtfUS03X1VrNnA1TTVQTHlaWXN1bnR5YXZoT2xqMVp2ZGdjTWpZYmxpTThkNTNtdHpB?oc=5",
+    "title": "Press releases - Thales",
+    "title_ja": "プレスリリース - タレス",
+    "source": "Thales Defence",
+    "language": "en",
+    "publishedAt": "2025-09-30T05:35:08+00:00",
+    "category": "機雷",
+    "summary": "Press releases Thales",
+    "summary_ja": "プレスリリース タレス",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnNHI1X0dVdGYxb3BULWZHRjJPYkY3UUlLaktCSzFnODcwVW1vWUdKVzZGOHFQMUtfUS03X1VrNnA1TTVQTHlaWXN1bnR5YXZoT2xqMVp2ZGdjTWpZYmxpTThkNTNtdHpB?oc=5",
+    "isSample": false
+  },
+  {
     "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBpWTBoRl82WERvbUNHZlVvbkxsSndqeGpiTFExZTgtVWVzRHlSbldqLWZjT0tLeVdHYk4tdjlMWHQwSWlaQ21xLUwtWlZSUUNfZXowYg?oc=5",
     "articleUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBpWTBoRl82WERvbUNHZlVvbkxsSndqeGpiTFExZTgtVWVzRHlSbldqLWZjT0tLeVdHYk4tdjlMWHQwSWlaQ21xLUwtWlZSUUNfZXowYg?oc=5",
     "title": "News centre - Thales",
@@ -2240,20 +2226,6 @@
     "isSample": false
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1VV01zUnFURXlmWjdRdjBYMHB0RVFENGlhd1pGZnltMHVFM2ozemdBMWNlcFF1WnZxUC1TdUt4VDZWemdnU2hPdFA2QkNiMXBsUGg5T3FrTXd4V0I2MGp4Y3pRTQ?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1VV01zUnFURXlmWjdRdjBYMHB0RVFENGlhd1pGZnltMHVFM2ozemdBMWNlcFF1WnZxUC1TdUt4VDZWemdnU2hPdFA2QkNiMXBsUGg5T3FrTXd4V0I2MGp4Y3pRTQ?oc=5",
-    "title": "Corporate social responsibility - exail.com",
-    "title_ja": "企業の社会的責任 - exail.com",
-    "source": "Exail Defense & Security",
-    "language": "en",
-    "publishedAt": "2025-01-14T17:14:28+00:00",
-    "category": "機雷",
-    "summary": "Corporate social responsibility exail.com",
-    "summary_ja": "企業の社会的責任 exail.com",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1VV01zUnFURXlmWjdRdjBYMHB0RVFENGlhd1pGZnltMHVFM2ozemdBMWNlcFF1WnZxUC1TdUt4VDZWemdnU2hPdFA2QkNiMXBsUGg5T3FrTXd4V0I2MGp4Y3pRTQ?oc=5",
-    "isSample": false
-  },
-  {
     "id": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoU0Y3ajg1aEN3bWpSWG52M2lrbUdFMmRFc2lsdnRJMVZ2ZHpiRjBkcFpFdkpEZWRJRm5LdUNrdGo5M0U4aXB1YUl5Nkt6VjUyUFVSMU9aVUlyVmtqdUF6ak5RQ2xEcXoxZ0dZM253?oc=5",
     "articleUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoU0Y3ajg1aEN3bWpSWG52M2lrbUdFMmRFc2lsdnRJMVZ2ZHpiRjBkcFpFdkpEZWRJRm5LdUNrdGo5M0U4aXB1YUl5Nkt6VjUyUFVSMU9aVUlyVmtqdUF6ak5RQ2xEcXoxZ0dZM253?oc=5",
     "title": "Directed Energy Laser - exail.com",
@@ -2265,6 +2237,34 @@
     "summary": "Directed Energy Laser exail.com",
     "summary_ja": "指向性エネルギーレーザー exail.com",
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoU0Y3ajg1aEN3bWpSWG52M2lrbUdFMmRFc2lsdnRJMVZ2ZHpiRjBkcFpFdkpEZWRJRm5LdUNrdGo5M0U4aXB1YUl5Nkt6VjUyUFVSMU9aVUlyVmtqdUF6ak5RQ2xEcXoxZ0dZM253?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hSnpYWHp1MUhoamkzSmdvd0lVZlUyVHROSmFSYy1ON2U2bGZwYW5TZmZsTjZMMVZGNHROc2k2c0U4cFRWYWhSaHhSRm9wQVJpNVVPd1BMMV9GMnVZOUE?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hSnpYWHp1MUhoamkzSmdvd0lVZlUyVHROSmFSYy1ON2U2bGZwYW5TZmZsTjZMMVZGNHROc2k2c0U4cFRWYWhSaHhSRm9wQVJpNVVPd1BMMV9GMnVZOUE?oc=5",
+    "title": "Quantum gravimeters - exail.com",
+    "title_ja": "量子重力計 - exail.com",
+    "source": "Exail Defense & Security",
+    "language": "en",
+    "publishedAt": "2025-01-14T10:05:28+00:00",
+    "category": "技術",
+    "summary": "Quantum gravimeters exail.com",
+    "summary_ja": "量子重力計 exail.com",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hSnpYWHp1MUhoamkzSmdvd0lVZlUyVHROSmFSYy1ON2U2bGZwYW5TZmZsTjZMMVZGNHROc2k2c0U4cFRWYWhSaHhSRm9wQVJpNVVPd1BMMV9GMnVZOUE?oc=5",
+    "isSample": false
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBCaEdwY25oVVlpaDNsak1iTTlYVWdreGVrYnNwbG9wQW0tR0dkbXhqZmFQT2ZuclRrMXYyd1RmV19uSEktMVdCaHZyeVNuU25KbmhuNVdzMGZVdw?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBCaEdwY25oVVlpaDNsak1iTTlYVWdreGVrYnNwbG9wQW0tR0dkbXhqZmFQT2ZuclRrMXYyd1RmV19uSEktMVdCaHZyeVNuU25KbmhuNVdzMGZVdw?oc=5",
+    "title": "Endicott Careers - BAE Systems",
+    "title_ja": "Endicott のキャリア - BAE システムズ",
+    "source": "BAE Systems",
+    "language": "en",
+    "publishedAt": "2024-12-13T23:03:54+00:00",
+    "category": "海上防衛",
+    "summary": "Endicott Careers BAE Systems",
+    "summary_ja": "Endicott のキャリア BAE システムズ",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBCaEdwY25oVVlpaDNsak1iTTlYVWdreGVrYnNwbG9wQW0tR0dkbXhqZmFQT2ZuclRrMXYyd1RmV19uSEktMVdCaHZyeVNuU25KbmhuNVdzMGZVdw?oc=5",
     "isSample": false
   },
   {
@@ -2296,6 +2296,20 @@
     "isSample": false
   },
   {
+    "id": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fRUpweHd5YkVqZnVqU3FmYVlrZjRWcFkwQUpOMmhFM042NjUtcy00Zy1GczFyOVZwemtsLTZIenF2VlVjZkh1RDlWUVdqUHVXSFIyanhwSWN5bXVGanBMS3Zn?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fRUpweHd5YkVqZnVqU3FmYVlrZjRWcFkwQUpOMmhFM042NjUtcy00Zy1GczFyOVZwemtsLTZIenF2VlVjZkh1RDlWUVdqUHVXSFIyanhwSWN5bXVGanBMS3Zn?oc=5",
+    "title": "Share information - Kongsberg",
+    "title_ja": "情報を共有する - Kongsberg",
+    "source": "KONGSBERG",
+    "language": "en",
+    "publishedAt": "2022-07-02T07:26:37+00:00",
+    "category": "UUV/AUV",
+    "summary": "Share information Kongsberg",
+    "summary_ja": "情報を共有する コングスベルグ",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fRUpweHd5YkVqZnVqU3FmYVlrZjRWcFkwQUpOMmhFM042NjUtcy00Zy1GczFyOVZwemtsLTZIenF2VlVjZkh1RDlWUVdqUHVXSFIyanhwSWN5bXVGanBMS3Zn?oc=5",
+    "isSample": false
+  },
+  {
     "id": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBhMk1QRlI0NzdtUUVSQmlqZVNrcVJOS1U4YzkxTVl0Rk1nMk9JWjYybTFUcERZbzdFY29yM1NzSHRJQXZuc0s0MUZ2aw?oc=5",
     "articleUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBhMk1QRlI0NzdtUUVSQmlqZVNrcVJOS1U4YzkxTVl0Rk1nMk9JWjYybTFUcERZbzdFY29yM1NzSHRJQXZuc0s0MUZ2aw?oc=5",
     "title": "Investors - Airbus",
@@ -2307,20 +2321,6 @@
     "summary": "Investors Airbus",
     "summary_ja": "投資家 エアバス",
     "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBhMk1QRlI0NzdtUUVSQmlqZVNrcVJOS1U4YzkxTVl0Rk1nMk9JWjYybTFUcERZbzdFY29yM1NzSHRJQXZuc0s0MUZ2aw?oc=5",
-    "isSample": false
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1GcW5EZVBXWXoyWVk1U3FHaDd4SHdJTDJxU2gwOXo1dEpYQW8xRTRITFp3MVFsRVBreVd4eGVYT2YtT0xLZUFQbHlqMGxiTUstNVY4OQ?oc=5",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1GcW5EZVBXWXoyWVk1U3FHaDd4SHdJTDJxU2gwOXo1dEpYQW8xRTRITFp3MVFsRVBreVd4eGVYT2YtT0xLZUFQbHlqMGxiTUstNVY4OQ?oc=5",
-    "title": "LEAP Internships & Co-ops - BAE Systems",
-    "title_ja": "LEAP インターンシップと協同組合 - BAE Systems",
-    "source": "BAE Systems",
-    "language": "en",
-    "publishedAt": "2018-09-25T01:39:33+00:00",
-    "category": "海上防衛",
-    "summary": "LEAP Internships & Co-ops BAE Systems",
-    "summary_ja": "LEAP インターンシップと生協 BAE Systems",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1GcW5EZVBXWXoyWVk1U3FHaDd4SHdJTDJxU2gwOXo1dEpYQW8xRTRITFp3MVFsRVBreVd4eGVYT2YtT0xLZUFQbHlqMGxiTUstNVY4OQ?oc=5",
     "isSample": false
   }
 ]
